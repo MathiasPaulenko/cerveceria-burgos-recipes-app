@@ -14,10 +14,6 @@ export default function Layout({ children }: LayoutProps) {
 
   return (
     <div className="flex min-h-screen flex-col">
-      <a href="#main-content" className="skip-link">
-        Saltar al contenido
-      </a>
-
       <header className="sticky top-0 z-10 border-b border-[#99120f]/10 bg-white/95 backdrop-blur dark:border-neutral-700 dark:bg-neutral-900/95">
         <div className="mx-auto flex max-w-lg items-center justify-between px-4 py-3">
           {!isHome ? (
@@ -48,6 +44,10 @@ export default function Layout({ children }: LayoutProps) {
       <main id="main-content" className="mx-auto w-full max-w-lg flex-1 px-4 py-4" tabIndex={-1}>
         {children}
       </main>
+
+      <footer className="border-t border-[#99120f]/10 py-3 text-center text-xs text-[#99120f]/50 dark:border-neutral-700 dark:text-neutral-500">
+        <span>Recetas Burgos — v1.0.0</span>
+      </footer>
     </div>
   )
 }

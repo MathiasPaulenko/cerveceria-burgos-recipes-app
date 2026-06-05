@@ -41,18 +41,6 @@
   }
 }
 
-@layer components {
-  .skip-link {
-    @apply absolute left-4 top-4 z-50 -translate-y-full rounded-lg px-4 py-2 text-sm font-semibold transition-transform focus:translate-y-0;
-    background-color: #99120f;
-    color: #FBF5DD;
-  }
-
-  .dark .skip-link {
-    @apply bg-amber-500 text-neutral-900;
-  }
-}
-
 @layer utilities {
   .scrollbar-hide {
     -ms-overflow-style: none;
