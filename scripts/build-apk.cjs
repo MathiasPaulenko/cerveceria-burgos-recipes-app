@@ -24,8 +24,7 @@ async function main() {
   });
 
   console.log('Building APK...');
-  const gradlew = path.join(projectPath, 'gradlew');
-  execSync(`${gradlew} assembleRelease`, {
+  execSync('gradle assembleRelease', {
     cwd: projectPath,
     stdio: 'inherit',
     env: {
