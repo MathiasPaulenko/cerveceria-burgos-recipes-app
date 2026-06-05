@@ -3,7 +3,7 @@
   "host": "mathiaspaulenko.github.io",
   "name": "CerveceriaBurgos Recetas",
   "launcherName": "CerveceriaBurgos",
-  "display": "fullscreen",
+  "display": "standalone",
   "themeColor": "#99120f",
   "navigationColor": "#99120f",
   "navigationColorDark": "#99120f",

@@ -53,16 +53,16 @@ async function main() {
   if (fs.existsSync(manifestPath)) {
     let manifest = fs.readFileSync(manifestPath, 'utf8');
 
-    // Replace the LauncherActivity theme with our fullscreen theme
+    // Aggressively replace the LauncherActivity declaration to force fullscreen
     manifest = manifest.replace(
-      /(<activity[^>]*android:name="com\.google\.androidbrowserhelper\.trusted\.LauncherActivity")/,
-      '$1\n            android:theme="@style/AppTheme.Fullscreen"'
+      /(<activity[^>]*android:name="com\.google\.androidbrowserhelper\.trusted\.LauncherActivity"[^>]*?)(\/?>)/,
+      '$1\n            android:theme="@style/AppTheme.Fullscreen"\n            android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden"\n            android:windowSoftInputMode="adjustResize"\n            android:exported="true"\n        $2'
     );
 
-    // Insert TWA display mode metadata INSIDE the LauncherActivity, before </activity>
+    // Insert TWA display mode metadata INSIDE the LauncherActivity, before intent-filter
     manifest = manifest.replace(
       /(<activity[^>]*android:name="com\.google\.androidbrowserhelper\.trusted\.LauncherActivity"[\s\S]*?)(<intent-filter>)/,
-      '$1            <meta-data android:name="trusted_web_activity_display_mode" android:value="fullscreen" />\n            $2'
+      '$1            <meta-data android:name="trusted_web_activity_display_mode" android:value="standalone" />\n            <meta-data android:name="immersive_mode" android:value="true" />\n            $2'
     );
 
     fs.writeFileSync(manifestPath, manifest);
@@ -74,12 +74,14 @@ async function main() {
   if (fs.existsSync(stylesPath)) {
     const fullscreenTheme = `<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AppTheme.Fullscreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="AppTheme.Fullscreen" parent="android:Theme.NoTitleBar.Fullscreen">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
 </resources>`;
     fs.writeFileSync(stylesPath, fullscreenTheme);
