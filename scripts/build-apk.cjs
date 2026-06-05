@@ -52,18 +52,38 @@ async function main() {
   const manifestPath = path.join(projectPath, 'app', 'src', 'main', 'AndroidManifest.xml');
   if (fs.existsSync(manifestPath)) {
     let manifest = fs.readFileSync(manifestPath, 'utf8');
-    // Set fullscreen theme on LauncherActivity (hides Android system bars)
+
+    // Replace the LauncherActivity theme with our fullscreen theme
     manifest = manifest.replace(
       /(<activity[^>]*android:name="com\.google\.androidbrowserhelper\.trusted\.LauncherActivity")/,
-      '$1\n            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"'
+      '$1\n            android:theme="@style/AppTheme.Fullscreen"'
     );
-    // Insert TWA metadata before closing </application>
-    const metaData = `
-    <meta-data android:name="trusted_web_activity_display_mode" android:value="fullscreen" />
-    <meta-data android:name="android.support.customtabs.trusted.STATUS_BAR_BACKGROUND_COLOR" android:resource="@color/colorPrimary" />`;
-    manifest = manifest.replace(/<\/application>/, metaData + '\n    </application>');
+
+    // Insert TWA display mode metadata INSIDE the LauncherActivity, before </activity>
+    manifest = manifest.replace(
+      /(<activity[^>]*android:name="com\.google\.androidbrowserhelper\.trusted\.LauncherActivity"[\s\S]*?)(<intent-filter>)/,
+      '$1            <meta-data android:name="trusted_web_activity_display_mode" android:value="fullscreen" />\n            $2'
+    );
+
     fs.writeFileSync(manifestPath, manifest);
     console.log('TWA fullscreen metadata injected into AndroidManifest.xml');
+  }
+
+  // Override styles.xml to create a true fullscreen theme
+  const stylesPath = path.join(projectPath, 'app', 'src', 'main', 'res', 'values', 'styles.xml');
+  if (fs.existsSync(stylesPath)) {
+    const fullscreenTheme = `<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Fullscreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>`;
+    fs.writeFileSync(stylesPath, fullscreenTheme);
+    console.log('Fullscreen theme written to styles.xml');
   }
 
   console.log('Generating Gradle wrapper...');
