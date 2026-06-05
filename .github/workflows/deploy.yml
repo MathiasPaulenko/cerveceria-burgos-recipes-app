@@ -121,8 +121,10 @@ jobs:
           echo "ANDROID_HOME=$ANDROID_HOME" >> $GITHUB_ENV
           echo "PATH=$PATH" >> $GITHUB_ENV
 
-      - name: Install Bubblewrap core
-        run: npm install @bubblewrap/core
+      - name: Install Bubblewrap CLI and expect
+        run: |
+          npm install -g @bubblewrap/cli
+          sudo apt-get update && sudo apt-get install -y expect
 
       - name: Generate signing key
         run: |
@@ -133,8 +135,67 @@ jobs:
             -storepass android -keypass android \
             -dname "CN=Recetas Burgos,O=Cerveceria Burgos,C=ES"
 
+      - name: Init Bubblewrap project
+        run: |
+          cat > init.exp << 'EOF'
+          set timeout 60
+          spawn bubblewrap init --manifest twa-manifest.json
+          expect {
+            "Do you want Bubblewrap to install the JDK" {
+              send "n\r"
+              exp_continue
+            }
+            "Path to your existing JDK" {
+              send "$env(JAVA_HOME)\r"
+              exp_continue
+            }
+            "Path to the Android SDK" {
+              send "$env(ANDROID_HOME)\r"
+              exp_continue
+            }
+            "Signing key password" {
+              send "android\r"
+              exp_continue
+            }
+            "Store password" {
+              send "android\r"
+              exp_continue
+            }
+            eof
+          }
+          EOF
+          expect init.exp
+
       - name: Build APK
-        run: node scripts/build-apk.cjs
+        run: |
+          cat > build.exp << 'EOF'
+          set timeout 300
+          spawn bubblewrap build
+          expect {
+            "Do you want Bubblewrap to install the JDK" {
+              send "n\r"
+              exp_continue
+            }
+            "Path to your existing JDK" {
+              send "$env(JAVA_HOME)\r"
+              exp_continue
+            }
+            "Path to the Android SDK" {
+              send "$env(ANDROID_HOME)\r"
+              exp_continue
+            }
+            "Signing key password" {
+              send "android\r"
+              exp_continue
+            }
+            "Store password" {
+              send "android\r"
+              exp_continue
+            }
+            eof
+          }
+          EOF
+          expect build.exp
 
       - name: Upload APK to Release
         env:
