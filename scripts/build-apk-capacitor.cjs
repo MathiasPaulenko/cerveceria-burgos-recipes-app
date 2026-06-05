@@ -90,14 +90,33 @@ async function main() {
 
   // 8. Build APK
   console.log('Building APK...');
-  execSync('./gradlew assembleRelease', {
-    cwd: androidPath,
-    stdio: 'inherit',
-    env: {
-      ...process.env,
-      ANDROID_HOME: process.env.ANDROID_HOME,
+  const gradlewPath = path.join(androidPath, 'gradlew');
+  if (fs.existsSync(gradlewPath)) {
+    try {
+      fs.chmodSync(gradlewPath, 0o755);
+      console.log('Made gradlew executable');
+    } catch (e) {
+      console.log('Could not chmod gradlew, trying anyway...');
     }
-  });
+    execSync('./gradlew assembleRelease', {
+      cwd: androidPath,
+      stdio: 'inherit',
+      env: {
+        ...process.env,
+        ANDROID_HOME: process.env.ANDROID_HOME,
+      }
+    });
+  } else {
+    console.log('gradlew not found, using gradle directly...');
+    execSync('gradle assembleRelease', {
+      cwd: androidPath,
+      stdio: 'inherit',
+      env: {
+        ...process.env,
+        ANDROID_HOME: process.env.ANDROID_HOME,
+      }
+    });
+  }
 
   // 9. Copy APK to root
   const apkDir = path.join(androidPath, 'app', 'build', 'outputs', 'apk', 'release');
