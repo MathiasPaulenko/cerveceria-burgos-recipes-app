@@ -7,7 +7,7 @@ import './index.css'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter
-      basename="/cerveceria-burgos-recipes"
+      basename="/cerveceria-burgos-recipes-app"
       future={{ v7_startTransition: true, v7_relativeSplatPath: true }}
     >
       <App />
