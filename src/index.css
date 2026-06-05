@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: #FBF5DD;
+    color: #151418;
+    min-height: 100vh;
+    overscroll-behavior-y: none;
+  }
+
+  .dark body {
+    background-color: #262626;
+    color: #f5f5f5;
+  }
+
+  #root {
+    @apply min-h-screen flex flex-col;
+  }
+
+  :focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2;
+  }
+
+  body :focus-visible {
+    @apply ring-[#99120f] ring-offset-2 ring-offset-[#FBF5DD];
+  }
+
+  .dark :focus-visible {
+    @apply ring-amber-400 ring-offset-2 ring-offset-neutral-900;
+  }
+}
+
+@layer components {
+  .skip-link {
+    @apply absolute left-4 top-4 z-50 -translate-y-full rounded-lg px-4 py-2 text-sm font-semibold transition-transform focus:translate-y-0;
+    background-color: #99120f;
+    color: #FBF5DD;
+  }
+
+  .dark .skip-link {
+    @apply bg-amber-500 text-neutral-900;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.4s ease-out both;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.35s ease-out both;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

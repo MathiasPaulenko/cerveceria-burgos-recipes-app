@@ -1,0 +1,3514 @@
+[
+  {
+    "id": "ensalada_mixta",
+    "type": "food",
+    "name": "Ensalada Mixta",
+    "description": "Fresca y saludable, preparada con ingredientes de primera calidad.",
+    "category": "Raciones",
+    "image": "",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "Lechuga mixta",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Tomate cherry",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Cebolla morada",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Maíz",
+        "quantity": "50 g"
+      },
+      {
+        "name": "Atún",
+        "quantity": "80 g"
+      },
+      {
+        "name": "Huevo cocido",
+        "quantity": "1 unidad"
+      }
+    ],
+    "steps": [
+      "Lavar y cortar las verduras.",
+      "Preparar el ingrediente principal (pollo, burrata, etc.).",
+      "Mezclar todo en un bol con el aliño.",
+      "Servir fresco."
+    ]
+  },
+  {
+    "id": "ensalada_cesar",
+    "type": "food",
+    "name": "Ensalada Cesar",
+    "description": "Fresca y saludable, preparada con ingredientes de primera calidad.",
+    "category": "Raciones",
+    "image": "",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Lechuga mixta",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Tomate cherry",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Pollo a la plancha",
+        "quantity": "150 g"
+      },
+      {
+        "name": "Parmesano",
+        "quantity": "30 g"
+      },
+      {
+        "name": "Croutons",
+        "quantity": "50 g"
+      },
+      {
+        "name": "Salsa César",
+        "quantity": "3 cda"
+      }
+    ],
+    "steps": [
+      "Lavar y cortar las verduras.",
+      "Preparar el ingrediente principal (pollo, burrata, etc.).",
+      "Mezclar todo en un bol con el aliño.",
+      "Servir fresco."
+    ]
+  },
+  {
+    "id": "ensalada_burrata",
+    "type": "food",
+    "name": "Ensalada de Burrata",
+    "description": "Fresca y saludable, preparada con ingredientes de primera calidad.",
+    "category": "Raciones",
+    "image": "",
+    "price": 12,
+    "ingredients": [
+      {
+        "name": "Lechuga mixta",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Tomate cherry",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Burrata fresca",
+        "quantity": "125 g"
+      },
+      {
+        "name": "Pesto",
+        "quantity": "2 cda"
+      },
+      {
+        "name": "Rúcula",
+        "quantity": "50 g"
+      }
+    ],
+    "steps": [
+      "Lavar y cortar las verduras.",
+      "Preparar el ingrediente principal (pollo, burrata, etc.).",
+      "Mezclar todo en un bol con el aliño.",
+      "Servir fresco."
+    ]
+  },
+  {
+    "id": "croquetas_jamon",
+    "type": "food",
+    "name": "Croquetas de Jamon",
+    "description": "8 uds.",
+    "category": "Raciones",
+    "image": "",
+    "price": 8,
+    "ingredients": [
+      {
+        "name": "Harina",
+        "quantity": "50 g"
+      },
+      {
+        "name": "Leche",
+        "quantity": "250 ml"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "2 unidades"
+      },
+      {
+        "name": "Pan rallado",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      }
+    ],
+    "steps": [
+      "Preparar la bechamel con harina, leche y mantequilla.",
+      "Incorporar el ingrediente principal picado.",
+      "Dejar enfriar la masa en nevera 2 horas.",
+      "Formar las croquetas, empanar y freír en aceite caliente."
+    ]
+  },
+  {
+    "id": "croquetas_rabo",
+    "type": "food",
+    "name": "Croquetas de Rabo de Vacuno",
+    "description": "8 uds.",
+    "category": "Raciones",
+    "image": "",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Harina",
+        "quantity": "50 g"
+      },
+      {
+        "name": "Leche",
+        "quantity": "250 ml"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "2 unidades"
+      },
+      {
+        "name": "Pan rallado",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Rabo de vacuno",
+        "quantity": "200 g"
+      }
+    ],
+    "steps": [
+      "Preparar la bechamel con harina, leche y mantequilla.",
+      "Incorporar el ingrediente principal picado.",
+      "Dejar enfriar la masa en nevera 2 horas.",
+      "Formar las croquetas, empanar y freír en aceite caliente."
+    ]
+  },
+  {
+    "id": "croquetas_espinaca",
+    "type": "food",
+    "name": "Croquetas de Espinaca y Queso de Cabra",
+    "description": "8 uds.",
+    "category": "Raciones",
+    "image": "",
+    "price": 8,
+    "ingredients": [
+      {
+        "name": "Harina",
+        "quantity": "50 g"
+      },
+      {
+        "name": "Leche",
+        "quantity": "250 ml"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "2 unidades"
+      },
+      {
+        "name": "Pan rallado",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Espinacas",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Queso de cabra",
+        "quantity": "80 g"
+      }
+    ],
+    "steps": [
+      "Preparar la bechamel con harina, leche y mantequilla.",
+      "Incorporar el ingrediente principal picado.",
+      "Dejar enfriar la masa en nevera 2 horas.",
+      "Formar las croquetas, empanar y freír en aceite caliente."
+    ]
+  },
+  {
+    "id": "croquetas_boletus",
+    "type": "food",
+    "name": "Croquetas de Boletus",
+    "description": "8 uds.",
+    "category": "Raciones",
+    "image": "",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Harina",
+        "quantity": "50 g"
+      },
+      {
+        "name": "Leche",
+        "quantity": "250 ml"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "2 unidades"
+      },
+      {
+        "name": "Pan rallado",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Boletus",
+        "quantity": "150 g"
+      }
+    ],
+    "steps": [
+      "Preparar la bechamel con harina, leche y mantequilla.",
+      "Incorporar el ingrediente principal picado.",
+      "Dejar enfriar la masa en nevera 2 horas.",
+      "Formar las croquetas, empanar y freír en aceite caliente."
+    ]
+  },
+  {
+    "id": "croquetas_chorizo",
+    "type": "food",
+    "name": "Croquetas de Chorizo y Huevo",
+    "description": "8 uds.",
+    "category": "Raciones",
+    "image": "",
+    "price": 8,
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Harina",
+        "quantity": "50 g"
+      },
+      {
+        "name": "Leche",
+        "quantity": "250 ml"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "2 unidades"
+      },
+      {
+        "name": "Pan rallado",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Chorizo",
+        "quantity": "100 g"
+      }
+    ],
+    "steps": [
+      "Preparar la bechamel con harina, leche y mantequilla.",
+      "Incorporar el ingrediente principal picado.",
+      "Dejar enfriar la masa en nevera 2 horas.",
+      "Formar las croquetas, empanar y freír en aceite caliente."
+    ]
+  },
+  {
+    "id": "croquetas_gambas",
+    "type": "food",
+    "name": "Croquetas de Gambas al Ajillo",
+    "description": "8 uds.",
+    "category": "Raciones",
+    "image": "",
+    "price": 9.5,
+    "ingredients": [
+      {
+        "name": "Harina",
+        "quantity": "50 g"
+      },
+      {
+        "name": "Leche",
+        "quantity": "250 ml"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "2 unidades"
+      },
+      {
+        "name": "Pan rallado",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Gambas",
+        "quantity": "150 g"
+      },
+      {
+        "name": "Ajo",
+        "quantity": "2 dientes"
+      }
+    ],
+    "steps": [
+      "Preparar la bechamel con harina, leche y mantequilla.",
+      "Incorporar el ingrediente principal picado.",
+      "Dejar enfriar la masa en nevera 2 horas.",
+      "Formar las croquetas, empanar y freír en aceite caliente."
+    ]
+  },
+  {
+    "id": "croquetas_cochinillo",
+    "type": "food",
+    "name": "Croquetas de Cochinillo",
+    "description": "8 uds.",
+    "category": "Raciones",
+    "image": "",
+    "price": 9.5,
+    "ingredients": [
+      {
+        "name": "Harina",
+        "quantity": "50 g"
+      },
+      {
+        "name": "Leche",
+        "quantity": "250 ml"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "2 unidades"
+      },
+      {
+        "name": "Pan rallado",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Cochinillo",
+        "quantity": "200 g"
+      }
+    ],
+    "steps": [
+      "Preparar la bechamel con harina, leche y mantequilla.",
+      "Incorporar el ingrediente principal picado.",
+      "Dejar enfriar la masa en nevera 2 horas.",
+      "Formar las croquetas, empanar y freír en aceite caliente."
+    ]
+  },
+  {
+    "id": "surtido_croquetas",
+    "type": "food",
+    "name": "Surtido de Croquetas",
+    "description": "2 de jamon, 2 chorizo y huevo, 2 de boletus, 2 de rabo de vacuno y 2 de gambas al ajillo",
+    "category": "Raciones",
+    "image": "",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Harina",
+        "quantity": "50 g"
+      },
+      {
+        "name": "Leche",
+        "quantity": "250 ml"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "2 unidades"
+      },
+      {
+        "name": "Pan rallado",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Rabo de vacuno",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Boletus",
+        "quantity": "150 g"
+      },
+      {
+        "name": "Chorizo",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Gambas",
+        "quantity": "150 g"
+      },
+      {
+        "name": "Ajo",
+        "quantity": "2 dientes"
+      }
+    ],
+    "steps": [
+      "Preparar la bechamel con harina, leche y mantequilla.",
+      "Incorporar el ingrediente principal picado.",
+      "Dejar enfriar la masa en nevera 2 horas.",
+      "Formar las croquetas, empanar y freír en aceite caliente."
+    ]
+  },
+  {
+    "id": "patatas_bravas",
+    "type": "food",
+    "name": "Patatas Bravas",
+    "description": "Patatas seleccionadas y preparadas con nuestras salsas especiales.",
+    "category": "Raciones",
+    "image": "",
+    "price": 8,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Cortar las patatas en dados y freír hasta dorar.",
+      "Preparar la salsa brava con tomate, pimentón y ajo.",
+      "Servir las patatas con la salsa por encima."
+    ]
+  },
+  {
+    "id": "patatas_alioli",
+    "type": "food",
+    "name": "Patatas Alioli",
+    "description": "Patatas seleccionadas y preparadas con nuestras salsas especiales.",
+    "category": "Raciones",
+    "image": "",
+    "price": 8,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "patatas_burgos",
+    "type": "food",
+    "name": "Patatas Burgos",
+    "description": "Patatas con salsa del chef",
+    "category": "Raciones",
+    "image": "",
+    "price": 8,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "patatas_mixtas",
+    "type": "food",
+    "name": "Patatas Mixtas",
+    "description": "Salsa brava y burgos",
+    "category": "Raciones",
+    "image": "",
+    "price": 8,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "revuelto_gambas",
+    "type": "food",
+    "name": "Revuelto de Gambas",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "revuelto_morcilla",
+    "type": "food",
+    "name": "Revuelto de Morcilla",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "morcilla_pimientos",
+    "type": "food",
+    "name": "Morcilla de Burgos con Pimientos de Padron",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 8,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "oreja_plancha",
+    "type": "food",
+    "name": "Oreja a la Plancha",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 9.5,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "alitas_fritas",
+    "type": "food",
+    "name": "Alitas Fritas",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 9.5,
+    "ingredients": [
+      {
+        "name": "Alitas de pollo",
+        "quantity": "8 unidades"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      }
+    ],
+    "steps": [
+      "Marinar las alitas con especias.",
+      "Freír u hornear hasta dorar.",
+      "Aderezar con la salsa correspondiente.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "alitas_bbq",
+    "type": "food",
+    "name": "Alitas con Salsa Barbacoa",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 9.5,
+    "ingredients": [
+      {
+        "name": "Alitas de pollo",
+        "quantity": "8 unidades"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Salsa barbacoa",
+        "quantity": "100 ml"
+      }
+    ],
+    "steps": [
+      "Marinar las alitas con especias.",
+      "Freír u hornear hasta dorar.",
+      "Aderezar con la salsa correspondiente.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "fingers_pollo",
+    "type": "food",
+    "name": "Fingers de Pollo",
+    "description": "Con salsa barbacoa",
+    "category": "Raciones",
+    "image": "",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Pechuga de pollo",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Pan rallado",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "2 unidades"
+      },
+      {
+        "name": "Harina",
+        "quantity": "50 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "tiras_pollo_cajun",
+    "type": "food",
+    "name": "Tiras de Pollo Cajun",
+    "description": "Pollo marinado con rebozado cajun acompanado de salsa mostaza y miel",
+    "category": "Raciones",
+    "image": "",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Pechuga de pollo",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Pan rallado",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "2 unidades"
+      },
+      {
+        "name": "Harina",
+        "quantity": "50 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Especias Cajun",
+        "quantity": "2 cda"
+      },
+      {
+        "name": "Salsa mostaza y miel",
+        "quantity": "50 ml"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "crocanti_gouda",
+    "type": "food",
+    "name": "Crocanti de Queso Gouda",
+    "description": "100% queso gouda con empanado de cereales acompanado de mermelada de arandanos",
+    "category": "Raciones",
+    "image": "",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "cheddar_bites",
+    "type": "food",
+    "name": "Cheddar Bites con Jalapenos",
+    "description": "Bolitas de queso cheddar con jalapenos acompanado de salsa barbacoa",
+    "category": "Raciones",
+    "image": "",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "bienmesabe",
+    "type": "food",
+    "name": "Bienmesabe",
+    "description": "Cazon adobado",
+    "category": "Raciones",
+    "image": "",
+    "price": 11,
+    "ingredients": [
+      {
+        "name": "Cazón",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Ajo",
+        "quantity": "4 dientes"
+      },
+      {
+        "name": "Pimentón",
+        "quantity": "1 cda"
+      },
+      {
+        "name": "Orégano",
+        "quantity": "1 cdta"
+      },
+      {
+        "name": "Vinagre",
+        "quantity": "2 cda"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "200 ml"
+      }
+    ],
+    "steps": [
+      "Adobar el cazón con ajo, pimentón, orégano y vinagre.",
+      "Dejar marinar 2 horas en nevera.",
+      "Freír en aceite caliente hasta dorar.",
+      "Servir con patatas o ensalada."
+    ]
+  },
+  {
+    "id": "calamares_romana",
+    "type": "food",
+    "name": "Calamares a la Romana",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 11,
+    "ingredients": [
+      {
+        "name": "Calamares",
+        "quantity": "400 g"
+      },
+      {
+        "name": "Harina",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "2 unidades"
+      },
+      {
+        "name": "Pan rallado",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Limón",
+        "quantity": "1 unidad"
+      }
+    ],
+    "steps": [
+      "Limpiar y cortar los calamares en anillos.",
+      "Pasar por harina, huevo y pan rallado.",
+      "Freír en aceite caliente hasta dorar.",
+      "Servir con rodaja de limón."
+    ]
+  },
+  {
+    "id": "chopitos",
+    "type": "food",
+    "name": "Chopitos",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 11,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "sepia_plancha",
+    "type": "food",
+    "name": "Sepia a la Plancha",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 16,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "bacalao_rebozado",
+    "type": "food",
+    "name": "Bacalao Rebozado",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 16,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "huevos_chistorra",
+    "type": "food",
+    "name": "Huevos Rotos con Chistorra",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 11,
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Chistorra",
+        "quantity": "100 g"
+      }
+    ],
+    "steps": [
+      "Freír las patatas en dados hasta dorar.",
+      "Añadir el ingrediente principal (jamón, chistorra o morcilla).",
+      "Romper los huevos sobre el conjunto y dejar cuajar.",
+      "Servir inmediatamente con el queso de cabra si procede."
+    ]
+  },
+  {
+    "id": "huevos_morcilla",
+    "type": "food",
+    "name": "Huevos Rotos con Morcilla",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 11,
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Morcilla de Burgos",
+        "quantity": "100 g"
+      }
+    ],
+    "steps": [
+      "Freír las patatas en dados hasta dorar.",
+      "Añadir el ingrediente principal (jamón, chistorra o morcilla).",
+      "Romper los huevos sobre el conjunto y dejar cuajar.",
+      "Servir inmediatamente con el queso de cabra si procede."
+    ]
+  },
+  {
+    "id": "huevos_jamon",
+    "type": "food",
+    "name": "Huevos Rotos con Jamon",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 12,
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Freír las patatas en dados hasta dorar.",
+      "Añadir el ingrediente principal (jamón, chistorra o morcilla).",
+      "Romper los huevos sobre el conjunto y dejar cuajar.",
+      "Servir inmediatamente con el queso de cabra si procede."
+    ]
+  },
+  {
+    "id": "huevos_chistorra_cabra",
+    "type": "food",
+    "name": "Huevos Rotos con Chistorra y Rulo de Queso de Cabra",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 13,
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Chistorra",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Rulo de queso de cabra",
+        "quantity": "80 g"
+      }
+    ],
+    "steps": [
+      "Freír las patatas en dados hasta dorar.",
+      "Añadir el ingrediente principal (jamón, chistorra o morcilla).",
+      "Romper los huevos sobre el conjunto y dejar cuajar.",
+      "Servir inmediatamente con el queso de cabra si procede."
+    ]
+  },
+  {
+    "id": "huevos_morcilla_cabra",
+    "type": "food",
+    "name": "Huevos Rotos con Morcilla y Rulo de Queso de Cabra",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 13,
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Morcilla de Burgos",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Rulo de queso de cabra",
+        "quantity": "80 g"
+      }
+    ],
+    "steps": [
+      "Freír las patatas en dados hasta dorar.",
+      "Añadir el ingrediente principal (jamón, chistorra o morcilla).",
+      "Romper los huevos sobre el conjunto y dejar cuajar.",
+      "Servir inmediatamente con el queso de cabra si procede."
+    ]
+  },
+  {
+    "id": "huevos_jamon_cabra",
+    "type": "food",
+    "name": "Huevos Rotos con Jamon y Rulo de Queso de Cabra",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 14,
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Rulo de queso de cabra",
+        "quantity": "80 g"
+      }
+    ],
+    "steps": [
+      "Freír las patatas en dados hasta dorar.",
+      "Añadir el ingrediente principal (jamón, chistorra o morcilla).",
+      "Romper los huevos sobre el conjunto y dejar cuajar.",
+      "Servir inmediatamente con el queso de cabra si procede."
+    ]
+  },
+  {
+    "id": "patatas_rancheras",
+    "type": "food",
+    "name": "Patatas Rancheras",
+    "description": "Patatas fritas con nuestra salsa ranchera a base de yogurt y cilantro, beicon crujiente, queso fundido y cebolla crispi",
+    "category": "Raciones",
+    "image": "",
+    "price": 12,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "patatas_pulled_pork",
+    "type": "food",
+    "name": "Patatas Pulled Pork Cheese",
+    "description": "Patatas fritas con salsa ranchera, carne de cerdo deshilachada con salsa BBQ, queso gratinado y jalapenos",
+    "category": "Raciones",
+    "image": "",
+    "price": 14,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "salchipapas",
+    "type": "food",
+    "name": "Salchipapas",
+    "description": "Con salsa ketchup y mayonesa",
+    "category": "Raciones",
+    "image": "",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "provoleta_beicon",
+    "type": "food",
+    "name": "Provoleta con Beicon y Jalapenos",
+    "description": "Queso provolone al horno con tomate natural, beicon a la plancha y jalapenos",
+    "category": "Raciones",
+    "image": "",
+    "price": 10.5,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "provolone_horno",
+    "type": "food",
+    "name": "Provolone al Horno",
+    "description": "Queso provolone al horno con tomate natural",
+    "category": "Raciones",
+    "image": "",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "gambon_plancha",
+    "type": "food",
+    "name": "Gambon a la Plancha",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 14,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "tequenos",
+    "type": "food",
+    "name": "Tequenos de Queso",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "rulo_cabra",
+    "type": "food",
+    "name": "Rulo de Cabra Rebozado",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "gyozas",
+    "type": "food",
+    "name": "Gyozas de Pollo y Verduras",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Raciones",
+    "image": "",
+    "price": 7.5,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "costillar_bbq",
+    "type": "food",
+    "name": "Costillar de Cerdo en Salsa Barbacoa",
+    "description": "Con patatas",
+    "category": "Carnes y Platos Especiales",
+    "image": "",
+    "price": 19,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "carrillada",
+    "type": "food",
+    "name": "Carrillada en su Jugo",
+    "description": "Con patatas",
+    "category": "Carnes y Platos Especiales",
+    "image": "",
+    "price": 13,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Sellar la carrillada en aceite caliente.",
+      "Añadir vino, cebolla y ajo.",
+      "Cocinar a fuego lento 2 horas.",
+      "Servir con patatas."
+    ]
+  },
+  {
+    "id": "chuleton",
+    "type": "food",
+    "name": "Chuleton",
+    "description": "900 gr",
+    "category": "Carnes y Platos Especiales",
+    "image": "",
+    "price": 33,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Salar la carne 30 min antes de cocinar.",
+      "Sellar a fuego fuerte en la plancha.",
+      "Dejar reposar 5 minutos antes de cortar.",
+      "Servir con guarnición."
+    ]
+  },
+  {
+    "id": "picanha",
+    "type": "food",
+    "name": "Picanha",
+    "description": "500 gr",
+    "category": "Carnes y Platos Especiales",
+    "image": "",
+    "price": 26,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "entrana",
+    "type": "food",
+    "name": "Entrana",
+    "description": "600 gr",
+    "category": "Carnes y Platos Especiales",
+    "image": "",
+    "price": 26,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "entrecot",
+    "type": "food",
+    "name": "Entrecot",
+    "description": "Corte selecto cocinado al punto justo.",
+    "category": "Carnes y Platos Especiales",
+    "image": "",
+    "price": 16,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "tira_asado",
+    "type": "food",
+    "name": "Tira de Asado",
+    "description": "Corte selecto cocinado al punto justo.",
+    "category": "Carnes y Platos Especiales",
+    "image": "",
+    "price": 18,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "chuleta_vaca",
+    "type": "food",
+    "name": "Chuleta de Vaca",
+    "description": "Corte selecto cocinado al punto justo.",
+    "category": "Carnes y Platos Especiales",
+    "image": "",
+    "price": 19,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "cachopo",
+    "type": "food",
+    "name": "Cachopo Asturiano Tradicional",
+    "description": "Especialidad asturiana con relleno generoso y empanado crujiente.",
+    "category": "Carnes y Platos Especiales",
+    "image": "",
+    "price": 28,
+    "ingredients": [
+      {
+        "name": "Filete de ternera",
+        "quantity": "400 g"
+      },
+      {
+        "name": "Jamón serrano",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Queso",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "2 unidades"
+      },
+      {
+        "name": "Harina",
+        "quantity": "50 g"
+      },
+      {
+        "name": "Pan rallado",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      }
+    ],
+    "steps": [
+      "Estirar el filete de ternera y rellenar con jamón y queso.",
+      "Cerrar el filete y pasar por harina, huevo y pan rallado.",
+      "Freír en aceite caliente hasta dorar.",
+      "Servir con guarnición."
+    ]
+  },
+  {
+    "id": "chivito",
+    "type": "food",
+    "name": "Chivito Uruguayo",
+    "description": "Plato de ternera con lechuga, tomate, cebolla, jamon cocido, beicon, queso, pimiento verde frito y huevo frito acompanado de patatas fritas y salsa chimichurri casera",
+    "category": "Carnes y Platos Especiales",
+    "image": "",
+    "price": 18,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Filete de ternera",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Lechuga",
+        "quantity": "50 g"
+      },
+      {
+        "name": "Tomate",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "1 rodaja"
+      },
+      {
+        "name": "Jamón cocido",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Bacon",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Queso",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Pimiento verde",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Salsa chimichurri",
+        "quantity": "2 cda"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "milanesa",
+    "type": "food",
+    "name": "Milanesa Napolitana",
+    "description": "Escalope de ternera con salsa napolitana casera con lechuga, tomate, cebolla, jamon cocido, queso y huevo frito acompanado de patatas fritas",
+    "category": "Carnes y Platos Especiales",
+    "image": "",
+    "price": 18,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Escalope de ternera",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Salsa de tomate",
+        "quantity": "100 ml"
+      },
+      {
+        "name": "Jamón cocido",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Queso mozzarella",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Lechuga",
+        "quantity": "50 g"
+      },
+      {
+        "name": "Tomate",
+        "quantity": "2 rodajas"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "hamburguesa_normal",
+    "type": "food",
+    "name": "Hamburguesa Normal",
+    "description": "Rucula, tomate, cebolla y carne 200 gr con patatas fritas",
+    "category": "Hamburguesas",
+    "image": "",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Carne de vacuno",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Pan de hamburguesa",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Rúcula",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Tomate",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "2 rodajas"
+      }
+    ],
+    "steps": [
+      "Cocinar la carne a la plancha al punto deseado.",
+      "Tostar el pan de hamburguesa ligeramente.",
+      "Montar con lechuga, tomate, cebolla y los acompañamientos.",
+      "Servir con patatas fritas."
+    ]
+  },
+  {
+    "id": "hamburguesa_completa",
+    "type": "food",
+    "name": "Hamburguesa Completa",
+    "description": "Rucula, tomate, cebolla, carne 200 gr, queso y beicon con patatas fritas",
+    "category": "Hamburguesas",
+    "image": "",
+    "price": 10.5,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Carne de vacuno",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Pan de hamburguesa",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Rúcula",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Tomate",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Queso",
+        "quantity": "1 loncha"
+      },
+      {
+        "name": "Bacon",
+        "quantity": "2 lonchas"
+      }
+    ],
+    "steps": [
+      "Cocinar la carne a la plancha al punto deseado.",
+      "Tostar el pan de hamburguesa ligeramente.",
+      "Montar con lechuga, tomate, cebolla y los acompañamientos.",
+      "Servir con patatas fritas."
+    ]
+  },
+  {
+    "id": "hamburguesa_burgos",
+    "type": "food",
+    "name": "Hamburguesa Burgos",
+    "description": "Rucula, tomate, cebolla, carne 200 gr, queso, jamon york, beicon y huevo con patatas fritas",
+    "category": "Hamburguesas",
+    "image": "",
+    "price": 12.5,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Carne de vacuno",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Pan de hamburguesa",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Rúcula",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Tomate",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Queso",
+        "quantity": "1 loncha"
+      },
+      {
+        "name": "Bacon",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Jamón york",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "1 unidad"
+      }
+    ],
+    "steps": [
+      "Cocinar la carne a la plancha al punto deseado.",
+      "Tostar el pan de hamburguesa ligeramente.",
+      "Montar con lechuga, tomate, cebolla y los acompañamientos.",
+      "Servir con patatas fritas."
+    ]
+  },
+  {
+    "id": "hamburguesa_pollo",
+    "type": "food",
+    "name": "Hamburguesa de Escalope de Pollo",
+    "description": "Rucula, tomate, cebolla, escalope de pollo, queso y beicon con patatas fritas",
+    "category": "Hamburguesas",
+    "image": "",
+    "price": 10.5,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Carne de vacuno",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Pan de hamburguesa",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Rúcula",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Tomate",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "2 rodajas"
+      }
+    ],
+    "steps": [
+      "Cocinar la carne a la plancha al punto deseado.",
+      "Tostar el pan de hamburguesa ligeramente.",
+      "Montar con lechuga, tomate, cebolla y los acompañamientos.",
+      "Servir con patatas fritas."
+    ]
+  },
+  {
+    "id": "hamburguesa_pollo_burgos",
+    "type": "food",
+    "name": "Hamburguesa de Escalope de Pollo Burgos",
+    "description": "Rucula, tomate, cebolla, escalope de pollo, queso, jamon york, beicon, huevo y patatas fritas",
+    "category": "Hamburguesas",
+    "image": "",
+    "price": 12.5,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Carne de vacuno",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Pan de hamburguesa",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Rúcula",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Tomate",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Queso",
+        "quantity": "1 loncha"
+      },
+      {
+        "name": "Bacon",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Jamón york",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "1 unidad"
+      }
+    ],
+    "steps": [
+      "Cocinar la carne a la plancha al punto deseado.",
+      "Tostar el pan de hamburguesa ligeramente.",
+      "Montar con lechuga, tomate, cebolla y los acompañamientos.",
+      "Servir con patatas fritas."
+    ]
+  },
+  {
+    "id": "hamburguesa_cabrita",
+    "type": "food",
+    "name": "Hamburguesa La Cabrita",
+    "description": "Rucula, tomate, carne 200 gr, beicon, rulo de queso de cabra, cebolla caramelizada y patatas fritas",
+    "category": "Hamburguesas",
+    "image": "",
+    "price": 12.5,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Carne de vacuno",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Pan de hamburguesa",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Rúcula",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Tomate",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Queso",
+        "quantity": "1 loncha"
+      },
+      {
+        "name": "Bacon",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Rulo de queso de cabra",
+        "quantity": "80 g"
+      },
+      {
+        "name": "Cebolla caramelizada",
+        "quantity": "50 g"
+      }
+    ],
+    "steps": [
+      "Cocinar la carne a la plancha al punto deseado.",
+      "Tostar el pan de hamburguesa ligeramente.",
+      "Montar con lechuga, tomate, cebolla y los acompañamientos.",
+      "Servir con patatas fritas."
+    ]
+  },
+  {
+    "id": "hamburguesa_pastrami",
+    "type": "food",
+    "name": "Pastrami Burguer",
+    "description": "Salsa ranchera, tomate, carne 200gr 100% vacuno, queso cheddar, pastrami, rucula y salsa sriracha",
+    "category": "Hamburguesas",
+    "image": "",
+    "price": 15,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "hamburguesa_pulled_pork",
+    "type": "food",
+    "name": "Pulled Pork Purger",
+    "description": "Salsa ranchera, tomate, carne 200gr 100% vacuno, queso cheddar, pepinillos, pulled pork",
+    "category": "Hamburguesas",
+    "image": "",
+    "price": 15,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "hamburguesa_burrata",
+    "type": "food",
+    "name": "Burrata Burguer",
+    "description": "Mayonesa de albahaca, tomate, carne 200gr 100% vacuno, bacon, rucula, burrata fresca",
+    "category": "Hamburguesas",
+    "image": "",
+    "price": 15,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "combo_lomo_patatas",
+    "type": "food",
+    "name": "Lomo a la Plancha con Patatas y Huevo",
+    "description": "Patatas seleccionadas y preparadas con nuestras salsas especiales.",
+    "category": "Platos Combinados",
+    "image": "",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "combo_filete_ternera_patatas",
+    "type": "food",
+    "name": "Filete de Ternera con Patatas y Huevo",
+    "description": "Patatas seleccionadas y preparadas con nuestras salsas especiales.",
+    "category": "Platos Combinados",
+    "image": "",
+    "price": 11,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "combo_pollo_patatas",
+    "type": "food",
+    "name": "Filete de Pollo a la Plancha con Patatas y Huevo",
+    "description": "Patatas seleccionadas y preparadas con nuestras salsas especiales.",
+    "category": "Platos Combinados",
+    "image": "",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "combo_escalope_pollo_patatas",
+    "type": "food",
+    "name": "Escalope de Pollo con Patatas y Huevo",
+    "description": "Patatas seleccionadas y preparadas con nuestras salsas especiales.",
+    "category": "Platos Combinados",
+    "image": "",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "combo_panceta_patatas",
+    "type": "food",
+    "name": "Panceta con Patatas y Huevo",
+    "description": "Patatas seleccionadas y preparadas con nuestras salsas especiales.",
+    "category": "Platos Combinados",
+    "image": "",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "combo_chorizo_patatas",
+    "type": "food",
+    "name": "Chorizo Frito con Patatas y Huevo",
+    "description": "Patatas seleccionadas y preparadas con nuestras salsas especiales.",
+    "category": "Platos Combinados",
+    "image": "",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "combo_calamares_patatas",
+    "type": "food",
+    "name": "Calamares con Patatas y Huevo",
+    "description": "Patatas seleccionadas y preparadas con nuestras salsas especiales.",
+    "category": "Platos Combinados",
+    "image": "",
+    "price": 10.5,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Calamares",
+        "quantity": "400 g"
+      },
+      {
+        "name": "Harina",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "2 unidades"
+      },
+      {
+        "name": "Pan rallado",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Limón",
+        "quantity": "1 unidad"
+      }
+    ],
+    "steps": [
+      "Limpiar y cortar los calamares en anillos.",
+      "Pasar por harina, huevo y pan rallado.",
+      "Freír en aceite caliente hasta dorar.",
+      "Servir con rodaja de limón."
+    ]
+  },
+  {
+    "id": "combo_escalope_ternera_patatas",
+    "type": "food",
+    "name": "Escalope de Ternera con Patatas y Huevo",
+    "description": "Patatas seleccionadas y preparadas con nuestras salsas especiales.",
+    "category": "Platos Combinados",
+    "image": "",
+    "price": 11,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "combo_lomo_ensalada",
+    "type": "food",
+    "name": "Lomo a la Plancha con Ensalada",
+    "description": "Fresca y saludable, preparada con ingredientes de primera calidad.",
+    "category": "Platos Combinados",
+    "image": "",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Lechuga mixta",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Tomate cherry",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Lavar y cortar las verduras.",
+      "Preparar el ingrediente principal (pollo, burrata, etc.).",
+      "Mezclar todo en un bol con el aliño.",
+      "Servir fresco."
+    ]
+  },
+  {
+    "id": "combo_filete_ternera_ensalada",
+    "type": "food",
+    "name": "Filete de Ternera con Ensalada",
+    "description": "Fresca y saludable, preparada con ingredientes de primera calidad.",
+    "category": "Platos Combinados",
+    "image": "",
+    "price": 11,
+    "ingredients": [
+      {
+        "name": "Lechuga mixta",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Tomate cherry",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Lavar y cortar las verduras.",
+      "Preparar el ingrediente principal (pollo, burrata, etc.).",
+      "Mezclar todo en un bol con el aliño.",
+      "Servir fresco."
+    ]
+  },
+  {
+    "id": "combo_pollo_ensalada",
+    "type": "food",
+    "name": "Filete de Pollo a la Plancha con Ensalada",
+    "description": "Fresca y saludable, preparada con ingredientes de primera calidad.",
+    "category": "Platos Combinados",
+    "image": "",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Lechuga mixta",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Tomate cherry",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Lavar y cortar las verduras.",
+      "Preparar el ingrediente principal (pollo, burrata, etc.).",
+      "Mezclar todo en un bol con el aliño.",
+      "Servir fresco."
+    ]
+  },
+  {
+    "id": "combo_escalope_pollo_ensalada",
+    "type": "food",
+    "name": "Escalope de Pollo con Ensalada",
+    "description": "Fresca y saludable, preparada con ingredientes de primera calidad.",
+    "category": "Platos Combinados",
+    "image": "",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Lechuga mixta",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Tomate cherry",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Lavar y cortar las verduras.",
+      "Preparar el ingrediente principal (pollo, burrata, etc.).",
+      "Mezclar todo en un bol con el aliño.",
+      "Servir fresco."
+    ]
+  },
+  {
+    "id": "combo_escalope_ternera_ensalada",
+    "type": "food",
+    "name": "Escalope de Ternera con Ensalada",
+    "description": "Fresca y saludable, preparada con ingredientes de primera calidad.",
+    "category": "Platos Combinados",
+    "image": "",
+    "price": 11,
+    "ingredients": [
+      {
+        "name": "Lechuga mixta",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Tomate cherry",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Lavar y cortar las verduras.",
+      "Preparar el ingrediente principal (pollo, burrata, etc.).",
+      "Mezclar todo en un bol con el aliño.",
+      "Servir fresco."
+    ]
+  },
+  {
+    "id": "combo_calamares_ensalada",
+    "type": "food",
+    "name": "Calamares con Ensalada",
+    "description": "Fresca y saludable, preparada con ingredientes de primera calidad.",
+    "category": "Platos Combinados",
+    "image": "",
+    "price": 10.5,
+    "ingredients": [
+      {
+        "name": "Lechuga mixta",
+        "quantity": "200 g"
+      },
+      {
+        "name": "Tomate cherry",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Lavar y cortar las verduras.",
+      "Preparar el ingrediente principal (pollo, burrata, etc.).",
+      "Mezclar todo en un bol con el aliño.",
+      "Servir fresco."
+    ]
+  },
+  {
+    "id": "sandwich_mixto",
+    "type": "food",
+    "name": "Sandwich Mixto",
+    "description": "Jamon york y queso",
+    "category": "Sandwich",
+    "image": "",
+    "price": 2.9,
+    "ingredients": [
+      {
+        "name": "Pan de molde",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Jamón york",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Queso",
+        "quantity": "2 lonchas"
+      }
+    ],
+    "steps": [
+      "Tostar el pan ligeramente.",
+      "Montar los ingredientes en capas.",
+      "Cortar por la mitad y servir con patatas si procede."
+    ]
+  },
+  {
+    "id": "sandwich_mixto_patatas",
+    "type": "food",
+    "name": "Sandwich Mixto con Patatas Fritas",
+    "description": "Patatas seleccionadas y preparadas con nuestras salsas especiales.",
+    "category": "Sandwich",
+    "image": "",
+    "price": 4.2,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Pan de molde",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Jamón york",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Queso",
+        "quantity": "2 lonchas"
+      }
+    ],
+    "steps": [
+      "Tostar el pan ligeramente.",
+      "Montar los ingredientes en capas.",
+      "Cortar por la mitad y servir con patatas si procede."
+    ]
+  },
+  {
+    "id": "sandwich_mixto_huevo",
+    "type": "food",
+    "name": "Sandwich Mixto con Huevo Frito",
+    "description": "Pan fresco del día con ingredientes de calidad.",
+    "category": "Sandwich",
+    "image": "",
+    "price": 3.5,
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Pan de molde",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Jamón york",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Queso",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "1 unidad"
+      }
+    ],
+    "steps": [
+      "Tostar el pan ligeramente.",
+      "Montar los ingredientes en capas.",
+      "Cortar por la mitad y servir con patatas si procede."
+    ]
+  },
+  {
+    "id": "sandwich_mixto_huevo_patatas",
+    "type": "food",
+    "name": "Sandwich Mixto con Huevo y Patatas Fritas",
+    "description": "Patatas seleccionadas y preparadas con nuestras salsas especiales.",
+    "category": "Sandwich",
+    "image": "",
+    "price": 4.8,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Pan de molde",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Jamón york",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Queso",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "1 unidad"
+      }
+    ],
+    "steps": [
+      "Tostar el pan ligeramente.",
+      "Montar los ingredientes en capas.",
+      "Cortar por la mitad y servir con patatas si procede."
+    ]
+  },
+  {
+    "id": "sandwich_burgos",
+    "type": "food",
+    "name": "Sandwich Burgos",
+    "description": "Lechuga, tomate, jamon york, queso, beicon y huevo frito con patatas fritas",
+    "category": "Sandwich",
+    "image": "",
+    "price": 7,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Pan de molde",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Jamón york",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Queso",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Lechuga",
+        "quantity": "2 hojas"
+      },
+      {
+        "name": "Tomate",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Bacon",
+        "quantity": "2 lonchas"
+      }
+    ],
+    "steps": [
+      "Tostar el pan ligeramente.",
+      "Montar los ingredientes en capas.",
+      "Cortar por la mitad y servir con patatas si procede."
+    ]
+  },
+  {
+    "id": "sandwich_pollo",
+    "type": "food",
+    "name": "Sandwich de Pollo",
+    "description": "Lechuga, tomate, filete de pollo a la plancha, jamon york, queso, beicon y huevo frito con patatas fritas",
+    "category": "Sandwich",
+    "image": "",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Pan de molde",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Jamón york",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Queso",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Filete de pollo",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Lechuga",
+        "quantity": "2 hojas"
+      },
+      {
+        "name": "Tomate",
+        "quantity": "2 rodajas"
+      }
+    ],
+    "steps": [
+      "Tostar el pan ligeramente.",
+      "Montar los ingredientes en capas.",
+      "Cortar por la mitad y servir con patatas si procede."
+    ]
+  },
+  {
+    "id": "sandwich_vegetal",
+    "type": "food",
+    "name": "Sandwich Vegetal",
+    "description": "Lechuga, tomate, cebolla, atun, pimiento piquillo y huevo frito",
+    "category": "Sandwich",
+    "image": "",
+    "price": 7,
+    "ingredients": [
+      {
+        "name": "Huevos",
+        "quantity": "1-2 unidades"
+      },
+      {
+        "name": "Pan de molde",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Jamón york",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Queso",
+        "quantity": "2 lonchas"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Atún",
+        "quantity": "80 g"
+      },
+      {
+        "name": "Pimiento piquillo",
+        "quantity": "2 tiras"
+      },
+      {
+        "name": "Lechuga",
+        "quantity": "2 hojas"
+      },
+      {
+        "name": "Tomate",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Cebolla",
+        "quantity": "2 rodajas"
+      }
+    ],
+    "steps": [
+      "Tostar el pan ligeramente.",
+      "Montar los ingredientes en capas.",
+      "Cortar por la mitad y servir con patatas si procede."
+    ]
+  },
+  {
+    "id": "boc_chistorra",
+    "type": "food",
+    "name": "Bocadillo de Chistorra",
+    "description": "Pan fresco del día con ingredientes de calidad.",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 5,
+    "ingredients": [
+      {
+        "name": "Pan de barra",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Chistorra",
+        "quantity": "150 g"
+      }
+    ],
+    "steps": [
+      "Calentar el pan de barra.",
+      "Preparar el ingrediente principal (plancha o frito).",
+      "Montar el bocadillo con los acompañamientos.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "boc_lomo",
+    "type": "food",
+    "name": "Bocadillo de Lomo",
+    "description": "Pan fresco del día con ingredientes de calidad.",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 5,
+    "ingredients": [
+      {
+        "name": "Pan de barra",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Lomo de cerdo",
+        "quantity": "150 g"
+      }
+    ],
+    "steps": [
+      "Calentar el pan de barra.",
+      "Preparar el ingrediente principal (plancha o frito).",
+      "Montar el bocadillo con los acompañamientos.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "boc_beicon",
+    "type": "food",
+    "name": "Bocadillo de Beicon",
+    "description": "Pan fresco del día con ingredientes de calidad.",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 5,
+    "ingredients": [
+      {
+        "name": "Pan de barra",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Bacon",
+        "quantity": "100 g"
+      }
+    ],
+    "steps": [
+      "Calentar el pan de barra.",
+      "Preparar el ingrediente principal (plancha o frito).",
+      "Montar el bocadillo con los acompañamientos.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "boc_panceta",
+    "type": "food",
+    "name": "Bocadillo de Panceta",
+    "description": "Pan fresco del día con ingredientes de calidad.",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 5,
+    "ingredients": [
+      {
+        "name": "Pan de barra",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Panceta",
+        "quantity": "150 g"
+      }
+    ],
+    "steps": [
+      "Calentar el pan de barra.",
+      "Preparar el ingrediente principal (plancha o frito).",
+      "Montar el bocadillo con los acompañamientos.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "boc_ternera",
+    "type": "food",
+    "name": "Bocadillo de Ternera",
+    "description": "Pan fresco del día con ingredientes de calidad.",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 7,
+    "ingredients": [
+      {
+        "name": "Pan de barra",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Filete de ternera",
+        "quantity": "150 g"
+      }
+    ],
+    "steps": [
+      "Calentar el pan de barra.",
+      "Preparar el ingrediente principal (plancha o frito).",
+      "Montar el bocadillo con los acompañamientos.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "boc_morcilla",
+    "type": "food",
+    "name": "Bocadillo de Morcilla de Burgos",
+    "description": "Pan fresco del día con ingredientes de calidad.",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 5,
+    "ingredients": [
+      {
+        "name": "Pan de barra",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Morcilla de Burgos",
+        "quantity": "150 g"
+      }
+    ],
+    "steps": [
+      "Calentar el pan de barra.",
+      "Preparar el ingrediente principal (plancha o frito).",
+      "Montar el bocadillo con los acompañamientos.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "boc_escalope_pollo",
+    "type": "food",
+    "name": "Bocadillo de Escalope de Pollo",
+    "description": "Pan fresco del día con ingredientes de calidad.",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 6,
+    "ingredients": [
+      {
+        "name": "Pan de barra",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Escalope de pollo",
+        "quantity": "150 g"
+      }
+    ],
+    "steps": [
+      "Calentar el pan de barra.",
+      "Preparar el ingrediente principal (plancha o frito).",
+      "Montar el bocadillo con los acompañamientos.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "boc_pollo_plancha",
+    "type": "food",
+    "name": "Bocadillo de Pollo a la Plancha",
+    "description": "Pan fresco del día con ingredientes de calidad.",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 6,
+    "ingredients": [
+      {
+        "name": "Pan de barra",
+        "quantity": "1 unidad"
+      }
+    ],
+    "steps": [
+      "Calentar el pan de barra.",
+      "Preparar el ingrediente principal (plancha o frito).",
+      "Montar el bocadillo con los acompañamientos.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "boc_tortilla_francesa",
+    "type": "food",
+    "name": "Bocadillo de Tortilla Francesa",
+    "description": "Pan fresco del día con ingredientes de calidad.",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 5,
+    "ingredients": [
+      {
+        "name": "Pan de barra",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Huevos",
+        "quantity": "2 unidades"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "1 cda"
+      }
+    ],
+    "steps": [
+      "Calentar el pan de barra.",
+      "Preparar el ingrediente principal (plancha o frito).",
+      "Montar el bocadillo con los acompañamientos.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "boc_tortilla_patatas",
+    "type": "food",
+    "name": "Bocadillo de Tortilla de Patatas",
+    "description": "Patatas seleccionadas y preparadas con nuestras salsas especiales.",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 5,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Pan de barra",
+        "quantity": "1 unidad"
+      }
+    ],
+    "steps": [
+      "Calentar el pan de barra.",
+      "Preparar el ingrediente principal (plancha o frito).",
+      "Montar el bocadillo con los acompañamientos.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "boc_oreja",
+    "type": "food",
+    "name": "Bocadillo de Oreja",
+    "description": "Pan fresco del día con ingredientes de calidad.",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 6.5,
+    "ingredients": [
+      {
+        "name": "Pan de barra",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Oreja de cerdo",
+        "quantity": "200 g"
+      }
+    ],
+    "steps": [
+      "Calentar el pan de barra.",
+      "Preparar el ingrediente principal (plancha o frito).",
+      "Montar el bocadillo con los acompañamientos.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "boc_jamon_curado",
+    "type": "food",
+    "name": "Bocadillo de Jamon Curado",
+    "description": "Pan fresco del día con ingredientes de calidad.",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 5,
+    "ingredients": [
+      {
+        "name": "Pan de barra",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Jamón curado",
+        "quantity": "100 g"
+      }
+    ],
+    "steps": [
+      "Calentar el pan de barra.",
+      "Preparar el ingrediente principal (plancha o frito).",
+      "Montar el bocadillo con los acompañamientos.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "boc_calamares",
+    "type": "food",
+    "name": "Bocadillo de Calamares",
+    "description": "Pan fresco del día con ingredientes de calidad.",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 6,
+    "ingredients": [
+      {
+        "name": "Calamares",
+        "quantity": "400 g"
+      },
+      {
+        "name": "Harina",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Huevo",
+        "quantity": "2 unidades"
+      },
+      {
+        "name": "Pan rallado",
+        "quantity": "100 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Limón",
+        "quantity": "1 unidad"
+      }
+    ],
+    "steps": [
+      "Calentar el pan de barra.",
+      "Preparar el ingrediente principal (plancha o frito).",
+      "Montar el bocadillo con los acompañamientos.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "boc_chorizo",
+    "type": "food",
+    "name": "Bocadillo de Chorizo Frito",
+    "description": "Pan fresco del día con ingredientes de calidad.",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 5,
+    "ingredients": [
+      {
+        "name": "Pan de barra",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Chorizo",
+        "quantity": "150 g"
+      }
+    ],
+    "steps": [
+      "Calentar el pan de barra.",
+      "Preparar el ingrediente principal (plancha o frito).",
+      "Montar el bocadillo con los acompañamientos.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "boc_choripan",
+    "type": "food",
+    "name": "Choripan",
+    "description": "Bocadillo de chorizo criollo con chimichurri casero, mayonesa, lechuga y tomate",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "Pan de barra",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Chorizo criollo",
+        "quantity": "150 g"
+      },
+      {
+        "name": "Chimichurri",
+        "quantity": "2 cda"
+      },
+      {
+        "name": "Mayonesa",
+        "quantity": "1 cda"
+      },
+      {
+        "name": "Lechuga",
+        "quantity": "2 hojas"
+      },
+      {
+        "name": "Tomate",
+        "quantity": "2 rodajas"
+      }
+    ],
+    "steps": [
+      "Calentar el pan de barra.",
+      "Preparar el ingrediente principal (plancha o frito).",
+      "Montar el bocadillo con los acompañamientos.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "boc_tamarito",
+    "type": "food",
+    "name": "Tamarito",
+    "description": "Bocadillo de escalope de pollo con lechuga, tomate y mayonesa",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 7,
+    "ingredients": [
+      {
+        "name": "Pan de barra",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Escalope de pollo",
+        "quantity": "150 g"
+      },
+      {
+        "name": "Lechuga",
+        "quantity": "2 hojas"
+      },
+      {
+        "name": "Tomate",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Mayonesa",
+        "quantity": "1 cda"
+      }
+    ],
+    "steps": [
+      "Calentar el pan de barra.",
+      "Preparar el ingrediente principal (plancha o frito).",
+      "Montar el bocadillo con los acompañamientos.",
+      "Servir caliente."
+    ]
+  },
+  {
+    "id": "boc_solomillo",
+    "type": "food",
+    "name": "Solomillo con Queso Brie",
+    "description": "Especialidad de la casa preparada con esmero.",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "Consultar al chef",
+        "quantity": "Según receta"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  },
+  {
+    "id": "extra_patatas",
+    "type": "food",
+    "name": "Patatas Fritas Extra",
+    "description": "Patatas seleccionadas y preparadas con nuestras salsas especiales.",
+    "category": "Bocadillos y Montados",
+    "image": "",
+    "price": 1.5,
+    "ingredients": [
+      {
+        "name": "Patatas",
+        "quantity": "300 g"
+      },
+      {
+        "name": "Aceite de oliva",
+        "quantity": "Para freír"
+      },
+      {
+        "name": "Sal",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Preparar los ingredientes frescos.",
+      "Cocinar según la técnica correspondiente (plancha, frito, horno).",
+      "Montar el plato con la guarnición.",
+      "Servir inmediatamente."
+    ]
+  }
+]

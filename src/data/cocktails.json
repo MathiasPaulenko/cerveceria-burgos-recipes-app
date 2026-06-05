@@ -1,0 +1,2496 @@
+[
+  {
+    "id": "mojito_tradicional",
+    "type": "cocktail",
+    "name": "Mojito tradicional",
+    "description": "Cóctel cubano refrescante con el equilibrio perfecto entre ácido, dulce y aromático. La hierbabuena fresca y la lima se mezclan con ron blanco de calidad.",
+    "category": "Mojitos",
+    "image": "/images/cocktails/mojito_tradicional.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Menta",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Gaseosa",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Machacar la menta, el azúcar y la lima en un vaso alto.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter el ron y completar con soda.",
+      "Remover suavemente y decorar con una ramita de menta."
+    ]
+  },
+  {
+    "id": "mojito_fresa",
+    "type": "cocktail",
+    "name": "Mojito de fresa",
+    "description": "Variante frutal del clásico mojito cubano. La fresa aporta un toque dulce y un color rojizo irresistible a la combinación de menta, lima y ron.",
+    "category": "Mojitos",
+    "image": "/images/cocktails/mojito_fresa.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Menta",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Fresas",
+        "quantity": "3-4 trozos"
+      },
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Gaseosa",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Machacar la menta, el azúcar y la lima en un vaso alto.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter el ron y completar con soda.",
+      "Remover suavemente y decorar con una ramita de menta."
+    ]
+  },
+  {
+    "id": "mojito_maracuya",
+    "type": "cocktail",
+    "name": "Mojito de maracuyá",
+    "description": "Mojito tropical con el toque ácido y exótico del maracuyá. Refrescante y aromático, ideal para días calurosos.",
+    "category": "Mojitos",
+    "image": "/images/cocktails/mojito_maracuya.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Menta",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Maracuyá",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Gaseosa",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Machacar la menta, el azúcar y la lima en un vaso alto.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter el ron y completar con soda.",
+      "Remover suavemente y decorar con una ramita de menta."
+    ]
+  },
+  {
+    "id": "mojito_mango",
+    "type": "cocktail",
+    "name": "Mojito de mango",
+    "description": "Fusión caribeña que une el sabor dulce del mango con la frescura de la menta y la lima. Una explosión tropical en cada sorbo.",
+    "category": "Mojitos",
+    "image": "/images/cocktails/mojito_mango.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Menta",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Mango",
+        "quantity": "3-4 trozos"
+      },
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Gaseosa",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Machacar la menta, el azúcar y la lima en un vaso alto.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter el ron y completar con soda.",
+      "Remover suavemente y decorar con una ramita de menta."
+    ]
+  },
+  {
+    "id": "mojito_guayaba",
+    "type": "cocktail",
+    "name": "Mojito de guayaba",
+    "description": "Variante exótica con guayaba, una fruta tropical que aporta dulzor y un aroma único al clásico mojito.",
+    "category": "Mojitos",
+    "image": "/images/cocktails/mojito_guayaba.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Menta",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Guayaba",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Gaseosa",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Machacar la menta, el azúcar y la lima en un vaso alto.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter el ron y completar con soda.",
+      "Remover suavemente y decorar con una ramita de menta."
+    ]
+  },
+  {
+    "id": "mojito_mandarina",
+    "type": "cocktail",
+    "name": "Mojito de mandarina",
+    "description": "Mojito cítrico con mandarina, que añade un dulzor natural y un color naranja vibrante al cóctel cubano.",
+    "category": "Mojitos",
+    "image": "/images/cocktails/mojito_mandarina.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Menta",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Mandarina",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Gaseosa",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Machacar la menta, el azúcar y la lima en un vaso alto.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter el ron y completar con soda.",
+      "Remover suavemente y decorar con una ramita de menta."
+    ]
+  },
+  {
+    "id": "mojito_arandanos",
+    "type": "cocktail",
+    "name": "Mojito de arándanos",
+    "description": "Mojito con arándanos que aportan un color morado intenso y un sabor agridulce característico.",
+    "category": "Mojitos",
+    "image": "/images/cocktails/mojito_arandanos.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Menta",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Arándanos",
+        "quantity": "5-6 unidades"
+      },
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Gaseosa",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Machacar la menta, el azúcar y la lima en un vaso alto.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter el ron y completar con soda.",
+      "Remover suavemente y decorar con una ramita de menta."
+    ]
+  },
+  {
+    "id": "mojito_cherry",
+    "type": "cocktail",
+    "name": "Mojito de cherry",
+    "description": "Versión del mojito con cerezas, que le dan un toque dulce y un color rojo profundo y atractivo.",
+    "category": "Mojitos",
+    "image": "/images/cocktails/mojito_cherry.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Menta",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Cerezas",
+        "quantity": "3-4 unidades"
+      },
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Gaseosa",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Machacar la menta, el azúcar y la lima en un vaso alto.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter el ron y completar con soda.",
+      "Remover suavemente y decorar con una ramita de menta."
+    ]
+  },
+  {
+    "id": "mojito_coco",
+    "type": "cocktail",
+    "name": "Mojito de coco",
+    "description": "Mojito tropical con coco que añade cremosidad y un aroma caribeño inconfundible al clásico cubano.",
+    "category": "Mojitos",
+    "image": "/images/cocktails/mojito_coco.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Menta",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Coco",
+        "quantity": "30 g"
+      },
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Gaseosa",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Machacar la menta, el azúcar y la lima en un vaso alto.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter el ron y completar con soda.",
+      "Remover suavemente y decorar con una ramita de menta."
+    ]
+  },
+  {
+    "id": "mojito_pina",
+    "type": "cocktail",
+    "name": "Mojito de piña",
+    "description": "Combinación de piña y menta que evoca las playas del Caribe. Dulce, fresco y perfectamente equilibrado.",
+    "category": "Mojitos",
+    "image": "/images/cocktails/mojito_pina.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Menta",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Puré de piña",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Soda",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Machacar la menta, el azúcar y la lima en un vaso alto.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter el ron y completar con soda.",
+      "Remover suavemente y decorar con una ramita de menta."
+    ]
+  },
+  {
+    "id": "mojito_frutos_bosque",
+    "type": "cocktail",
+    "name": "Mojito de frutos del bosque",
+    "description": "Mojito con mezcla de frutos del bosque que aportan acidez, color y un perfil de sabor complejo.",
+    "category": "Mojitos",
+    "image": "/images/cocktails/mojito_frutos_bosque.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Menta",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Puré de frutos del bosque",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Soda",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Machacar la menta, el azúcar y la lima en un vaso alto.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter el ron y completar con soda.",
+      "Remover suavemente y decorar con una ramita de menta."
+    ]
+  },
+  {
+    "id": "mojito_melocoton",
+    "type": "cocktail",
+    "name": "Mojito de Melocotón",
+    "description": "Mojito de melocotón con un dulzor suave y una textura aterciopelada que complementa la lima y la menta.",
+    "category": "Mojitos",
+    "image": "/images/cocktails/mojito_melocoton.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Menta fresca",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Limas",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Azúcar moreno",
+        "quantity": "2 cda"
+      },
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Puré de melocotón",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Casera y melocotón fresco",
+        "quantity": "3-4 trozos"
+      }
+    ],
+    "steps": [
+      "Machacar la menta, el azúcar y la lima en un vaso alto.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter el ron y completar con soda.",
+      "Remover suavemente y decorar con una ramita de menta."
+    ]
+  },
+  {
+    "id": "mojito_jagermeister",
+    "type": "cocktail",
+    "name": "Mojito de Jagermeister",
+    "description": "Mojito atrevido con Jägermeister que aporta un perfil herbal y especiado único a la base de menta y lima.",
+    "category": "Mojitos",
+    "image": "/images/cocktails/mojito_jagermeister.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Menta fresca",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Limas",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Azúcar moreno",
+        "quantity": "2 cda"
+      },
+      {
+        "name": "Jagermeister y casera",
+        "quantity": "3 cl"
+      }
+    ],
+    "steps": [
+      "Machacar la menta, el azúcar y la lima en un vaso alto.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter el ron y completar con soda.",
+      "Remover suavemente y decorar con una ramita de menta."
+    ]
+  },
+  {
+    "id": "daiquiri_fresa",
+    "type": "cocktail",
+    "name": "Daiquiri de fresa",
+    "description": "Cóctel granizado de origen cubano. El ron blanco se mezcla con fresas frescas y zumo de lima para un resultado refrescante y frutal.",
+    "category": "Daiquiri",
+    "image": "/images/cocktails/daiquiri_fresa.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Cóctel de Daiquiri",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una batidora con hielo picado.",
+      "Batir hasta obtener una textura suave y cremosa.",
+      "Servir en una copa de cóctel fría."
+    ]
+  },
+  {
+    "id": "daiquiri_mango",
+    "type": "cocktail",
+    "name": "Daiquiri de mango",
+    "description": "Daiquiri tropical con mango maduro. Textura cremosa y sabor dulce que transporta al Caribe en cada sorbo.",
+    "category": "Daiquiri",
+    "image": "/images/cocktails/daiquiri_mango.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Cóctel de Daiquiri",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una batidora con hielo picado.",
+      "Batir hasta obtener una textura suave y cremosa.",
+      "Servir en una copa de cóctel fría."
+    ]
+  },
+  {
+    "id": "daiquiri_frutos_bosque",
+    "type": "cocktail",
+    "name": "Daiquiri de frutos del bosque",
+    "description": "Daiquiri con mezcla de frutos del bosque que aportan un color púrpura intenso y un equilibrio agridulce.",
+    "category": "Daiquiri",
+    "image": "/images/cocktails/daiquiri_frutos_bosque.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Cóctel de Daiquiri",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una batidora con hielo picado.",
+      "Batir hasta obtener una textura suave y cremosa.",
+      "Servir en una copa de cóctel fría."
+    ]
+  },
+  {
+    "id": "daiquiri_maracuya",
+    "type": "cocktail",
+    "name": "Daiquiri de maracuyá",
+    "description": "Daiquiri con el toque ácido y aromático del maracuyá. Fresco, exótico y con una textura suave.",
+    "category": "Daiquiri",
+    "image": "/images/cocktails/daiquiri_maracuya.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Cóctel de Daiquiri",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una batidora con hielo picado.",
+      "Batir hasta obtener una textura suave y cremosa.",
+      "Servir en una copa de cóctel fría."
+    ]
+  },
+  {
+    "id": "daiquiri_guayaba",
+    "type": "cocktail",
+    "name": "Daiquiri de guayaba",
+    "description": "Daiquiri exótico con guayaba tropical. Dulce, aromático y con un sabor único del Caribe.",
+    "category": "Daiquiri",
+    "image": "/images/cocktails/daiquiri_guayaba.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Cóctel de Daiquiri",
+        "quantity": "Al gusto"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una batidora con hielo picado.",
+      "Batir hasta obtener una textura suave y cremosa.",
+      "Servir en una copa de cóctel fría."
+    ]
+  },
+  {
+    "id": "margarita_tradicional",
+    "type": "cocktail",
+    "name": "Margarita tradicional",
+    "description": "Cóctel mexicano icónico con tequila, triple sec y lima. El borde escarchado con sal realza todos sus sabores.",
+    "category": "Margaritas",
+    "image": "/images/cocktails/margarita_tradicional.webp",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Triple seco",
+        "quantity": "2,5 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Sirope de azúcar",
+        "quantity": "2 cda"
+      }
+    ],
+    "steps": [
+      "Escarchar el borde del vaso con lima y sal.",
+      "Añadir todos los ingredientes en una coctelera con hielo.",
+      "Agitar enérgicamente durante 15 segundos.",
+      "Colar en el vaso escarchado."
+    ]
+  },
+  {
+    "id": "margarita_fresa",
+    "type": "cocktail",
+    "name": "Margarita de fresa",
+    "description": "Margarita frutal con fresas frescas. El dulzor de la fruta equilibra perfectamente la acidez de la lima.",
+    "category": "Margaritas",
+    "image": "/images/cocktails/margarita_fresa.webp",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Triple seco",
+        "quantity": "2,5 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Fresas",
+        "quantity": "3-4 trozos"
+      },
+      {
+        "name": "Sirope de caña",
+        "quantity": "1,5 cl"
+      }
+    ],
+    "steps": [
+      "Escarchar el borde del vaso con lima y sal.",
+      "Añadir todos los ingredientes en una coctelera con hielo.",
+      "Agitar enérgicamente durante 15 segundos.",
+      "Colar en el vaso escarchado."
+    ]
+  },
+  {
+    "id": "margarita_maracuya",
+    "type": "cocktail",
+    "name": "Margarita de maracuyá",
+    "description": "Margarita tropical con maracuyá. El sabor ácido y aromático de la fruta complementa el tequila de forma exquisita.",
+    "category": "Margaritas",
+    "image": "/images/cocktails/margarita_maracuya.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Triple seco",
+        "quantity": "2,5 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Sirope de caña",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Puré de maracuyá",
+        "quantity": "3 cl"
+      }
+    ],
+    "steps": [
+      "Escarchar el borde del vaso con lima y sal.",
+      "Añadir todos los ingredientes en una coctelera con hielo.",
+      "Agitar enérgicamente durante 15 segundos.",
+      "Colar en el vaso escarchado."
+    ]
+  },
+  {
+    "id": "margarita_mango_vainilla",
+    "type": "cocktail",
+    "name": "Margarita de mango y vainilla",
+    "description": "Margarita cremosa con mango y un toque de vainilla. Dulce, exótica y sorprendentemente equilibrada.",
+    "category": "Margaritas",
+    "image": "/images/cocktails/margarita_mango_vainilla.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Triple seco",
+        "quantity": "2,5 cl"
+      },
+      {
+        "name": "Sirope de mango",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Zumo de lima",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Puré de mango",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Sirope de vainilla",
+        "quantity": "1,5 cl"
+      }
+    ],
+    "steps": [
+      "Escarchar el borde del vaso con lima y sal.",
+      "Añadir todos los ingredientes en una coctelera con hielo.",
+      "Agitar enérgicamente durante 15 segundos.",
+      "Colar en el vaso escarchado."
+    ]
+  },
+  {
+    "id": "margarita_mango_picante",
+    "type": "cocktail",
+    "name": "Margarita de mango picante",
+    "description": "Margarita con un toque picante que contrasta con el dulzor del mango. Atrevida y memorable.",
+    "category": "Margaritas",
+    "image": "/images/cocktails/margarita_mango_picante.webp",
+    "price": 9.5,
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Sirope de mango picante",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Puré de mango",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Puré de guayaba",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Trajín",
+        "quantity": "1 pizca"
+      }
+    ],
+    "steps": [
+      "Escarchar el borde del vaso con lima y sal.",
+      "Añadir todos los ingredientes en una coctelera con hielo.",
+      "Agitar enérgicamente durante 15 segundos.",
+      "Colar en el vaso escarchado."
+    ]
+  },
+  {
+    "id": "margarita_guayaba",
+    "type": "cocktail",
+    "name": "Margarita de guayaba",
+    "description": "Margarita con guayaba que aporta un sabor tropical dulce y un aroma inconfundible al clásico mexicano.",
+    "category": "Margaritas",
+    "image": "/images/cocktails/margarita_guayaba.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Triple seco",
+        "quantity": "2,5 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Sirope de caña",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Puré de guayaba",
+        "quantity": "3 cl"
+      }
+    ],
+    "steps": [
+      "Escarchar el borde del vaso con lima y sal.",
+      "Añadir todos los ingredientes en una coctelera con hielo.",
+      "Agitar enérgicamente durante 15 segundos.",
+      "Colar en el vaso escarchado."
+    ]
+  },
+  {
+    "id": "margarita_melocoton_miel",
+    "type": "cocktail",
+    "name": "Margarita de melocotón y miel",
+    "description": "Margarita suave con melocotón y miel. Dulce, aterciopelada y con un final cítrico elegante.",
+    "category": "Margaritas",
+    "image": "/images/cocktails/margarita_melocoton_miel.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Cointreau",
+        "quantity": "2,5 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Miel",
+        "quantity": "1 cda"
+      },
+      {
+        "name": "Puré de melocotón",
+        "quantity": "3 cl"
+      }
+    ],
+    "steps": [
+      "Escarchar el borde del vaso con lima y sal.",
+      "Añadir todos los ingredientes en una coctelera con hielo.",
+      "Agitar enérgicamente durante 15 segundos.",
+      "Colar en el vaso escarchado."
+    ]
+  },
+  {
+    "id": "caipirina",
+    "type": "cocktail",
+    "name": "Caipiriña",
+    "description": "Cóctel nacional de Brasil. La cachaça se mezcla con lima y azúcar moreno en una combinación simple pero perfecta.",
+    "category": "Caipiriña",
+    "image": "/images/cocktails/caipirina.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Azúcar moreno",
+        "quantity": "2 cda"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Cachaca",
+        "quantity": "6 cl"
+      }
+    ],
+    "steps": [
+      "Machacar el azúcar y la lima en un vaso bajo.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter la cachaça y remover suavemente."
+    ]
+  },
+  {
+    "id": "caipirina_fresa",
+    "type": "cocktail",
+    "name": "Caipiriña de fresa",
+    "description": "Caipiriña brasileña con fresas. La fruta añade dulzor y color a la base de cachaça y lima.",
+    "category": "Caipiriña",
+    "image": "/images/cocktails/caipirina_fresa.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Azúcar moreno",
+        "quantity": "2 cda"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Cachaca",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Fresas",
+        "quantity": "3-4 trozos"
+      }
+    ],
+    "steps": [
+      "Machacar el azúcar y la lima en un vaso bajo.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter la cachaça y remover suavemente."
+    ]
+  },
+  {
+    "id": "caipirina_maracuya",
+    "type": "cocktail",
+    "name": "Caipiriña de maracuyá",
+    "description": "Caipiriña tropical con maracuyá. El sabor ácido de la fruta brasileña realza el carácter de la cachaça.",
+    "category": "Caipiriña",
+    "image": "/images/cocktails/caipirina_maracuya.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Azúcar moreno",
+        "quantity": "2 cda"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Cachaca",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Maracuyá",
+        "quantity": "1 unidad"
+      }
+    ],
+    "steps": [
+      "Machacar el azúcar y la lima en un vaso bajo.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter la cachaça y remover suavemente."
+    ]
+  },
+  {
+    "id": "caipirina_jabuticaba",
+    "type": "cocktail",
+    "name": "Caipiriña jabuticaba",
+    "description": "Caipiriña exótica con jabuticaba, una uva brasileña que aporta un sabor único y un color oscuro intenso.",
+    "category": "Caipiriña",
+    "image": "/images/cocktails/caipirina_jabuticaba.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Cachaca",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Puré de jabuticaba",
+        "quantity": "6-8 unidades"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      }
+    ],
+    "steps": [
+      "Machacar el azúcar y la lima en un vaso bajo.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter la cachaça y remover suavemente."
+    ]
+  },
+  {
+    "id": "aperol_spritz",
+    "type": "cocktail",
+    "name": "Aperol Spritz",
+    "description": "Aperitivo italiano por excelencia. Aperol, prosecco y soda se unen en una bebida anaranjada, refrescante y con amargor sutil.",
+    "category": "Spritz",
+    "image": "/images/cocktails/aperol_spritz.webp",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "Aperol",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Prosecco",
+        "quantity": "9 cl"
+      },
+      {
+        "name": "Soda",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Llenar una copa de vino grande con hielo.",
+      "Verter el licor base y añadir prosecco.",
+      "Completar con soda y remover suavemente.",
+      "Decorar con una rodaja de naranja o fruta correspondiente."
+    ]
+  },
+  {
+    "id": "rose_spritz",
+    "type": "cocktail",
+    "name": "Rose Spritz",
+    "description": "Spritz elegante con ginebra rosa, prosecco y puré de fresas. Floral, frutal y perfecto para el aperitivo.",
+    "category": "Spritz",
+    "image": "/images/cocktails/rose_spritz.webp",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "Ginebra rosa",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Prosecco",
+        "quantity": "9 cl"
+      },
+      {
+        "name": "Limoncello",
+        "quantity": "2 cl"
+      },
+      {
+        "name": "Puré de fresas",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Soda",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Llenar una copa de vino grande con hielo.",
+      "Verter el licor base y añadir prosecco.",
+      "Completar con soda y remover suavemente.",
+      "Decorar con una rodaja de naranja o fruta correspondiente."
+    ]
+  },
+  {
+    "id": "hugo_spritz",
+    "type": "cocktail",
+    "name": "Hugo Spritz",
+    "description": "Spritz alpino con licor de saúco, prosecco y menta fresca. Ligero, floral y refrescante.",
+    "category": "Spritz",
+    "image": "/images/cocktails/hugo_spritz.webp",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "St. Germain",
+        "quantity": "2 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Prosecco",
+        "quantity": "9 cl"
+      },
+      {
+        "name": "Soda",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Llenar una copa de vino grande con hielo.",
+      "Verter el licor base y añadir prosecco.",
+      "Completar con soda y remover suavemente.",
+      "Decorar con una rodaja de naranja o fruta correspondiente."
+    ]
+  },
+  {
+    "id": "limoncello_spritz",
+    "type": "cocktail",
+    "name": "Limoncello Spritz",
+    "description": "Spritz italiano con limoncello que aporta un cítrico intenso y dulce. Perfecto para el verano.",
+    "category": "Spritz",
+    "image": "/images/cocktails/limoncello_spritz.webp",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "Limoncello",
+        "quantity": "2 cl"
+      },
+      {
+        "name": "Prosecco",
+        "quantity": "9 cl"
+      },
+      {
+        "name": "Soda",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Llenar una copa de vino grande con hielo.",
+      "Verter el licor base y añadir prosecco.",
+      "Completar con soda y remover suavemente.",
+      "Decorar con una rodaja de naranja o fruta correspondiente."
+    ]
+  },
+  {
+    "id": "fruta_pasion_spritz",
+    "type": "cocktail",
+    "name": "Fruta de la pasión Spritz",
+    "description": "Spritz tropical con fruta de la pasión y ginebra morada. Exótico, colorido y burbujeante.",
+    "category": "Spritz",
+    "image": "/images/cocktails/fruta_pasion_spritz.webp",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "Puré de fruta de la pasión",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Prosecco",
+        "quantity": "9 cl"
+      },
+      {
+        "name": "Soda",
+        "quantity": "Completar"
+      },
+      {
+        "name": "Ginebra morada",
+        "quantity": "5 cl"
+      }
+    ],
+    "steps": [
+      "Llenar una copa de vino grande con hielo.",
+      "Verter el licor base y añadir prosecco.",
+      "Completar con soda y remover suavemente.",
+      "Decorar con una rodaja de naranja o fruta correspondiente."
+    ]
+  },
+  {
+    "id": "pina_colada",
+    "type": "cocktail",
+    "name": "Piña colada",
+    "description": "Cóctel tropical emblemático de Puerto Rico. Ron, leche de coco y zumo de piña se mezclan en una textura cremosa que evoca el Caribe.",
+    "category": "Especiales",
+    "image": "/images/cocktails/pina_colada.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Amareto",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Limoncello",
+        "quantity": "2 cl"
+      },
+      {
+        "name": "Puré de coco",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Puré de piña",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Zumo de piña",
+        "quantity": "12 cl"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una batidora con hielo picado.",
+      "Batir hasta obtener una textura cremosa.",
+      "Servir en una copa grande decorada con una rodaja de piña."
+    ]
+  },
+  {
+    "id": "burgos",
+    "type": "cocktail",
+    "name": "Burgos",
+    "description": "Cóctel exclusivo de Cervecería Burgos. Ginebra, maracuyá y mango se combinan en una creación única y refrescante.",
+    "category": "Especiales",
+    "image": "/images/cocktails/burgos.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Ginebra",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Puré de maracuyá",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Sirope de mango",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "la_uruguayita",
+    "type": "cocktail",
+    "name": "La Uruguayita",
+    "description": "Cóctel azul intenso con vodka y Blue Curaçao. Visualmente impactante y con un sabor cítrico dulce.",
+    "category": "Especiales",
+    "image": "/images/cocktails/la_uruguayita.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Blue curaçao",
+        "quantity": "2 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Sprite",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "san_francisco",
+    "type": "cocktail",
+    "name": "San Francisco",
+    "description": "Cóctel frutal multicolor con tequila y una explosión de zumos tropicales. Dulce, vibrante y festivo.",
+    "category": "Especiales",
+    "image": "/images/cocktails/san_francisco.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Zumo de naranja",
+        "quantity": "8 cl"
+      },
+      {
+        "name": "Zumo de melocotón",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Zumo de piña",
+        "quantity": "12 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Granadina",
+        "quantity": "1,5 cl"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "bloody_mary",
+    "type": "cocktail",
+    "name": "Bloody Mary",
+    "description": "Cóctel clásico para brunch. Vodka, zumo de tomate y especias en una bebida salada, picante y compleja.",
+    "category": "Especiales",
+    "image": "/images/cocktails/bloody_mary.webp",
+    "price": 8.7,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Zumo de tomate",
+        "quantity": "12 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Sal",
+        "quantity": "1 pizca"
+      },
+      {
+        "name": "Pimienta",
+        "quantity": "1 pizca"
+      },
+      {
+        "name": "Tabasco",
+        "quantity": "2-3 gotas"
+      },
+      {
+        "name": "Salsa perrins",
+        "quantity": "1 pizca"
+      }
+    ],
+    "steps": [
+      "Llenar un vaso alto con hielo.",
+      "Añadir vodka, zumo de tomate, lima y condimentos.",
+      "Remover bien y ajustar especias al gusto.",
+      "Decorar con un tallo de apio."
+    ]
+  },
+  {
+    "id": "no_jito",
+    "type": "cocktail",
+    "name": "No-jito",
+    "description": "Variante creativa con limoncello y cerveza. Cítrico, burbujeante y con un perfil de sabor sorprendente.",
+    "category": "Especiales",
+    "image": "/images/cocktails/no_jito.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Limoncello",
+        "quantity": "2 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Sirope de mandarina",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Menta",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Cerveza",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "sex_on_the_beach",
+    "type": "cocktail",
+    "name": "Sex on the Beach",
+    "description": "Cóctel frutal con vodka, licor de melocotón y zumos. Dulce, color naranja intenso y perfecto para la playa.",
+    "category": "Especiales",
+    "image": "/images/cocktails/sex_on_the_beach.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Licor de melocotón",
+        "quantity": "2 cl"
+      },
+      {
+        "name": "Zumo de naranja",
+        "quantity": "8 cl"
+      },
+      {
+        "name": "Zumo de arándanos",
+        "quantity": "6 cl"
+      }
+    ],
+    "steps": [
+      "Añadir vodka, licor de melocotón y zumos en una coctelera con hielo.",
+      "Agitar enérgicamente.",
+      "Colar en un vaso alto con hielo."
+    ]
+  },
+  {
+    "id": "mexican_fizz",
+    "type": "cocktail",
+    "name": "Mexican Fizz",
+    "description": "Cóctel mexicano con tequila, sirope de agave y frambuesas. Refrescante, frutal y con un toque burbujeante.",
+    "category": "Especiales",
+    "image": "/images/cocktails/mexican_fizz.webp",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Sirope de agave azul",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Sirope de frambuesas",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Soda",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "cosmopolitan",
+    "type": "cocktail",
+    "name": "Cosmopolitan",
+    "description": "Cóctel sofisticado y glamuroso. Vodka, Cointreau, zumo de arándanos y lima en un equilibrio rosado perfecto.",
+    "category": "Especiales",
+    "image": "/images/cocktails/cosmopolitan.webp",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Sirope de naranja",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Zumo de arándanos",
+        "quantity": "6 cl"
+      }
+    ],
+    "steps": [
+      "Añadir vodka, Cointreau, zumo de arándanos y lima en coctelera con hielo.",
+      "Agitar enérgicamente durante 15 segundos.",
+      "Colar en una copa de cóctel fría."
+    ]
+  },
+  {
+    "id": "mai_tai",
+    "type": "cocktail",
+    "name": "Mai-tai",
+    "description": "Cóctel polinesio con ron, sirope de orgeat y lima. Exótico, complejo y con un sabor a nueces tostadas.",
+    "category": "Especiales",
+    "image": "/images/cocktails/mai_tai.webp",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Sirope de mandarina",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Sirope de orgeat",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Azúcar de caña",
+        "quantity": "2 cda"
+      }
+    ],
+    "steps": [
+      "Añadir ron, sirope de orgeat, sirope de mandarina y lima en coctelera con hielo.",
+      "Agitar enérgicamente.",
+      "Colar en un vaso bajo con hielo."
+    ]
+  },
+  {
+    "id": "negroni",
+    "type": "cocktail",
+    "name": "Negroni",
+    "description": "Cóctel de aperitivo italiano con partes iguales de ginebra, vermut y Campari. Amargo, herbal y elegantemente seco.",
+    "category": "Especiales",
+    "image": "/images/cocktails/negroni.webp",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "Ginebra",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Sirope de mandarina",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Vermouth rojo",
+        "quantity": "3 cl"
+      }
+    ],
+    "steps": [
+      "Llenar un vaso bajo con hielo.",
+      "Añadir ginebra, vermut rojo y Campari.",
+      "Remover suavemente y decorar con una rodaja de naranja."
+    ]
+  },
+  {
+    "id": "pantera_rosa",
+    "type": "cocktail",
+    "name": "Pantera Rosa",
+    "description": "Cóctel dulce y colorido con ron, granadina y algodón de azúcar. Visualmente espectacular y perfecto para celebrar.",
+    "category": "Especiales",
+    "image": "/images/cocktails/pantera_rosa.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Leche condensada",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Granadina",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Zumo de piña",
+        "quantity": "12 cl"
+      },
+      {
+        "name": "Algodón de azúcar",
+        "quantity": "2 cda"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "pisco",
+    "type": "cocktail",
+    "name": "Pisco",
+    "description": "Pisco sour clásico peruano. Pisco, lima, clara de huevo y bitters en una textura espumosa y un sabor cítrico inconfundible.",
+    "category": "Especiales",
+    "image": "/images/cocktails/pisco.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Pisco acholado",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Sirope de caña",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Clara de huevo",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Gotas de amargo",
+        "quantity": "2-3 gotas"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "maracuya_sour",
+    "type": "cocktail",
+    "name": "Maracuyá Sour",
+    "description": "Variante del pisco sour con maracuyá. Más dulce y tropical que la versión original, con la misma espuma característica.",
+    "category": "Especiales",
+    "image": "/images/cocktails/maracuya_sour.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Pisco acholado",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Sirope de caña",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Puré de maracuyá",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Clara de huevo",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Gotas de bitter de frambuesa",
+        "quantity": "2-3 gotas"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "te_verde_yuzu",
+    "type": "cocktail",
+    "name": "Té verde yuzu Spritz",
+    "description": "Cóctel fusión con té verde matcha, yuzu y ron. Un puente entre la cultura oriental y caribeña.",
+    "category": "Especiales",
+    "image": "/images/cocktails/te_verde_yuzu.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Puré de yuzu",
+        "quantity": "2 cl"
+      },
+      {
+        "name": "Sirope de vainilla de Madagascar",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Té verde matcha",
+        "quantity": "1 cda"
+      },
+      {
+        "name": "Soda",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Llenar una copa de vino grande con hielo.",
+      "Verter el licor base y añadir prosecco.",
+      "Completar con soda y remover suavemente.",
+      "Decorar con una rodaja de naranja o fruta correspondiente."
+    ]
+  },
+  {
+    "id": "black_rose",
+    "type": "cocktail",
+    "name": "Black Rose",
+    "description": "Cóctel espectacular negro con ron, licor de café y colorante. Visualmente impactante y con un sabor profundo.",
+    "category": "Especiales",
+    "image": "/images/cocktails/black_rose.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Licor de café",
+        "quantity": "2,5 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Zumo de piña",
+        "quantity": "12 cl"
+      },
+      {
+        "name": "Sirope de caña",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Colorante alimentario",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Purpurina alimentaria",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Flor comestible",
+        "quantity": "1 unidad"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "coco_loco",
+    "type": "cocktail",
+    "name": "Coco loco",
+    "description": "Cóctel caribeño con vodka, tequila, ron y coco. Triple destilado en una explosión tropical y cremosa.",
+    "category": "Especiales",
+    "image": "/images/cocktails/coco_loco.webp",
+    "price": 9.5,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Tequila",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Leche de coco",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Sirope de coco",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Puré de coco",
+        "quantity": "3 cl"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "espresso_martini",
+    "type": "cocktail",
+    "name": "Espresso Martini",
+    "description": "Cóctel energético con vodka, licor de café y espresso. Café y alcohol en una espuma cremosa irresistible.",
+    "category": "Especiales",
+    "image": "/images/cocktails/espresso_martini.webp",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Licor de café",
+        "quantity": "2,5 cl"
+      },
+      {
+        "name": "Espresso",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Sirope de caña y granos de café",
+        "quantity": "1,5 cl"
+      }
+    ],
+    "steps": [
+      "Preparar un espresso y dejar enfriar.",
+      "Añadir vodka, licor de café, espresso y sirope en coctelera con hielo.",
+      "Agitar enérgicamente hasta obtener espuma.",
+      "Colar en una copa fría y decorar con granos de café."
+    ]
+  },
+  {
+    "id": "summer_colada",
+    "type": "cocktail",
+    "name": "Summer Colada",
+    "description": "Piña colada veraniega con vodka, mango y clara de huevo. Tropical, cremosa y con un toque de sofisticación.",
+    "category": "Especiales",
+    "image": "/images/cocktails/summer_colada.webp",
+    "price": 9.5,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Sirope de coco",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Zumo de piña",
+        "quantity": "12 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Puré de mango",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Clara de huevo",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Bitter de melocotón",
+        "quantity": "3-4 trozos"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "saturday_night",
+    "type": "cocktail",
+    "name": "Saturday Night Fever",
+    "description": "Cóctel de fiesta con ron, piña y crema de coco. Dulce, festivo y perfecto para la pista de baile.",
+    "category": "Especiales",
+    "image": "/images/cocktails/saturday_night.webp",
+    "price": 9.5,
+    "ingredients": [
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Zumo de piña",
+        "quantity": "12 cl"
+      },
+      {
+        "name": "Zumo de naranja",
+        "quantity": "8 cl"
+      },
+      {
+        "name": "Crema de coco",
+        "quantity": "4 cl"
+      },
+      {
+        "name": "Puré de coco",
+        "quantity": "3 cl"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "moscow_mule",
+    "type": "cocktail",
+    "name": "Moscow Mule",
+    "description": "Cóctel clásico servido en vaso de cobre. Vodka, lima y ginger beer con un picor refrescante.",
+    "category": "Especiales",
+    "image": "/images/cocktails/moscow_mule.webp",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Sirope de vainilla de Madagascar",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Bitter de ruibarbo",
+        "quantity": "2-3 gotas"
+      },
+      {
+        "name": "Ginger beer",
+        "quantity": "5 cl"
+      }
+    ],
+    "steps": [
+      "Añadir vodka, lima y ginger beer en un vaso de cobre con hielo.",
+      "Remover suavemente.",
+      "Decorar con una rodaja de lima y jengibre."
+    ]
+  },
+  {
+    "id": "beso_blanco",
+    "type": "cocktail",
+    "name": "Beso Blanco",
+    "description": "Cóctel cremoso con ron, puré de coco y lima. Suave, dulce y con un final cítrico que pide otro sorbo.",
+    "category": "Especiales",
+    "image": "/images/cocktails/beso_blanco.webp",
+    "price": 8.5,
+    "ingredients": [
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Puré de coco",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Crema de coco",
+        "quantity": "4 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Sirope de caña",
+        "quantity": "1,5 cl"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "espumosita",
+    "type": "cocktail",
+    "name": "Espumosita",
+    "description": "Sangría de maracuyá con espuma de lima. Frutal, burbujeante y con una textura aireada única.",
+    "category": "Especiales",
+    "image": "/images/cocktails/espumosita.webp",
+    "price": 5,
+    "ingredients": [
+      {
+        "name": "Sangría de maracuyá (puré de maracuyá",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Cointreau",
+        "quantity": "2,5 cl"
+      },
+      {
+        "name": "Licor de maracuyá",
+        "quantity": "2 cl"
+      },
+      {
+        "name": "Vino blanco",
+        "quantity": "9 cl"
+      },
+      {
+        "name": "Casera y espuma de lima)",
+        "quantity": "1/2 unidad"
+      }
+    ],
+    "steps": [
+      "Mezclar vino, licor y frutas en una jarra.",
+      "Dejar reposar 30 minutos.",
+      "Servir en vasos con hielo."
+    ]
+  },
+  {
+    "id": "pasion_burbon",
+    "type": "cocktail",
+    "name": "Pasión por el Bourbon",
+    "description": "Cóctel elegante con bourbon, vino dulce y maracuyá. Complejo, sofisticado y con un equilibrio dulce-ácido.",
+    "category": "Especiales",
+    "image": "/images/cocktails/pasion_burbon.webp",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Bourbon",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Vino dulce",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Sirope de Madagascar",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Zumo de lima",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Pulpa de maracuyá",
+        "quantity": "1 unidad"
+      },
+      {
+        "name": "Clara de huevo",
+        "quantity": "1 unidad"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "estacion_tropical",
+    "type": "cocktail",
+    "name": "Estación Tropical",
+    "description": "Cóctel con ginebra, Aperol, maracuyá y piña. Un viaje tropical en cada sorbo.",
+    "category": "Especiales",
+    "image": "/images/cocktails/estacion_tropical.webp",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Ginebra",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Aperol",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Puré de maracuyá",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Zumo de piña",
+        "quantity": "12 cl"
+      },
+      {
+        "name": "Sprite",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Llenar una copa de vino grande con hielo.",
+      "Verter el licor base y añadir prosecco.",
+      "Completar con soda y remover suavemente.",
+      "Decorar con una rodaja de naranja o fruta correspondiente."
+    ]
+  },
+  {
+    "id": "mandarina_ginger",
+    "type": "cocktail",
+    "name": "Mandarina Ginger Fizz",
+    "description": "Cóctel cítrico y picante con ginebra, mandarina y ginger beer. Refrescante y con un final picante.",
+    "category": "Especiales",
+    "image": "/images/cocktails/mandarina_ginger.webp",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Ginebra",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Puré de mandarina",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Zumo de lima",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Ginger beer",
+        "quantity": "5 cl"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "porn_star",
+    "type": "cocktail",
+    "name": "Porn Star Martini",
+    "description": "Cóctel provocativo con fruta de la pasión, vainilla y vodka. Dulce, exótico y con un aroma intenso.",
+    "category": "Especiales",
+    "image": "/images/cocktails/porn_star.webp",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Licor de frutas de la pasión",
+        "quantity": "Al gusto"
+      },
+      {
+        "name": "Sirope de vainilla",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Concentrado de ranch de lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Vodka de vainilla",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Puré de maracuyá",
+        "quantity": "3 cl"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "amatista",
+    "type": "cocktail",
+    "name": "Amatista",
+    "description": "Cóctel mágico con ginebra Empress 1908, sirope de violetas y purpurina. Visualmente espectacular y floral.",
+    "category": "Especiales",
+    "image": "/images/cocktails/amatista.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Ginebra Empress 1908",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "St. Germain",
+        "quantity": "2 cl"
+      },
+      {
+        "name": "Sirope de violetas",
+        "quantity": "1 cl"
+      },
+      {
+        "name": "Zumo de lima",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Purpurina comestible",
+        "quantity": "1 pizca"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "ginger_rogers",
+    "type": "cocktail",
+    "name": "Ginger Rogers",
+    "description": "Cóctel con tequila, miel, lima y jengibre. Picante, dulce y con un carácter fuerte y memorable.",
+    "category": "Especiales",
+    "image": "/images/cocktails/ginger_rogers.webp",
+    "price": 9.5,
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Miel",
+        "quantity": "1 cda"
+      },
+      {
+        "name": "Zumo de lima",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Jengibre",
+        "quantity": "2 rodajas"
+      },
+      {
+        "name": "Bitter de ruibarbo",
+        "quantity": "2-3 gotas"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "la_furet",
+    "type": "cocktail",
+    "name": "La Furet Enchantée",
+    "description": "Cóctel frutal con vermut, vainilla y frutos rojos. Complejo, afrutado y con un toque de espumoso elegante.",
+    "category": "Especiales",
+    "image": "/images/cocktails/la_furet.webp",
+    "price": 9.5,
+    "ingredients": [
+      {
+        "name": "Vermouth",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Sirope de vainilla",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Zumo de lima",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Menta",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Frambuesas",
+        "quantity": "3-4 unidades"
+      },
+      {
+        "name": "Fresas",
+        "quantity": "3-4 trozos"
+      },
+      {
+        "name": "Moras",
+        "quantity": "3-4 unidades"
+      },
+      {
+        "name": "Espumoso",
+        "quantity": "Completar"
+      },
+      {
+        "name": "Bitter de frambuesa",
+        "quantity": "2-3 gotas"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "verano_cruel",
+    "type": "cocktail",
+    "name": "Verano Cruel",
+    "description": "Cóctel veraniego con vodka, licor de mango y fresas. Dulce, frutal y con un color vibrante.",
+    "category": "Especiales",
+    "image": "/images/cocktails/verano_cruel.webp",
+    "price": 9.5,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Licor de mango",
+        "quantity": "3-4 trozos"
+      },
+      {
+        "name": "Sirope simple",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Jugo de lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Fresas",
+        "quantity": "3-4 trozos"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "arantinga",
+    "type": "cocktail",
+    "name": "Arantinga",
+    "description": "Cóctel complejo con ron, Campari y zumo de piña. Amargo, dulce y cítrico en un equilibrio único.",
+    "category": "Especiales",
+    "image": "/images/cocktails/arantinga.webp",
+    "price": 9.5,
+    "ingredients": [
+      {
+        "name": "Ron",
+        "quantity": "6 cl"
+      },
+      {
+        "name": "Licor de mandarina",
+        "quantity": "2 cl"
+      },
+      {
+        "name": "Campari",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Zumo de piña",
+        "quantity": "12 cl"
+      },
+      {
+        "name": "Sirope simple",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Bitter de naranja",
+        "quantity": "1 rodaja"
+      }
+    ],
+    "steps": [
+      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
+      "Agitar o batir enérgicamente hasta mezclar bien.",
+      "Colar en el vaso correspondiente con hielo si es necesario.",
+      "Decorar según el cóctel."
+    ]
+  },
+  {
+    "id": "caipiroska",
+    "type": "cocktail",
+    "name": "Caipiroska",
+    "description": "Versión del caipirinha con vodka. Más suave y con un perfil de sabor limpio que deja brillar la lima.",
+    "category": "Caipiroska",
+    "image": "/images/cocktails/caipiroska.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Azúcar moreno",
+        "quantity": "2 cda"
+      }
+    ],
+    "steps": [
+      "Machacar el azúcar y la lima en un vaso bajo.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter el vodka y remover suavemente."
+    ]
+  },
+  {
+    "id": "caipiroska_sandia",
+    "type": "cocktail",
+    "name": "Caipiroska de sandía y canela",
+    "description": "Caipiroska refrescante con puré de sandía y un toque de canela. Dulce, picante y sorprendente.",
+    "category": "Caipiroska",
+    "image": "/images/cocktails/caipiroska_sandia.webp",
+    "price": 9,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "quantity": "5 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Azúcar moreno",
+        "quantity": "2 cda"
+      },
+      {
+        "name": "Puré de sandía y sirope de canela",
+        "quantity": "3 cl"
+      }
+    ],
+    "steps": [
+      "Machacar el azúcar y la lima en un vaso bajo.",
+      "Añadir hielo picado hasta arriba.",
+      "Verter el vodka y remover suavemente."
+    ]
+  },
+  {
+    "id": "pura_seduccion",
+    "type": "cocktail",
+    "name": "Pura Seducción",
+    "description": "Cóctel sin alcohol elegante con vainilla, granadina y soda rosa. Dulce, burbujeante y visualmente atractivo.",
+    "category": "Sin Alcohol",
+    "image": "/images/cocktails/pura_seduccion.webp",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Sirope de vainilla",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Granadina",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Zumo de lima",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Soda rosa",
+        "quantity": "Completar"
+      }
+    ],
+    "steps": [
+      "Mezclar todos los ingredientes en un vaso alto con hielo.",
+      "Completar con soda o agua tónica.",
+      "Remover suavemente y decorar con fruta fresca."
+    ]
+  },
+  {
+    "id": "mojigato",
+    "type": "cocktail",
+    "name": "Mojigato",
+    "description": "Cóctel sin alcohol con menta, piña, vainilla y maracuyá. Tropical, fresco y con una complejidad sorprendente.",
+    "category": "Sin Alcohol",
+    "image": "/images/cocktails/mojigato.webp",
+    "price": 10,
+    "ingredients": [
+      {
+        "name": "Menta",
+        "quantity": "8-10 hojas"
+      },
+      {
+        "name": "Zumo de lima",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Zumo de piña",
+        "quantity": "12 cl"
+      },
+      {
+        "name": "Sirope de vainilla",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Maracuyá",
+        "quantity": "1 unidad"
+      }
+    ],
+    "steps": [
+      "Mezclar todos los ingredientes en un vaso alto con hielo.",
+      "Completar con soda o agua tónica.",
+      "Remover suavemente y decorar con fruta fresca."
+    ]
+  },
+  {
+    "id": "exoticolada",
+    "type": "cocktail",
+    "name": "Exoticolada",
+    "description": "Cóctel sin alcohol exótico con vainilla, piña, maracuyá y coco. Cremoso, tropical y deliciosamente dulce.",
+    "category": "Sin Alcohol",
+    "image": "/images/cocktails/exoticolada.webp",
+    "price": 9.5,
+    "ingredients": [
+      {
+        "name": "Sirope de vainilla",
+        "quantity": "1,5 cl"
+      },
+      {
+        "name": "Jugo de piña",
+        "quantity": "12 cl"
+      },
+      {
+        "name": "Puré de maracuyá",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "Lima",
+        "quantity": "1/2 unidad"
+      },
+      {
+        "name": "Crema de coco",
+        "quantity": "4 cl"
+      }
+    ],
+    "steps": [
+      "Mezclar todos los ingredientes en un vaso alto con hielo.",
+      "Completar con soda o agua tónica.",
+      "Remover suavemente y decorar con fruta fresca."
+    ]
+  }
+]
