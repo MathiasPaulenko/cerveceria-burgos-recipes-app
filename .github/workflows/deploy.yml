@@ -103,6 +103,7 @@ jobs:
           node-version: 20
 
       - name: Setup Java
+        id: setup-java
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
@@ -133,7 +134,9 @@ jobs:
             -dname "CN=Recetas Burgos,O=Cerveceria Burgos,C=ES"
 
       - name: Build APK
-        run: bubblewrap build
+        env:
+          JAVA_HOME: ${{ steps.setup-java.outputs.path }}
+        run: echo "n" | bubblewrap build
 
       - name: Upload APK to Release
         env:
