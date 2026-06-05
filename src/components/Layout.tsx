@@ -46,7 +46,7 @@ export default function Layout({ children }: LayoutProps) {
       </main>
 
       <footer className="border-t border-[#99120f]/10 py-3 text-center text-xs text-[#99120f]/50 dark:border-neutral-700 dark:text-neutral-500">
-        <span>CerveceriaBurgos Recetas — v1.0.6</span>
+        <span>CerveceriaBurgos Recetas — v1.1.0</span>
       </footer>
     </div>
   )
