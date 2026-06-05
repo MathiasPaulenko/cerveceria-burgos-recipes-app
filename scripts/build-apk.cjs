@@ -19,6 +19,34 @@ async function main() {
     console.log('Keystore copied to project');
   }
 
+  // Inject signing config into app/build.gradle
+  const buildGradlePath = path.join(projectPath, 'app', 'build.gradle');
+  if (fs.existsSync(buildGradlePath)) {
+    let buildGradle = fs.readFileSync(buildGradlePath, 'utf8');
+    // Add signingConfigs block after android { opening
+    const signingBlock = `
+    signingConfigs {
+        release {
+            storeFile file('android.keystore')
+            storePassword 'android'
+            keyAlias 'android'
+            keyPassword 'android'
+        }
+    }`;
+    // Insert signingConfigs after android {
+    buildGradle = buildGradle.replace(
+      /android\s*\{/,
+      `android {${signingBlock}`
+    );
+    // Update release buildType to use signingConfig
+    buildGradle = buildGradle.replace(
+      /(buildTypes\s*\{[\s\S]*?release\s*\{)/,
+      `$1\n            signingConfig signingConfigs.release`
+    );
+    fs.writeFileSync(buildGradlePath, buildGradle);
+    console.log('Signing config injected into build.gradle');
+  }
+
   console.log('Generating Gradle wrapper...');
   execSync('gradle wrapper', {
     cwd: projectPath,
