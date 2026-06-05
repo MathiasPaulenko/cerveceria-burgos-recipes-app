@@ -13,6 +13,12 @@ async function main() {
   const generator = new TwaGenerator();
   await generator.createTwaProject(projectPath, twaManifest);
 
+  // Copy keystore into project so signing config finds it
+  if (fs.existsSync('./android.keystore')) {
+    fs.copyFileSync('./android.keystore', path.join(projectPath, 'android.keystore'));
+    console.log('Keystore copied to project');
+  }
+
   console.log('Generating Gradle wrapper...');
   execSync('gradle wrapper', {
     cwd: projectPath,
@@ -35,7 +41,12 @@ async function main() {
 
   const apkDir = path.join(projectPath, 'app', 'build', 'outputs', 'apk', 'release');
   const files = fs.readdirSync(apkDir);
-  const apkFile = files.find(f => f.endsWith('.apk'));
+  console.log('APK files found:', files.join(', '));
+  // Prefer signed APK, avoid unsigned
+  let apkFile = files.find(f => f.endsWith('.apk') && !f.includes('unsigned'));
+  if (!apkFile) {
+    apkFile = files.find(f => f.endsWith('.apk'));
+  }
   if (apkFile) {
     fs.copyFileSync(
       path.join(apkDir, apkFile),
