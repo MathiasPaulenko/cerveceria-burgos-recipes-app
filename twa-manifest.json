@@ -1,8 +1,8 @@
 {
   "packageId": "io.github.mathiaspaulenko.cerveceriarecipes",
   "host": "mathiaspaulenko.github.io",
-  "name": "Cervecería Burgos — Recetas",
-  "launcherName": "Recetas Burgos",
+  "name": "CerveceriaBurgos Recetas",
+  "launcherName": "CerveceriaBurgos",
   "display": "standalone",
   "themeColor": "#99120f",
   "navigationColor": "#99120f",
