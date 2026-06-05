@@ -2,72 +2,94 @@
   {
     "id": "mojito_tradicional",
     "type": "cocktail",
-    "name": "Mojito tradicional",
+    "name": "Mojito Tradicional",
     "description": "Cóctel cubano refrescante con el equilibrio perfecto entre ácido, dulce y aromático. La hierbabuena fresca y la lima se mezclan con ron blanco de calidad.",
     "category": "Mojitos",
     "image": "/images/cocktails/mojito_tradicional.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Menta",
-        "quantity": "8-10 hojas"
+        "name": "ron blanco",
+        "quantity": "5cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "my mixter mojito",
+        "quantity": "3cl"
       },
       {
-        "name": "Ron",
-        "quantity": "6 cl"
+        "name": "Top cacera",
+        "quantity": ""
       },
       {
-        "name": "Gaseosa",
-        "quantity": "Completar"
+        "name": "Un azúcar moreno",
+        "quantity": ""
+      },
+      {
+        "name": "Media lima troceada",
+        "quantity": ""
+      },
+      {
+        "name": "menta",
+        "quantity": "6 hojas"
       }
     ],
     "steps": [
-      "Machacar la menta, el azúcar y la lima en un vaso alto.",
-      "Añadir hielo picado hasta arriba.",
-      "Verter el ron y completar con soda.",
-      "Remover suavemente y decorar con una ramita de menta."
-    ]
+      "En la coctelera introducimos el azúcar moreno, con las hojas de menta y la lima troceadas, lo machacamos con el mortero.",
+      "Añadimos el ron, el mixter mojito y hielo picado, tapamos la coctelera y batimos bien.",
+      "En su vaso correspondiente (miramos la imagen) vertemos el contenido de la coctelera añadimos más hielo picado y llenamos el vaso con cacera.",
+      "Decoramos con lima seca y menta."
+    ],
+    "notes": "si el mojito fuese sin alcohol NO agregamos el ron en la coctelera, el resto del procedimiento es igual."
   },
   {
     "id": "mojito_fresa",
     "type": "cocktail",
-    "name": "Mojito de fresa",
+    "name": "Mojito De Fresa",
     "description": "Variante frutal del clásico mojito cubano. La fresa aporta un toque dulce y un color rojizo irresistible a la combinación de menta, lima y ron.",
     "category": "Mojitos",
     "image": "/images/cocktails/mojito_fresa.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Menta",
-        "quantity": "8-10 hojas"
+        "name": "ron blanco",
+        "quantity": "5cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "my mixter mojito",
+        "quantity": "3cl"
       },
       {
-        "name": "Fresas",
-        "quantity": "3-4 trozos"
+        "name": "pure de fresa",
+        "quantity": "3cl"
       },
       {
-        "name": "Ron",
-        "quantity": "6 cl"
+        "name": "Top cacera",
+        "quantity": ""
       },
       {
-        "name": "Gaseosa",
-        "quantity": "Completar"
+        "name": "Un azúcar moreno",
+        "quantity": ""
+      },
+      {
+        "name": "Media lima troceada",
+        "quantity": ""
+      },
+      {
+        "name": "menta",
+        "quantity": "6 hojas"
+      },
+      {
+        "name": "4 fresas frescas",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Machacar la menta, el azúcar y la lima en un vaso alto.",
-      "Añadir hielo picado hasta arriba.",
-      "Verter el ron y completar con soda.",
-      "Remover suavemente y decorar con una ramita de menta."
-    ]
+      "En la coctelera añadimos las hojas de menta, con dos fresas, el azúcar moreno y la media lima troceada, con el mortero machacamos bien todos los ingredientes.",
+      "Luego añadimos el ron, el mixter, el pure de fresa y el hielo picado, tapamos la coctelera y agitamos bien, servimos el contenido de la coctelera en el vaso correspondiente.",
+      "Añadimos un poco más de hielo picado y la cacera.",
+      "Decoramos con menta fresca, las dos fresas que nos quedaron y la lima seca."
+    ],
+    "notes": "si el mojito fuese sin alcohol NO agregamos el ron en la coctelera, el resto del procedimiento es igual."
   },
   {
     "id": "mojito_maracuya",
@@ -109,113 +131,152 @@
   {
     "id": "mojito_mango",
     "type": "cocktail",
-    "name": "Mojito de mango",
+    "name": "Mojito De Mango",
     "description": "Fusión caribeña que une el sabor dulce del mango con la frescura de la menta y la lima. Una explosión tropical en cada sorbo.",
     "category": "Mojitos",
     "image": "/images/cocktails/mojito_mango.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Menta",
-        "quantity": "8-10 hojas"
+        "name": "ron blanco",
+        "quantity": "5cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "my mixter mojito",
+        "quantity": "3cl"
       },
       {
-        "name": "Mango",
-        "quantity": "3-4 trozos"
+        "name": "pure de mango",
+        "quantity": "3cl"
       },
       {
-        "name": "Ron",
-        "quantity": "6 cl"
+        "name": "Top cacera",
+        "quantity": ""
       },
       {
-        "name": "Gaseosa",
-        "quantity": "Completar"
+        "name": "Un azúcar moreno",
+        "quantity": ""
+      },
+      {
+        "name": "Media lima troceada",
+        "quantity": ""
+      },
+      {
+        "name": "menta",
+        "quantity": "6 hojas"
+      },
+      {
+        "name": "mango fresco",
+        "quantity": "6 trozos"
       }
     ],
     "steps": [
-      "Machacar la menta, el azúcar y la lima en un vaso alto.",
-      "Añadir hielo picado hasta arriba.",
-      "Verter el ron y completar con soda.",
-      "Remover suavemente y decorar con una ramita de menta."
-    ]
+      "En la coctelera añadimos las hojas de menta, el azúcar moreno, tres trozos de mango y la media lima troceada, con el mortero machacamos bien todos los ingredientes.",
+      "Luego añadimos el ron, el mixter, el pure de mango y el hielo picado, tapamos la coctelera y agitamos bien, servimos el contenido de la coctelera en el vaso correspondiente.",
+      "Añadimos un poco más de hielo picado y la cacera.",
+      "Decoramos con menta fresca, el mango restante y la lima seca."
+    ],
+    "notes": "si el mojito fuese sin alcohol NO agregamos el ron en la coctelera, el resto del procedimiento es igual."
   },
   {
     "id": "mojito_guayaba",
     "type": "cocktail",
-    "name": "Mojito de guayaba",
+    "name": "Mojito De Guayaba",
     "description": "Variante exótica con guayaba, una fruta tropical que aporta dulzor y un aroma único al clásico mojito.",
     "category": "Mojitos",
     "image": "/images/cocktails/mojito_guayaba.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Menta",
-        "quantity": "8-10 hojas"
+        "name": "ron blanco",
+        "quantity": "5cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "my mixter mojito",
+        "quantity": "3cl"
       },
       {
-        "name": "Guayaba",
-        "quantity": "1 unidad"
+        "name": "pure de guayaba",
+        "quantity": "3cl"
       },
       {
-        "name": "Ron",
-        "quantity": "6 cl"
+        "name": "Top cacera",
+        "quantity": ""
       },
       {
-        "name": "Gaseosa",
-        "quantity": "Completar"
+        "name": "Un azúcar moreno",
+        "quantity": ""
+      },
+      {
+        "name": "Media lima troceada",
+        "quantity": ""
+      },
+      {
+        "name": "menta",
+        "quantity": "6 hojas"
+      },
+      {
+        "name": "¼ de guayaba fresca",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Machacar la menta, el azúcar y la lima en un vaso alto.",
-      "Añadir hielo picado hasta arriba.",
-      "Verter el ron y completar con soda.",
-      "Remover suavemente y decorar con una ramita de menta."
-    ]
+      "En la coctelera añadimos las hojas de menta, el azúcar moreno y la media lima troceada, con el mortero machacamos bien todos los ingredientes.",
+      "Luego añadimos el ron, el mixter, el pure de guayaba y el hielo picado, tapamos la coctelera y agitamos bien, servimos el contenido de la coctelera en el vaso correspondiente.",
+      "Añadimos un poco más de hielo picado y la cacera.",
+      "Decoramos con menta fresca, la guayaba y la lima seca."
+    ],
+    "notes": "si el mojito fuese sin alcohol NO agregamos el ron en la coctelera, el resto del procedimiento es igual."
   },
   {
     "id": "mojito_mandarina",
     "type": "cocktail",
-    "name": "Mojito de mandarina",
+    "name": "Mojito De Mandarina",
     "description": "Mojito cítrico con mandarina, que añade un dulzor natural y un color naranja vibrante al cóctel cubano.",
     "category": "Mojitos",
     "image": "/images/cocktails/mojito_mandarina.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Menta",
-        "quantity": "8-10 hojas"
+        "name": "ron blanco",
+        "quantity": "5cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "my mixter mojito",
+        "quantity": "3cl"
       },
       {
-        "name": "Mandarina",
-        "quantity": "1/2 unidad"
+        "name": "pure de mandarina",
+        "quantity": "3cl"
       },
       {
-        "name": "Ron",
-        "quantity": "6 cl"
+        "name": "Top cacera",
+        "quantity": ""
       },
       {
-        "name": "Gaseosa",
-        "quantity": "Completar"
+        "name": "Un azúcar moreno",
+        "quantity": ""
+      },
+      {
+        "name": "Media lima troceada",
+        "quantity": ""
+      },
+      {
+        "name": "menta",
+        "quantity": "6 hojas"
+      },
+      {
+        "name": "mandarina",
+        "quantity": "3 gajos"
       }
     ],
     "steps": [
-      "Machacar la menta, el azúcar y la lima en un vaso alto.",
-      "Añadir hielo picado hasta arriba.",
-      "Verter el ron y completar con soda.",
-      "Remover suavemente y decorar con una ramita de menta."
-    ]
+      "En la coctelera añadimos las hojas de menta, el azúcar moreno y la media lima troceada, con el mortero machacamos bien todos los ingredientes.",
+      "Luego añadimos el ron, el mixter, el pure de mandarina y el hielo picado, tapamos la coctelera y agitamos bien, servimos el contenido de la coctelera en el vaso correspondiente.",
+      "Añadimos un poco más de hielo picado y la cacera.",
+      "Decoramos con menta fresca, los gajos de mandarina y la lima seca."
+    ],
+    "notes": "si el mojito fuese sin alcohol NO agregamos el ron en la coctelera, el resto del procedimiento es igual."
   },
   {
     "id": "mojito_arandanos",
@@ -257,150 +318,206 @@
   {
     "id": "mojito_cherry",
     "type": "cocktail",
-    "name": "Mojito de cherry",
+    "name": "Mojito De Cherry",
     "description": "Versión del mojito con cerezas, que le dan un toque dulce y un color rojo profundo y atractivo.",
     "category": "Mojitos",
     "image": "/images/cocktails/mojito_cherry.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Menta",
-        "quantity": "8-10 hojas"
+        "name": "ron blanco",
+        "quantity": "5cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "my mixter mojito",
+        "quantity": "3cl"
       },
       {
-        "name": "Cerezas",
-        "quantity": "3-4 unidades"
+        "name": "pure de Cherry",
+        "quantity": "3cl"
       },
       {
-        "name": "Ron",
-        "quantity": "6 cl"
+        "name": "Top cacera",
+        "quantity": ""
       },
       {
-        "name": "Gaseosa",
-        "quantity": "Completar"
+        "name": "Un azúcar moreno",
+        "quantity": ""
+      },
+      {
+        "name": "Media lima troceada",
+        "quantity": ""
+      },
+      {
+        "name": "menta",
+        "quantity": "6 hojas"
+      },
+      {
+        "name": "8 cerezas frescas",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Machacar la menta, el azúcar y la lima en un vaso alto.",
-      "Añadir hielo picado hasta arriba.",
-      "Verter el ron y completar con soda.",
-      "Remover suavemente y decorar con una ramita de menta."
-    ]
+      "En la coctelera añadimos las hojas de menta, el azúcar moreno, 4 cerezas y la media lima troceada, con el mortero machacamos bien todos los ingredientes.",
+      "Luego añadimos el ron, el mixter, el pure de Cherry y el hielo picado, tapamos la coctelera y agitamos bien, servimos el contenido de la coctelera en el vaso correspondiente.",
+      "Añadimos un poco más de hielo picado y la cacera.",
+      "Decoramos con menta fresca, las cerezas restantes y la lima seca."
+    ],
+    "notes": "si el mojito fuese sin alcohol NO agregamos el ron en la coctelera, el resto del procedimiento es igual."
   },
   {
     "id": "mojito_coco",
     "type": "cocktail",
-    "name": "Mojito de coco",
+    "name": "Mojito De Coco",
     "description": "Mojito tropical con coco que añade cremosidad y un aroma caribeño inconfundible al clásico cubano.",
     "category": "Mojitos",
     "image": "/images/cocktails/mojito_coco.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Menta",
-        "quantity": "8-10 hojas"
+        "name": "ron blanco",
+        "quantity": "5cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "my mixter mojito",
+        "quantity": "3cl"
       },
       {
-        "name": "Coco",
-        "quantity": "30 g"
+        "name": "pure de coco",
+        "quantity": "3cl"
       },
       {
-        "name": "Ron",
-        "quantity": "6 cl"
+        "name": "Top cacera",
+        "quantity": ""
       },
       {
-        "name": "Gaseosa",
-        "quantity": "Completar"
+        "name": "Un azúcar moreno",
+        "quantity": ""
+      },
+      {
+        "name": "Media lima troceada",
+        "quantity": ""
+      },
+      {
+        "name": "menta",
+        "quantity": "6 hojas"
+      },
+      {
+        "name": "Coco rallado",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Machacar la menta, el azúcar y la lima en un vaso alto.",
-      "Añadir hielo picado hasta arriba.",
-      "Verter el ron y completar con soda.",
-      "Remover suavemente y decorar con una ramita de menta."
-    ]
+      "En la coctelera añadimos las hojas de menta, el azúcar moreno y la media lima troceada, con el mortero machacamos bien todos los ingredientes.",
+      "Luego añadimos el ron, el mixter, el pure de coco y el hielo picado, tapamos la coctelera y agitamos bien, servimos el contenido de la coctelera en el vaso correspondiente.",
+      "Añadimos un poco más de hielo picado y la cacera.",
+      "Decoramos con menta fresca, el coco rallado y la lima seca."
+    ],
+    "notes": "si el mojito fuese sin alcohol NO agregamos el ron en la coctelera, el resto del procedimiento es igual."
   },
   {
     "id": "mojito_pina",
     "type": "cocktail",
-    "name": "Mojito de piña",
+    "name": "Mojito De Piña",
     "description": "Combinación de piña y menta que evoca las playas del Caribe. Dulce, fresco y perfectamente equilibrado.",
     "category": "Mojitos",
     "image": "/images/cocktails/mojito_pina.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Menta",
-        "quantity": "8-10 hojas"
+        "name": "ron blanco",
+        "quantity": "5cl"
       },
       {
-        "name": "Ron",
-        "quantity": "6 cl"
+        "name": "my mixter mojito",
+        "quantity": "3cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "pure de piña",
+        "quantity": "3cl"
       },
       {
-        "name": "Puré de piña",
-        "quantity": "3 cl"
+        "name": "Top cacera",
+        "quantity": ""
       },
       {
-        "name": "Soda",
-        "quantity": "Completar"
+        "name": "Un azúcar moreno",
+        "quantity": ""
+      },
+      {
+        "name": "Media lima troceada",
+        "quantity": ""
+      },
+      {
+        "name": "menta",
+        "quantity": "6 hojas"
+      },
+      {
+        "name": "piña",
+        "quantity": "2 hojas"
+      },
+      {
+        "name": "rodaja de piña",
+        "quantity": "Un cuarto"
       }
     ],
     "steps": [
-      "Machacar la menta, el azúcar y la lima en un vaso alto.",
-      "Añadir hielo picado hasta arriba.",
-      "Verter el ron y completar con soda.",
-      "Remover suavemente y decorar con una ramita de menta."
-    ]
+      "En la coctelera añadimos las hojas de menta, el azúcar moreno y la media lima troceada, con el mortero machacamos bien todos los ingredientes.",
+      "Luego añadimos el ron, el mixter, el pure de piña y el hielo picado, tapamos la coctelera y agitamos bien, servimos el contenido de la coctelera en el vaso correspondiente.",
+      "Añadimos un poco más de hielo picado y la cacera.",
+      "Decoramos con menta fresca, la hoja de la piña, el cuarto de rodaja de la piña y la lima seca."
+    ],
+    "notes": "si el mojito fuese sin alcohol NO agregamos el ron en la coctelera, el resto del procedimiento es igual."
   },
   {
     "id": "mojito_frutos_bosque",
     "type": "cocktail",
-    "name": "Mojito de frutos del bosque",
+    "name": "Mojito De Frutos Del Bosque",
     "description": "Mojito con mezcla de frutos del bosque que aportan acidez, color y un perfil de sabor complejo.",
     "category": "Mojitos",
     "image": "/images/cocktails/mojito_frutos_bosque.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Menta",
-        "quantity": "8-10 hojas"
+        "name": "ron blanco",
+        "quantity": "5cl"
       },
       {
-        "name": "Ron",
-        "quantity": "6 cl"
+        "name": "my mixter mojito",
+        "quantity": "3cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "pure de frutos del bosque",
+        "quantity": "3cl"
       },
       {
-        "name": "Puré de frutos del bosque",
-        "quantity": "3 cl"
+        "name": "Top cacera",
+        "quantity": ""
       },
       {
-        "name": "Soda",
-        "quantity": "Completar"
+        "name": "Un azúcar moreno",
+        "quantity": ""
+      },
+      {
+        "name": "Media lima troceada",
+        "quantity": ""
+      },
+      {
+        "name": "menta",
+        "quantity": "6 hojas"
+      },
+      {
+        "name": "mix frutos del bosque",
+        "quantity": "Un puñado"
       }
     ],
     "steps": [
-      "Machacar la menta, el azúcar y la lima en un vaso alto.",
-      "Añadir hielo picado hasta arriba.",
-      "Verter el ron y completar con soda.",
-      "Remover suavemente y decorar con una ramita de menta."
-    ]
+      "En la coctelera añadimos las hojas de menta, el azúcar moreno, la mitad del mix de frutos del bosque y la media lima troceada, con el mortero machacamos bien todos los ingredientes.",
+      "Luego añadimos el ron, el mixter, el pure de frutos del bosque y el hielo picado, tapamos la coctelera y agitamos bien, servimos el contenido de la coctelera en el vaso correspondiente.",
+      "Añadimos un poco más de hielo picado y la cacera.",
+      "Decoramos con menta fresca, el resto del mix de frutos del bosque y la lima seca."
+    ],
+    "notes": "si el mojito fuese sin alcohol NO agregamos el ron en la coctelera, el resto del procedimiento es igual."
   },
   {
     "id": "mojito_melocoton",
@@ -446,95 +563,165 @@
   {
     "id": "mojito_jagermeister",
     "type": "cocktail",
-    "name": "Mojito de Jagermeister",
+    "name": "Mojito De Jagermeister",
     "description": "Mojito atrevido con Jägermeister que aporta un perfil herbal y especiado único a la base de menta y lima.",
     "category": "Mojitos",
     "image": "/images/cocktails/mojito_jagermeister.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Menta fresca",
-        "quantity": "8-10 hojas"
+        "name": "Jagermeister",
+        "quantity": "5cl"
       },
       {
-        "name": "Limas",
-        "quantity": "1/2 unidad"
+        "name": "my mixter mojito",
+        "quantity": "3cl"
       },
       {
-        "name": "Azúcar moreno",
-        "quantity": "2 cda"
+        "name": "Top cacera",
+        "quantity": ""
       },
       {
-        "name": "Jagermeister y casera",
-        "quantity": "3 cl"
+        "name": "Un azúcar moreno",
+        "quantity": ""
+      },
+      {
+        "name": "Media lima troceada",
+        "quantity": ""
+      },
+      {
+        "name": "menta",
+        "quantity": "6 hojas"
       }
     ],
     "steps": [
-      "Machacar la menta, el azúcar y la lima en un vaso alto.",
-      "Añadir hielo picado hasta arriba.",
-      "Verter el ron y completar con soda.",
-      "Remover suavemente y decorar con una ramita de menta."
+      "En la coctelera añadimos las hojas de menta, el azúcar moreno y la media lima troceada, con el mortero machacamos bien todos los ingredientes.",
+      "Luego añadimos el jagermeister, el mixter y el hielo picado, tapamos la coctelera y agitamos bien, servimos el contenido de la coctelera en el vaso correspondiente.",
+      "Añadimos un poco más de hielo picado y la cacera. decoramos con menta fresca y la lima seca."
     ]
   },
   {
     "id": "daiquiri_fresa",
     "type": "cocktail",
-    "name": "Daiquiri de fresa",
+    "name": "Daiquiri De Fresa",
     "description": "Cóctel granizado de origen cubano. El ron blanco se mezcla con fresas frescas y zumo de lima para un resultado refrescante y frutal.",
     "category": "Daiquiri",
     "image": "/images/cocktails/daiquiri_fresa.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Cóctel de Daiquiri",
-        "quantity": "Al gusto"
+        "name": "Ron blanco",
+        "quantity": "5cl"
+      },
+      {
+        "name": "zumo de lima",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "sirope de caña",
+        "quantity": "2cl"
+      },
+      {
+        "name": "pure de fresa",
+        "quantity": "3cl"
+      },
+      {
+        "name": "10 fresas congeladas",
+        "quantity": ""
+      },
+      {
+        "name": "Menta fresa para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una batidora con hielo picado.",
-      "Batir hasta obtener una textura suave y cremosa.",
-      "Servir en una copa de cóctel fría."
-    ]
+      "En la licuadora añadimos todos los ingredientes con una pala de hielo picado.",
+      "Licuamos bien hasta conseguir la consistencia de un sorbete.",
+      "Vaciamos el contenido de la licuadora en la copa correspondiente y decoramos con menta fresca y 2 fresas."
+    ],
+    "notes": "si fuera un daiquiri sin alcohol no agregamos el ron en la licuadora."
   },
   {
     "id": "daiquiri_mango",
     "type": "cocktail",
-    "name": "Daiquiri de mango",
+    "name": "Daiquiri De Mango",
     "description": "Daiquiri tropical con mango maduro. Textura cremosa y sabor dulce que transporta al Caribe en cada sorbo.",
     "category": "Daiquiri",
     "image": "/images/cocktails/daiquiri_mango.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Cóctel de Daiquiri",
-        "quantity": "Al gusto"
+        "name": "Ron blanco",
+        "quantity": "5cl"
+      },
+      {
+        "name": "zumo de lima",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "sirope de caña",
+        "quantity": "2cl"
+      },
+      {
+        "name": "pure de mango",
+        "quantity": "3cl"
+      },
+      {
+        "name": "mango congelado",
+        "quantity": "10 trozos"
+      },
+      {
+        "name": "Menta fresa para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una batidora con hielo picado.",
-      "Batir hasta obtener una textura suave y cremosa.",
-      "Servir en una copa de cóctel fría."
-    ]
+      "En la licuadora añadimos todos los ingredientes con una pala de hielo picado.",
+      "Licuamos bien hasta conseguir la consistencia de un sorbete.",
+      "Vaciamos el contenido de la licuadora en la copa correspondiente y decoramos con menta fresca y 3 trozos de mango."
+    ],
+    "notes": "si el daiquiri fuera sin alcohol no agregamos el ron en la licuadora. El resto es igual."
   },
   {
     "id": "daiquiri_frutos_bosque",
     "type": "cocktail",
-    "name": "Daiquiri de frutos del bosque",
+    "name": "Daiquiri De Frutos Del Bosque",
     "description": "Daiquiri con mezcla de frutos del bosque que aportan un color púrpura intenso y un equilibrio agridulce.",
     "category": "Daiquiri",
     "image": "/images/cocktails/daiquiri_frutos_bosque.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Cóctel de Daiquiri",
-        "quantity": "Al gusto"
+        "name": "Ron blanco",
+        "quantity": "5cl"
+      },
+      {
+        "name": "zumo de lima",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "sirope de caña",
+        "quantity": "2cl"
+      },
+      {
+        "name": "pure de frutos del bosque",
+        "quantity": "3cl"
+      },
+      {
+        "name": "frutos del bosque",
+        "quantity": "Un puñado del mix"
+      },
+      {
+        "name": "Menta fresa para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una batidora con hielo picado.",
-      "Batir hasta obtener una textura suave y cremosa.",
-      "Servir en una copa de cóctel fría."
-    ]
+      "En la licuadora añadimos todos los ingredientes con una pala de hielo picado.",
+      "Licuamos bien hasta conseguir la consistencia de un sorbete.",
+      "Vaciamos el contenido de la licuadora en la copa correspondiente y decoramos con menta fresca y una fruta de cada del mix de frutos del bosque."
+    ],
+    "notes": "si el daiquiri fuera sin alcohol no agregamos el ron en la licuadora. El resto es igual."
   },
   {
     "id": "daiquiri_maracuya",
@@ -559,22 +746,43 @@
   {
     "id": "daiquiri_guayaba",
     "type": "cocktail",
-    "name": "Daiquiri de guayaba",
+    "name": "Daiquiri De Guayaba",
     "description": "Daiquiri exótico con guayaba tropical. Dulce, aromático y con un sabor único del Caribe.",
     "category": "Daiquiri",
     "image": "/images/cocktails/daiquiri_guayaba.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Cóctel de Daiquiri",
-        "quantity": "Al gusto"
+        "name": "Ron blanco",
+        "quantity": "5cl"
+      },
+      {
+        "name": "zumo de lima",
+        "quantity": "3 cl"
+      },
+      {
+        "name": "sirope de caña",
+        "quantity": "2cl"
+      },
+      {
+        "name": "pure de guayaba",
+        "quantity": "3cl"
+      },
+      {
+        "name": "¼ de guayaba fresca",
+        "quantity": ""
+      },
+      {
+        "name": "Menta fresa para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una batidora con hielo picado.",
-      "Batir hasta obtener una textura suave y cremosa.",
-      "Servir en una copa de cóctel fría."
-    ]
+      "En la licuadora añadimos todos los ingredientes con una pala de hielo picado.",
+      "Licuamos bien hasta conseguir la consistencia de un sorbete.",
+      "Vaciamos el contenido de la licuadora en la copa correspondiente y decoramos con menta fresca y la guayaba."
+    ],
+    "notes": "si el daiquiri es sin alcohol no agregamos el ron en la licuadora. El resto es igual."
   },
   {
     "id": "margarita_tradicional",
@@ -612,38 +820,56 @@
   {
     "id": "margarita_fresa",
     "type": "cocktail",
-    "name": "Margarita de fresa",
+    "name": "Margarita De Fresa",
     "description": "Margarita frutal con fresas frescas. El dulzor de la fruta equilibra perfectamente la acidez de la lima.",
     "category": "Margaritas",
     "image": "/images/cocktails/margarita_fresa.webp",
     "price": 8.5,
     "ingredients": [
       {
-        "name": "Tequila",
-        "quantity": "5 cl"
+        "name": "Gran Mextreño Tequila",
+        "quantity": "5cl"
       },
       {
-        "name": "Triple seco",
-        "quantity": "2,5 cl"
+        "name": "triple seco",
+        "quantity": "2cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "zumo de lima",
+        "quantity": "3cl"
       },
       {
-        "name": "Fresas",
-        "quantity": "3-4 trozos"
+        "name": "sirope de caña",
+        "quantity": "2cl"
       },
       {
-        "name": "Sirope de caña",
-        "quantity": "1,5 cl"
+        "name": "pure de fresa",
+        "quantity": "3cl"
+      },
+      {
+        "name": "Azúcar morena para bordear",
+        "quantity": ""
+      },
+      {
+        "name": "Sirope de caña para bordear",
+        "quantity": ""
+      },
+      {
+        "name": "Menta para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Dos fresas para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Escarchar el borde del vaso con lima y sal.",
-      "Añadir todos los ingredientes en una coctelera con hielo.",
-      "Agitar enérgicamente durante 15 segundos.",
-      "Colar en el vaso escarchado."
+      "Primero tenemos que bordear la copa de margarita con el sirope de caña y luego el azúcar moreno.",
+      "Y reservamos la copa.",
+      "En la coctelera añadimos el tequila, el triple seco, el zumo de lima, el sirope de caña y el pure de fresa, con hielo picado.",
+      "Tapamos la coctelera y lo mezclamos bien.",
+      "Volvamos el contenido de la coctelera en la copa de margarita que habíamos reservado.",
+      "Decoramos con menta y dos fresas frescas"
     ]
   },
   {
@@ -686,116 +912,162 @@
   {
     "id": "margarita_mango_vainilla",
     "type": "cocktail",
-    "name": "Margarita de mango y vainilla",
+    "name": "Margarita De Mango Y Vainilla",
     "description": "Margarita cremosa con mango y un toque de vainilla. Dulce, exótica y sorprendentemente equilibrada.",
     "category": "Margaritas",
     "image": "/images/cocktails/margarita_mango_vainilla.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Tequila",
-        "quantity": "5 cl"
+        "name": "Gran Mextreño tequila",
+        "quantity": "5cl"
       },
       {
-        "name": "Triple seco",
-        "quantity": "2,5 cl"
+        "name": "triple seco",
+        "quantity": "2cl"
       },
       {
-        "name": "Sirope de mango",
-        "quantity": "1,5 cl"
+        "name": "vainilla",
+        "quantity": "2de sirope"
       },
       {
-        "name": "Zumo de lima",
-        "quantity": "3 cl"
+        "name": "zumo de lima",
+        "quantity": "1cl"
       },
       {
-        "name": "Puré de mango",
-        "quantity": "3 cl"
+        "name": "pure de mango",
+        "quantity": "3cl"
       },
       {
-        "name": "Sirope de vainilla",
-        "quantity": "1,5 cl"
+        "name": "sirope de vainilla de Madagascar",
+        "quantity": "1cl"
+      },
+      {
+        "name": "Azúcar moreno para bordear",
+        "quantity": ""
+      },
+      {
+        "name": "Sirope de mango para bordear",
+        "quantity": ""
+      },
+      {
+        "name": "Menta fresca para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "mango para decorar",
+        "quantity": "4 trozos"
       }
     ],
     "steps": [
-      "Escarchar el borde del vaso con lima y sal.",
-      "Añadir todos los ingredientes en una coctelera con hielo.",
-      "Agitar enérgicamente durante 15 segundos.",
-      "Colar en el vaso escarchado."
+      "Primero tenemos que bordear la copa de margarita con el sirope de mango y luego con el azúcar moreno, y lo reservamos.",
+      "En la coctelera añadimos el tequila, el triple seco, el sirope de mango, el zumo de lima, el sirope de vainilla y el pure de mango, con hielo picado.",
+      "Tapamos y mezclamos bien.",
+      "Destapamos con cuidado la coctelera y vertemos el contenido en la copa que habíamos reservado.",
+      "Decoramos con la menta fresca y el mango (como en la imagen)."
     ]
   },
   {
     "id": "margarita_mango_picante",
     "type": "cocktail",
-    "name": "Margarita de mango picante",
+    "name": "Margarita De Mango Picante",
     "description": "Margarita con un toque picante que contrasta con el dulzor del mango. Atrevida y memorable.",
     "category": "Margaritas",
     "image": "/images/cocktails/margarita_mango_picante.webp",
     "price": 9.5,
     "ingredients": [
       {
-        "name": "Tequila",
-        "quantity": "5 cl"
+        "name": "sirope de mango picante",
+        "quantity": "2cl"
       },
       {
-        "name": "Sirope de mango picante",
-        "quantity": "1,5 cl"
+        "name": "tequila",
+        "quantity": "5cl"
       },
       {
-        "name": "Puré de mango",
-        "quantity": "3 cl"
+        "name": "pure de guayaba",
+        "quantity": "4cl"
       },
       {
-        "name": "Puré de guayaba",
-        "quantity": "3 cl"
+        "name": "pure de mango",
+        "quantity": "4cl"
       },
       {
-        "name": "Trajín",
-        "quantity": "1 pizca"
+        "name": "bitter de melocotón",
+        "quantity": "3 gotas"
+      },
+      {
+        "name": "mango para decorar",
+        "quantity": "4 trozos"
+      },
+      {
+        "name": "Tajín para bordear",
+        "quantity": ""
+      },
+      {
+        "name": "Menta para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Escarchar el borde del vaso con lima y sal.",
-      "Añadir todos los ingredientes en una coctelera con hielo.",
-      "Agitar enérgicamente durante 15 segundos.",
-      "Colar en el vaso escarchado."
+      "Primero tenemos que bordear la copa con el sirope de mango picante y luego con el tajín, y reservamos la copa.",
+      "En la coctelera añadimos el sirope de mango picante, el tequila, el pure de guayaba, el pure de mango y las gotas de bitter de melocotón, con hielo picado, tapamos y agitamos bien.",
+      "Vertemos el contenido de la coctelera en la copa que habíamos reservado.",
+      "Decoramos con la menta y con el mango (que previamente lo pasamos por el tajín)."
     ]
   },
   {
     "id": "margarita_guayaba",
     "type": "cocktail",
-    "name": "Margarita de guayaba",
+    "name": "Margarita De Guayaba",
     "description": "Margarita con guayaba que aporta un sabor tropical dulce y un aroma inconfundible al clásico mexicano.",
     "category": "Margaritas",
     "image": "/images/cocktails/margarita_guayaba.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Tequila",
-        "quantity": "5 cl"
+        "name": "Gran Mextreño tequila",
+        "quantity": "5cl"
       },
       {
-        "name": "Triple seco",
-        "quantity": "2,5 cl"
+        "name": "triple seco",
+        "quantity": "2cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "sirope de caña",
+        "quantity": "2cl"
       },
       {
-        "name": "Sirope de caña",
-        "quantity": "1,5 cl"
+        "name": "zumo de lima",
+        "quantity": "3cl"
       },
       {
-        "name": "Puré de guayaba",
-        "quantity": "3 cl"
+        "name": "pure de guayaba",
+        "quantity": "3cl"
+      },
+      {
+        "name": "Azúcar moreno para bordear",
+        "quantity": ""
+      },
+      {
+        "name": "Sirope de caña para bordear",
+        "quantity": ""
+      },
+      {
+        "name": "Menta fresca para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "¼ de guayaba para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Escarchar el borde del vaso con lima y sal.",
-      "Añadir todos los ingredientes en una coctelera con hielo.",
-      "Agitar enérgicamente durante 15 segundos.",
-      "Colar en el vaso escarchado."
+      "Primero tenemos que bordear la copa de margarita con el sirope de caña y luego con el azúcar moreno, y lo reservamos.",
+      "En la coctelera añadimos el tequila, el triple seco, el sirope de caña, el zumo de lima y el pure de guayaba, con hielo picado.",
+      "Tapamos y mezclamos bien.",
+      "Destapamos con cuidado la coctelera y vertemos el contenido en la copa que habíamos reservado.",
+      "Decoramos con la menta fresca y la guayaba."
     ]
   },
   {
@@ -838,29 +1110,40 @@
   {
     "id": "caipirina",
     "type": "cocktail",
-    "name": "Caipiriña",
+    "name": "Caipiriña Jaburicaba",
     "description": "Cóctel nacional de Brasil. La cachaça se mezcla con lima y azúcar moreno en una combinación simple pero perfecta.",
     "category": "Caipiriña",
     "image": "/images/cocktails/caipirina.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Azúcar moreno",
-        "quantity": "2 cda"
+        "name": "cachaca",
+        "quantity": "6cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "pure de jabuticaba",
+        "quantity": "3cl"
       },
       {
-        "name": "Cachaca",
-        "quantity": "6 cl"
+        "name": "½ lima fresca para machacar",
+        "quantity": ""
+      },
+      {
+        "name": "Azúcar moreno (1 sobre)",
+        "quantity": ""
+      },
+      {
+        "name": "Menta fresca para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Lima deshidratada para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Machacar el azúcar y la lima en un vaso bajo.",
-      "Añadir hielo picado hasta arriba.",
-      "Verter la cachaça y remover suavemente."
+      "En la coctelera añadimos la media lima y el azúcar moreno y con ayuda del mortero lo machacamos bien, añadimos la cachaca, el pure de jabuticaba y el hielo picado, tapamos la coctelera y agitamos bien.",
+      "Vertemos el contenido de la coctelera en el vaso correspondiente y decoramos con la menta fresca y la lima deshidratada."
     ]
   },
   {
@@ -966,22 +1249,29 @@
     "ingredients": [
       {
         "name": "Aperol",
-        "quantity": "6 cl"
+        "quantity": "6cl"
       },
       {
-        "name": "Prosecco",
-        "quantity": "9 cl"
+        "name": "espumoso",
+        "quantity": "7cl"
       },
       {
-        "name": "Soda",
-        "quantity": "Completar"
+        "name": "Soda top",
+        "quantity": ""
+      },
+      {
+        "name": "Naranja deshidratada para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Cereza para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Llenar una copa de vino grande con hielo.",
-      "Verter el licor base y añadir prosecco.",
-      "Completar con soda y remover suavemente.",
-      "Decorar con una rodaja de naranja o fruta correspondiente."
+      "La elaboración se hace en la copa.",
+      "En la copa correspondiente añadimos de cuatro a tres piedras de hielo, una rodaja de naranja y añadimos el aperol con el espumoso, removemos con una varilla y añadimos la soda hasta completar la copa.",
+      "Decoramos con una naranja deshidratada y una cereza."
     ]
   },
   {
@@ -994,31 +1284,34 @@
     "price": 8.5,
     "ingredients": [
       {
-        "name": "Ginebra rosa",
-        "quantity": "5 cl"
+        "name": "empress 1908 Rose",
+        "quantity": "3cl"
       },
       {
-        "name": "Prosecco",
-        "quantity": "9 cl"
+        "name": "proceso",
+        "quantity": "6cl"
       },
       {
-        "name": "Limoncello",
-        "quantity": "2 cl"
+        "name": "limonccelo",
+        "quantity": "3cl"
       },
       {
-        "name": "Puré de fresas",
-        "quantity": "3 cl"
+        "name": "pure de fresa",
+        "quantity": "2cl"
       },
       {
-        "name": "Soda",
-        "quantity": "Completar"
+        "name": "Top soda",
+        "quantity": ""
+      },
+      {
+        "name": "3 fresas para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Llenar una copa de vino grande con hielo.",
-      "Verter el licor base y añadir prosecco.",
-      "Completar con soda y remover suavemente.",
-      "Decorar con una rodaja de naranja o fruta correspondiente."
+      "La elaboración es en copa.",
+      "En la copa correspondiente ponemos de tres a cuatro piedras de hielo, añadimos el empress 1908 rose, el proceso, el limonccelo, el pure de fresa y con una cuchara larga removemos bien rodos los ingredientes, rellenamos el resto de la copa con la soda.",
+      "Decoramos con las tres fresas"
     ]
   },
   {
@@ -1031,27 +1324,35 @@
     "price": 8.5,
     "ingredients": [
       {
-        "name": "St. Germain",
-        "quantity": "2 cl"
+        "name": "Sr. Germain",
+        "quantity": "6cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "proseco",
+        "quantity": "9cl"
       },
       {
-        "name": "Prosecco",
-        "quantity": "9 cl"
+        "name": "zumo de lima",
+        "quantity": "1cl"
       },
       {
-        "name": "Soda",
-        "quantity": "Completar"
+        "name": "Top soda",
+        "quantity": ""
+      },
+      {
+        "name": "Lima deshidratada para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Pepino para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Llenar una copa de vino grande con hielo.",
-      "Verter el licor base y añadir prosecco.",
-      "Completar con soda y remover suavemente.",
-      "Decorar con una rodaja de naranja o fruta correspondiente."
+      "La elaboración es en copa.",
+      "En la copa correspondiente ponemos de tres a cuatro piedras de hielo, añadimos el Sr.",
+      "Germain, el proceso y el zumo de lima, con una cuchara larga removemos bien y llenamos la copa con la soda.",
+      "Decoramos con la lima deshidratada y el pepino congelado."
     ]
   },
   {
@@ -1064,23 +1365,25 @@
     "price": 8.5,
     "ingredients": [
       {
-        "name": "Limoncello",
-        "quantity": "2 cl"
+        "name": "limoncello",
+        "quantity": "6cl"
       },
       {
-        "name": "Prosecco",
-        "quantity": "9 cl"
+        "name": "proceso",
+        "quantity": "9cl"
       },
       {
-        "name": "Soda",
-        "quantity": "Completar"
+        "name": "Top soda",
+        "quantity": ""
+      },
+      {
+        "name": "Lima deshidratada para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Llenar una copa de vino grande con hielo.",
-      "Verter el licor base y añadir prosecco.",
-      "Completar con soda y remover suavemente.",
-      "Decorar con una rodaja de naranja o fruta correspondiente."
+      "La elaboración es en copa En la copa correspondiente ponemos de tres a cuatro piedras de hielo, añadimos el limoncello y el proceso, removemos bien con una cuchara larga.",
+      "Rellenamos la copa con la soda y decoramos con la lima deshidratada."
     ]
   },
   {
@@ -1119,37 +1422,53 @@
   {
     "id": "pina_colada",
     "type": "cocktail",
-    "name": "Piña colada",
+    "name": "Piña Colada",
     "description": "Cóctel tropical emblemático de Puerto Rico. Ron, leche de coco y zumo de piña se mezclan en una textura cremosa que evoca el Caribe.",
     "category": "Especiales",
     "image": "/images/cocktails/pina_colada.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Amareto",
-        "quantity": "1,5 cl"
+        "name": "amaretto",
+        "quantity": "4cl"
       },
       {
-        "name": "Limoncello",
-        "quantity": "2 cl"
+        "name": "limoncello",
+        "quantity": "2cl"
       },
       {
-        "name": "Puré de coco",
-        "quantity": "3 cl"
+        "name": "pure de coco",
+        "quantity": "3cl"
       },
       {
-        "name": "Puré de piña",
-        "quantity": "3 cl"
+        "name": "pure de piña",
+        "quantity": "2cl"
       },
       {
-        "name": "Zumo de piña",
-        "quantity": "12 cl"
+        "name": "Zumo de piña top",
+        "quantity": ""
+      },
+      {
+        "name": "¼ de rodaja de piña para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "piña para decorar",
+        "quantity": "Hojas"
+      },
+      {
+        "name": "Coco rallado para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Piña seca para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una batidora con hielo picado.",
-      "Batir hasta obtener una textura cremosa.",
-      "Servir en una copa grande decorada con una rodaja de piña."
+      "En la coctelera añadimos el amaretto, el limoncello, el pure de coco y el pure de piña, agregamos hielo picado tapamos la coctelera y agitamos bien.",
+      "Destapamos con cuidado la coctelera y vertemos su contenido en el vaso correspondiente, añadimos un poco más de hielo picado y llenamos el vaso con el zumo de piña.",
+      "Decoramos con la piña fresca y deshidratada, las hojas de piña y el coco rallado. (observar la imagen) Si el coctel fuese sin alcohol no añadimos el amaretto y el limoncello, lo demás es igual."
     ]
   },
   {
@@ -1162,27 +1481,41 @@
     "price": 9,
     "ingredients": [
       {
-        "name": "Ginebra",
-        "quantity": "5 cl"
+        "name": "seven gin",
+        "quantity": "5cl"
       },
       {
-        "name": "Puré de maracuyá",
-        "quantity": "3 cl"
+        "name": "pure de maracuyá",
+        "quantity": "3cl"
       },
       {
-        "name": "Sirope de mango",
-        "quantity": "1,5 cl"
+        "name": "zumo de lima",
+        "quantity": "2cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "sirope de mango",
+        "quantity": "3cl"
+      },
+      {
+        "name": "½ maracuyá para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Naranja fresca para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Cereza para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
-      "Agitar o batir enérgicamente hasta mezclar bien.",
-      "Colar en el vaso correspondiente con hielo si es necesario.",
-      "Decorar según el cóctel."
+      "En la coctelera añadimos la ginebra, el pure de maracuyá, el zumo de lima y el sirope de mango.",
+      "Agregamos hielo picado, tapamos y agitamos bien.",
+      "Destapamos la coctelera con cuidado y vertemos su contenido en el vaso correspondiente.",
+      "Si fuese necesario agregamos un poco más de hielo.",
+      "Decoramos con la naranja fresca, la cereza y el maracuyá.",
+      "Si el coctel fuese sin alcohol no agregamos la ginebra en la coctelera, lo demás es igual."
     ]
   },
   {
@@ -1195,27 +1528,32 @@
     "price": 9,
     "ingredients": [
       {
-        "name": "Vodka",
-        "quantity": "5 cl"
+        "name": "Amundsen vodka",
+        "quantity": "5cl"
       },
       {
-        "name": "Blue curaçao",
-        "quantity": "2 cl"
+        "name": "sirope de blue curasao",
+        "quantity": "3cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "zumo de lima",
+        "quantity": "3cl"
       },
       {
-        "name": "Sprite",
-        "quantity": "Completar"
+        "name": "Top Sprite",
+        "quantity": ""
+      },
+      {
+        "name": "Naranja deshidratada",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
-      "Agitar o batir enérgicamente hasta mezclar bien.",
-      "Colar en el vaso correspondiente con hielo si es necesario.",
-      "Decorar según el cóctel."
+      "En la coctelera añadimos el vodka, el sirope de blue curasao y el zumo de lima con hielo picado, tapamos y agitamos bien.",
+      "Destapamos con cuidado la coctelera y vertemos su contenido en el vaso correspondiente.",
+      "Llenamos el vaso con el Sprite.",
+      "Decoramos con la naranja deshidratada.",
+      "Si el coctel fuese sin alcohol no agregamos el vodka en la coctelera, lo demás es igual."
     ]
   },
   {
@@ -1228,36 +1566,45 @@
     "price": 9,
     "ingredients": [
       {
-        "name": "Tequila",
-        "quantity": "5 cl"
+        "name": "tequila",
+        "quantity": "5cl"
       },
       {
-        "name": "Zumo de naranja",
-        "quantity": "8 cl"
+        "name": "zumo de naranja",
+        "quantity": "4cl"
       },
       {
-        "name": "Zumo de melocotón",
-        "quantity": "6 cl"
+        "name": "zumo de melocotón",
+        "quantity": "3cl"
       },
       {
-        "name": "Zumo de piña",
-        "quantity": "12 cl"
+        "name": "zumo de lima",
+        "quantity": "3cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "zumo de piña",
+        "quantity": "4cl"
       },
       {
-        "name": "Granadina",
-        "quantity": "1,5 cl"
+        "name": "granadina",
+        "quantity": "2cl"
+      },
+      {
+        "name": "Menta fresca para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Naranja deshidratada para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
-      "Agitar o batir enérgicamente hasta mezclar bien.",
-      "Colar en el vaso correspondiente con hielo si es necesario.",
-      "Decorar según el cóctel."
-    ]
+      "En la coctelera añadimos el tequila con el zumo de naranja, el de melocotón, el de lima, el de piña y lo removemos con la cuchara larga y lo reservamos.",
+      "En la copa donde presentaremos nuestro coctel añadimos la granadina y luego llenamos de hielo picado.",
+      "Con cuidado y con la ayuda de la cuchara larga añadimos muy despacio el contenido de la coctelera que habíamos reservado para intentar que no se mezcle del todo su contenido con la granadina.",
+      "Decoramos con la menta fresca y la naranja deshidratada."
+    ],
+    "notes": "SI EL COCTEL FUESE SIN ALCOHOL NO AGREGAMOS EL TEQUILA EN LA COCTELERA, EL RESTO ES IGUAL …."
   },
   {
     "id": "bloody_mary",
@@ -1269,40 +1616,41 @@
     "price": 8.7,
     "ingredients": [
       {
-        "name": "Vodka",
-        "quantity": "5 cl"
+        "name": "Amundsen Vodka",
+        "quantity": "5cl"
       },
       {
-        "name": "Zumo de tomate",
-        "quantity": "12 cl"
+        "name": "zumo de tomate",
+        "quantity": "20cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "zumo de lima",
+        "quantity": "2cl"
       },
       {
-        "name": "Sal",
-        "quantity": "1 pizca"
+        "name": "salsa perrins",
+        "quantity": "3 gotas"
       },
       {
-        "name": "Pimienta",
-        "quantity": "1 pizca"
+        "name": "Sal, pimienta, tabasco",
+        "quantity": ""
       },
       {
-        "name": "Tabasco",
-        "quantity": "2-3 gotas"
+        "name": "Apio para decorar",
+        "quantity": ""
       },
       {
-        "name": "Salsa perrins",
-        "quantity": "1 pizca"
+        "name": "Lima deshidratada para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Llenar un vaso alto con hielo.",
-      "Añadir vodka, zumo de tomate, lima y condimentos.",
-      "Remover bien y ajustar especias al gusto.",
-      "Decorar con un tallo de apio."
-    ]
+      "Añadimos en la coctelera el vodka, el zumo de tomate, el zumo de lima, la salsa perrins, sal, pimienta y tabasco con el hielo picado, tapamos y agitamos bien.",
+      "Destapamos con cuidado la coctelera y vertemos su contenido en el vaso correspondiente.",
+      "Decoramos con la lima deshidratada y el apio.",
+      "Si fuese necesario se agrega más hielo."
+    ],
+    "notes": "SI EL COCTEL FUESE SIN ALCOHOL NO AGREGAMOS EL VODKA EN LA COCTELERA, EL RESTO ES IGUAL …."
   },
   {
     "id": "no_jito",
@@ -1344,34 +1692,47 @@
   {
     "id": "sex_on_the_beach",
     "type": "cocktail",
-    "name": "Sex on the Beach",
+    "name": "Sex On The Beach",
     "description": "Cóctel frutal con vodka, licor de melocotón y zumos. Dulce, color naranja intenso y perfecto para la playa.",
     "category": "Especiales",
     "image": "/images/cocktails/sex_on_the_beach.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Vodka",
-        "quantity": "5 cl"
+        "name": "vodka",
+        "quantity": "5cl"
       },
       {
-        "name": "Licor de melocotón",
-        "quantity": "2 cl"
+        "name": "licor de melocotón",
+        "quantity": "2cl"
       },
       {
-        "name": "Zumo de naranja",
-        "quantity": "8 cl"
+        "name": "zumo de naranja",
+        "quantity": "4cl"
       },
       {
-        "name": "Zumo de arándanos",
-        "quantity": "6 cl"
+        "name": "zumo de arándanos",
+        "quantity": "4cl"
+      },
+      {
+        "name": "Menta fresca para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Naranja deshidratada para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Fruta para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir vodka, licor de melocotón y zumos en una coctelera con hielo.",
-      "Agitar enérgicamente.",
-      "Colar en un vaso alto con hielo."
-    ]
+      "En la coctelera añadimos el vodka, el licor de melocotón, el zumo de naranja, el zumo de arándanos, con el hielo picado tapamos la coctelera y agitamos bien.",
+      "Destapamos con cuidado la coctelera y vertemos su contenido en la copa correspondiente, si fuese necesario añadimos un poco más de hielo.",
+      "Decoramos con la menta, la fruta y la naranja deshidratada."
+    ],
+    "notes": "SI EL COCTEL FUESE SIN ALCOHOL NO AGREGAMOS EL VODKA EN LA COCTELERA, EL RESTO ES IGUAL ….."
   },
   {
     "id": "mexican_fizz",
@@ -1383,32 +1744,44 @@
     "price": 8.5,
     "ingredients": [
       {
-        "name": "Tequila",
-        "quantity": "5 cl"
+        "name": "tequila",
+        "quantity": "5cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "zumo de lima",
+        "quantity": "2cl"
       },
       {
-        "name": "Sirope de agave azul",
-        "quantity": "1,5 cl"
+        "name": "sirope de agave azul",
+        "quantity": "2cl"
       },
       {
-        "name": "Sirope de frambuesas",
-        "quantity": "1,5 cl"
+        "name": "sirope de frambuesas",
+        "quantity": "2cl"
       },
       {
-        "name": "Soda",
-        "quantity": "Completar"
+        "name": "Top soda",
+        "quantity": ""
+      },
+      {
+        "name": "Lima deshidratada",
+        "quantity": ""
+      },
+      {
+        "name": "Menta fresca para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Cerezas para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
-      "Agitar o batir enérgicamente hasta mezclar bien.",
-      "Colar en el vaso correspondiente con hielo si es necesario.",
-      "Decorar según el cóctel."
-    ]
+      "En la coctelera añadimos el tequila, el zumo de lima, el agave azul y el sirope de frambuesas con hielo picado, tapamos la coctelera y agitamos bien.",
+      "Destapamos con cuidado la coctelera y vertemos su contenido en el vaso correspondiente, si fuese necesario añadimos más hielo, llenamos el vaso con la soda.",
+      "Decoramos en la menta, la lima deshidratada y las cerezas."
+    ],
+    "notes": "SI EL COCTEL FUESE SIN ALCOHOL NO AGREGAMOS EL TEQUILA EN LA COCTELERA, EL RESTO ES IGUAL …."
   },
   {
     "id": "cosmopolitan",
@@ -1420,26 +1793,34 @@
     "price": 8.5,
     "ingredients": [
       {
-        "name": "Vodka",
-        "quantity": "5 cl"
+        "name": "vodka",
+        "quantity": "5cl"
       },
       {
-        "name": "Sirope de naranja",
-        "quantity": "1,5 cl"
+        "name": "sirope de naranja",
+        "quantity": "2cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "zumo de lima",
+        "quantity": "2cl"
       },
       {
-        "name": "Zumo de arándanos",
-        "quantity": "6 cl"
+        "name": "zumo de arándanos",
+        "quantity": "3cl"
+      },
+      {
+        "name": "Naranja deshidratada para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Cereza para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir vodka, Cointreau, zumo de arándanos y lima en coctelera con hielo.",
-      "Agitar enérgicamente durante 15 segundos.",
-      "Colar en una copa de cóctel fría."
+      "En la coctelera añadimos el vodka, el sirope de naranja, el zumo de lima y el zumo de arándanos con hielo picado, tapamos la coctelera y agitamos bien.",
+      "Destapamos con cuidado la coctelera y vertemos su contenido en la copa correspondiente.",
+      "Decoramos con la naranja deshidratada y la cereza. (observar la imagen)"
     ]
   },
   {
@@ -1488,22 +1869,26 @@
     "price": 8.5,
     "ingredients": [
       {
-        "name": "Ginebra",
-        "quantity": "5 cl"
+        "name": "ginebra",
+        "quantity": "4cl"
       },
       {
-        "name": "Sirope de mandarina",
-        "quantity": "1,5 cl"
+        "name": "sirope de mandarina",
+        "quantity": "4cl"
       },
       {
-        "name": "Vermouth rojo",
-        "quantity": "3 cl"
+        "name": "vermuth rojo dulce",
+        "quantity": "4cl"
+      },
+      {
+        "name": "Naranja deshidratada para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Llenar un vaso bajo con hielo.",
-      "Añadir ginebra, vermut rojo y Campari.",
-      "Remover suavemente y decorar con una rodaja de naranja."
+      "En la coctelera añadimos la ginebra, el sirope de mandarina y el vermuth con el hielo picado, tapamos y agitamos bien.",
+      "Destapamos la coctelera con cuidado y vertemos su contenido en el vaso correspondiente.",
+      "Decoramos con la naranja deshidratada."
     ]
   },
   {
@@ -1516,69 +1901,47 @@
     "price": 9,
     "ingredients": [
       {
-        "name": "Ron",
-        "quantity": "6 cl"
+        "name": "ron blanco",
+        "quantity": "5cl"
       },
       {
-        "name": "Leche condensada",
-        "quantity": "3 cl"
+        "name": "granadina",
+        "quantity": "3cl"
       },
       {
-        "name": "Granadina",
-        "quantity": "1,5 cl"
+        "name": "leche condensada",
+        "quantity": "3cl"
       },
       {
-        "name": "Zumo de piña",
-        "quantity": "12 cl"
+        "name": "piña",
+        "quantity": "Top zumo"
       },
       {
-        "name": "Algodón de azúcar",
-        "quantity": "2 cda"
+        "name": "Algodón de azúcar para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Mariposas comestibles para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
-      "Agitar o batir enérgicamente hasta mezclar bien.",
-      "Colar en el vaso correspondiente con hielo si es necesario.",
-      "Decorar según el cóctel."
-    ]
+      "En la coctelera añadimos el ron, la granadina, la lecha condensada con el hielo picado, tapamos y agitamos bien.",
+      "Destapamos con cuidado la coctelera y vertemos su contenido en el vaso correspondiente, añadimos un poco más de hielo si fuese necesario y llenamos con el zumo de piña, con la cuchara larga lo removemos todo bien.",
+      "Decoramos con el algodón de azúcar y las mariposas comestibles."
+    ],
+    "notes": "SI EL COCTEL FUESE SIN ALCOHOL NO AÑADIMOS EL RON EN LA COCTELERA, LO DEMAS ES IGUAL …."
   },
   {
     "id": "pisco",
     "type": "cocktail",
-    "name": "Pisco",
+    "name": "Pisco Sour",
     "description": "Pisco sour clásico peruano. Pisco, lima, clara de huevo y bitters en una textura espumosa y un sabor cítrico inconfundible.",
     "category": "Especiales",
     "image": "/images/cocktails/pisco.webp",
     "price": 9,
-    "ingredients": [
-      {
-        "name": "Pisco acholado",
-        "quantity": "5 cl"
-      },
-      {
-        "name": "Sirope de caña",
-        "quantity": "1,5 cl"
-      },
-      {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
-      },
-      {
-        "name": "Clara de huevo",
-        "quantity": "1 unidad"
-      },
-      {
-        "name": "Gotas de amargo",
-        "quantity": "2-3 gotas"
-      }
-    ],
-    "steps": [
-      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
-      "Agitar o batir enérgicamente hasta mezclar bien.",
-      "Colar en el vaso correspondiente con hielo si es necesario.",
-      "Decorar según el cóctel."
-    ]
+    "ingredients": [],
+    "steps": []
   },
   {
     "id": "maracuya_sour",
@@ -1668,84 +2031,90 @@
     "price": 9,
     "ingredients": [
       {
-        "name": "Ron",
-        "quantity": "6 cl"
+        "name": "ron dorado",
+        "quantity": "5cl"
       },
       {
-        "name": "Licor de café",
-        "quantity": "2,5 cl"
+        "name": "licor de café",
+        "quantity": "2cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "zumo de lima",
+        "quantity": "1,5cl"
       },
       {
-        "name": "Zumo de piña",
-        "quantity": "12 cl"
+        "name": "zumo de piña",
+        "quantity": "5cl"
       },
       {
-        "name": "Sirope de caña",
-        "quantity": "1,5 cl"
+        "name": "sirope de azúcar de caña",
+        "quantity": "1cl"
       },
       {
-        "name": "Colorante alimentario",
-        "quantity": "8-10 hojas"
+        "name": "Colorante negro alimentario (3 o 4 gotas)",
+        "quantity": ""
       },
       {
-        "name": "Purpurina alimentaria",
-        "quantity": "8-10 hojas"
+        "name": "Rosa comestible",
+        "quantity": ""
       },
       {
-        "name": "Flor comestible",
-        "quantity": "1 unidad"
+        "name": "Purpurina comestible",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
-      "Agitar o batir enérgicamente hasta mezclar bien.",
-      "Colar en el vaso correspondiente con hielo si es necesario.",
-      "Decorar según el cóctel."
+      "En le coctelera añadimos el ron, el licor de café, el zumo de lima, el zumo de piña, el azúcar de caña, el colorante y la purpurina, con hielo picado; tapamos y agitamos bien.",
+      "Destapamos con cuidado la coctelera y vertemos su contenido en el vaso correspondiente.",
+      "Decoramos con la rosa comestible"
     ]
   },
   {
     "id": "coco_loco",
     "type": "cocktail",
-    "name": "Coco loco",
+    "name": "Coco Loco",
     "description": "Cóctel caribeño con vodka, tequila, ron y coco. Triple destilado en una explosión tropical y cremosa.",
     "category": "Especiales",
     "image": "/images/cocktails/coco_loco.webp",
     "price": 9.5,
     "ingredients": [
       {
-        "name": "Vodka",
-        "quantity": "5 cl"
+        "name": "vodka",
+        "quantity": "3cl"
       },
       {
-        "name": "Tequila",
-        "quantity": "5 cl"
+        "name": "tequila",
+        "quantity": "3cl"
       },
       {
-        "name": "Ron",
-        "quantity": "6 cl"
+        "name": "ron blanco",
+        "quantity": "3cl"
       },
       {
-        "name": "Leche de coco",
-        "quantity": "6 cl"
+        "name": "crema de coco",
+        "quantity": "6cl"
       },
       {
-        "name": "Sirope de coco",
-        "quantity": "1,5 cl"
+        "name": "pure de coco",
+        "quantity": "3cl"
       },
       {
-        "name": "Puré de coco",
-        "quantity": "3 cl"
+        "name": "sirope de coco",
+        "quantity": "3cl"
+      },
+      {
+        "name": "Coco rallado para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Menta fresca para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
-      "Agitar o batir enérgicamente hasta mezclar bien.",
-      "Colar en el vaso correspondiente con hielo si es necesario.",
-      "Decorar según el cóctel."
+      "En la coctelera añadimos el vodka, el téquiela, el ron blanco, la crema de coco, el pure de coco, el sirope de coco con el hielo picado, tapamos la coctelera y agitamos bien.",
+      "Destapamos con cuidado la coctelera y vertemos su contenido en el vaso correspondiente, si fuese necesario agregamos un poco más de hielo picado.",
+      "Decoramos con la menta fresca y el coco rallado. (ESTE COCTEL NO NECESITA MUCHA DECORACION, EL VASO LO ES TODO)"
     ]
   },
   {
@@ -1756,30 +2125,8 @@
     "category": "Especiales",
     "image": "/images/cocktails/espresso_martini.webp",
     "price": 8.5,
-    "ingredients": [
-      {
-        "name": "Vodka",
-        "quantity": "5 cl"
-      },
-      {
-        "name": "Licor de café",
-        "quantity": "2,5 cl"
-      },
-      {
-        "name": "Espresso",
-        "quantity": "3 cl"
-      },
-      {
-        "name": "Sirope de caña y granos de café",
-        "quantity": "1,5 cl"
-      }
-    ],
-    "steps": [
-      "Preparar un espresso y dejar enfriar.",
-      "Añadir vodka, licor de café, espresso y sirope en coctelera con hielo.",
-      "Agitar enérgicamente hasta obtener espuma.",
-      "Colar en una copa fría y decorar con granos de café."
-    ]
+    "ingredients": [],
+    "steps": []
   },
   {
     "id": "summer_colada",
@@ -1791,76 +2138,81 @@
     "price": 9.5,
     "ingredients": [
       {
-        "name": "Vodka",
-        "quantity": "5 cl"
+        "name": "vodka",
+        "quantity": "6cl"
       },
       {
-        "name": "Sirope de coco",
-        "quantity": "1,5 cl"
+        "name": "sirope de coco",
+        "quantity": "1cl"
       },
       {
-        "name": "Zumo de piña",
-        "quantity": "12 cl"
+        "name": "zumo de piña",
+        "quantity": "3cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "zumo de lima",
+        "quantity": "1,5cl"
       },
       {
-        "name": "Puré de mango",
-        "quantity": "3 cl"
+        "name": "pure de mango",
+        "quantity": "2cl"
       },
       {
-        "name": "Clara de huevo",
-        "quantity": "1 unidad"
+        "name": "clara de huevo",
+        "quantity": "5cl"
       },
       {
-        "name": "Bitter de melocotón",
-        "quantity": "3-4 trozos"
+        "name": "bitter de melocotón",
+        "quantity": "4 o 5 gotas"
+      },
+      {
+        "name": "Rodaja de piña fresca para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Menta fresca para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
-      "Agitar o batir enérgicamente hasta mezclar bien.",
-      "Colar en el vaso correspondiente con hielo si es necesario.",
-      "Decorar según el cóctel."
+      "En la coctelera añadimos el vodka, el sirope de coco, el zumo de piña, el zumo de lima, el pure de mango, las claras de huevo y las gotas de bitter; añadimos el resorte del colador y hielo en roca, tapamos y agitamos bien para generar una buena espuma.",
+      "Destapamos con cuidado la coctelera, en la copa de balón que vamos a servir nuestro coctel lo llenamos de hielo en roca y vertemos el contenido de la coctelera con ayuda de un colador.",
+      "Decoramos con la rodaja de la piña fresca y la menta."
     ]
   },
   {
     "id": "saturday_night",
     "type": "cocktail",
-    "name": "Saturday Night Fever",
+    "name": "Saturday Night Fever (Fiebre Sabado Por La Noche)",
     "description": "Cóctel de fiesta con ron, piña y crema de coco. Dulce, festivo y perfecto para la pista de baile.",
     "category": "Especiales",
     "image": "/images/cocktails/saturday_night.webp",
     "price": 9.5,
     "ingredients": [
       {
-        "name": "Ron",
-        "quantity": "6 cl"
+        "name": "ron oscuro",
+        "quantity": "2oz"
       },
       {
-        "name": "Zumo de piña",
-        "quantity": "12 cl"
+        "name": "zumo de piña",
+        "quantity": "4oz"
       },
       {
-        "name": "Zumo de naranja",
-        "quantity": "8 cl"
+        "name": "zumo de naranja",
+        "quantity": "1oz"
       },
       {
-        "name": "Crema de coco",
-        "quantity": "4 cl"
+        "name": "crema de coco",
+        "quantity": "1oz"
       },
       {
-        "name": "Puré de coco",
-        "quantity": "3 cl"
+        "name": "pure de coco",
+        "quantity": "1oz"
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
-      "Agitar o batir enérgicamente hasta mezclar bien.",
-      "Colar en el vaso correspondiente con hielo si es necesario.",
-      "Decorar según el cóctel."
+      "En la coctelera añadimos el ron, el zumo de piña, el zumo de naranja, la crema de coco y el pure de coco con el hielo picado, tapamos la coctelera y agitamos bien.",
+      "Destapamos con cuidado la coctelera y vertemos su contenido en el vaso correspondiente, si fuese necesario añadimos un poco más de hielo picado."
     ]
   },
   {
@@ -1873,30 +2225,42 @@
     "price": 10,
     "ingredients": [
       {
-        "name": "Vodka",
-        "quantity": "5 cl"
+        "name": "vodka",
+        "quantity": "5cl"
       },
       {
-        "name": "Sirope de vainilla de Madagascar",
-        "quantity": "1,5 cl"
+        "name": "sirope de vainilla de Madagascar",
+        "quantity": "2cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "zumo de lima",
+        "quantity": "2cl"
       },
       {
-        "name": "Bitter de ruibarbo",
-        "quantity": "2-3 gotas"
+        "name": "bitter de ruibarbo",
+        "quantity": "3 gotas"
       },
       {
-        "name": "Ginger beer",
-        "quantity": "5 cl"
+        "name": "Top ginger beer",
+        "quantity": ""
+      },
+      {
+        "name": "Menta fresca para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Lima deshidratada para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Granos de pimienta",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir vodka, lima y ginger beer en un vaso de cobre con hielo.",
-      "Remover suavemente.",
-      "Decorar con una rodaja de lima y jengibre."
+      "En la coctelera añadimos el vodka, el sirope de vainilla, el zumo de lima y las gotas de bitter con el hielo picado, tapamos la coctelera y agitamos bien.",
+      "Destapamos con cuidado la coctelera y vertemos su contenido en el vaso correspondiente, añadimos mas hielo si fuese necesario y llenamos el vaso con la ginger beer.",
+      "Decoramos con la menta fresca, la lima deshidratada y los granos de pimienta."
     ]
   },
   {
@@ -1909,31 +2273,34 @@
     "price": 8.5,
     "ingredients": [
       {
-        "name": "Ron",
-        "quantity": "6 cl"
+        "name": "ron blanco",
+        "quantity": "4cl"
       },
       {
-        "name": "Puré de coco",
-        "quantity": "3 cl"
+        "name": "pure de coco",
+        "quantity": "6cl"
       },
       {
-        "name": "Crema de coco",
-        "quantity": "4 cl"
+        "name": "crema de coco",
+        "quantity": "3cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "zumo de lima",
+        "quantity": "3cl"
       },
       {
-        "name": "Sirope de caña",
-        "quantity": "1,5 cl"
+        "name": "sirope de azúcar de caña",
+        "quantity": "3cl"
+      },
+      {
+        "name": "2 fresas para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
-      "Agitar o batir enérgicamente hasta mezclar bien.",
-      "Colar en el vaso correspondiente con hielo si es necesario.",
-      "Decorar según el cóctel."
+      "Añadimos en la coctelera el ron, el pure de coco, la crema de coco, el zumo de lima, el sirope de azúcar con el hielo picado, tapamos la coctelera y agitamos bien.",
+      "Destapamos la coctelera con cuidado y vertemos su contenido en el vaso correspondiente, si fuese necesario añadimos un poco más de hielo.",
+      "Decoramos con las fresas frescas."
     ]
   },
   {
@@ -2060,27 +2427,31 @@
     "price": 10,
     "ingredients": [
       {
-        "name": "Ginebra",
-        "quantity": "5 cl"
+        "name": "ginebra",
+        "quantity": "5cl"
       },
       {
-        "name": "Puré de mandarina",
-        "quantity": "3 cl"
+        "name": "pure de mandarina",
+        "quantity": "2cl"
       },
       {
-        "name": "Zumo de lima",
-        "quantity": "3 cl"
+        "name": "zumo de lima",
+        "quantity": "2cl"
       },
       {
-        "name": "Ginger beer",
-        "quantity": "5 cl"
+        "name": "clara de huevo",
+        "quantity": "5cl"
+      },
+      {
+        "name": "Top ginger beer",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
-      "Agitar o batir enérgicamente hasta mezclar bien.",
-      "Colar en el vaso correspondiente con hielo si es necesario.",
-      "Decorar según el cóctel."
+      "En la coctelera añadimos la ginebra, el pure de mandarina, el zumo de lima, la clara de huevo con el hielo picado y el resorte del colador, tapamos y agitamos bien para generar una buena espuma.",
+      "Destapamos con cuidado la coctelera y retiramos el resorte, vertemos el contenido en el vaso correspondiente, si fuese necesario añadimos mas hielo.",
+      "Llenamos el vaso con la ginger beer.",
+      "Decoramos con la menta fresca y la naranja deshidratada."
     ]
   },
   {
@@ -2093,31 +2464,39 @@
     "price": 10,
     "ingredients": [
       {
-        "name": "Licor de frutas de la pasión",
-        "quantity": "Al gusto"
+        "name": "licor de fruta de la pasión",
+        "quantity": "3cl"
       },
       {
-        "name": "Sirope de vainilla",
-        "quantity": "1,5 cl"
+        "name": "sirope de vainilla de Madagascar",
+        "quantity": "2cl"
       },
       {
-        "name": "Concentrado de ranch de lima",
-        "quantity": "1/2 unidad"
+        "name": "concentrado de rantcho de lima",
+        "quantity": "2,5cl"
       },
       {
-        "name": "Vodka de vainilla",
-        "quantity": "5 cl"
+        "name": "vodka de vainilla",
+        "quantity": "5cl"
       },
       {
-        "name": "Puré de maracuyá",
-        "quantity": "3 cl"
+        "name": "pure de maracuyá",
+        "quantity": "3cl"
+      },
+      {
+        "name": "½ maracuyá fresca para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "proceso (espumoso)",
+        "quantity": "1 chupito"
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
-      "Agitar o batir enérgicamente hasta mezclar bien.",
-      "Colar en el vaso correspondiente con hielo si es necesario.",
-      "Decorar según el cóctel."
+      "En la coctelera añadimos el licor de fruta de la pasión, el sirope de vainilla, el concentrado de rantcho, el vodka y el pure de maracuyá con hielo en roca, tapamos y agitamos bien.",
+      "Destapamos la coctelera con cuidado y con ayuda de un colador vertemos su contenido en el vaso correspondiente.",
+      "Decoramos con la media maracuyá.",
+      "ESTE COCTEL SE SIRVE SIN HIELO Y ACOPAÑADO DE UN CHUPITO DE PROSECO."
     ]
   },
   {
@@ -2130,31 +2509,39 @@
     "price": 9,
     "ingredients": [
       {
-        "name": "Ginebra Empress 1908",
-        "quantity": "5 cl"
+        "name": "ginebra empress 1908 morado",
+        "quantity": "5cl"
       },
       {
         "name": "St. Germain",
-        "quantity": "2 cl"
+        "quantity": "3cl"
       },
       {
-        "name": "Sirope de violetas",
-        "quantity": "1 cl"
+        "name": "sirope de violetas",
+        "quantity": "1,5cl"
       },
       {
-        "name": "Zumo de lima",
-        "quantity": "3 cl"
+        "name": "zumo de lima",
+        "quantity": "2cl"
+      },
+      {
+        "name": "clara de huevo",
+        "quantity": "5cl"
       },
       {
         "name": "Purpurina comestible",
-        "quantity": "1 pizca"
+        "quantity": ""
+      },
+      {
+        "name": "Flores y mariposas comestibles para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
-      "Agitar o batir enérgicamente hasta mezclar bien.",
-      "Colar en el vaso correspondiente con hielo si es necesario.",
-      "Decorar según el cóctel."
+      "En la coctelera añadimos la ginebra, el Germain, el sirope de violetas, el zumo de lima, la clara de huevo, la purpurina con hielo picado y el resorte del colador; tapamos y agitamos bien para generar una buena espuma.",
+      "Destapamos con cuidado la coctelera, retiramos el resorte del colador y vertemos el contenido en el vaso correspondiente.",
+      "Si fuese necesario añadimos más hielo picado.",
+      "Decoramos con las flores y las mariposas comestibles."
     ]
   },
   {
@@ -2167,31 +2554,40 @@
     "price": 9.5,
     "ingredients": [
       {
-        "name": "Tequila",
-        "quantity": "5 cl"
+        "name": "tequila",
+        "quantity": "6cl"
       },
       {
-        "name": "Miel",
-        "quantity": "1 cda"
+        "name": "miel",
+        "quantity": "2cl"
       },
       {
-        "name": "Zumo de lima",
-        "quantity": "3 cl"
+        "name": "zumo de lima",
+        "quantity": "2cl"
       },
       {
-        "name": "Jengibre",
+        "name": "clara de huevo",
+        "quantity": "5cl"
+      },
+      {
+        "name": "jengibre",
         "quantity": "2 rodajas"
       },
       {
-        "name": "Bitter de ruibarbo",
-        "quantity": "2-3 gotas"
+        "name": "bitter de ruibarbo",
+        "quantity": "4 gotas"
+      },
+      {
+        "name": "Flores de Jamaica para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
-      "Agitar o batir enérgicamente hasta mezclar bien.",
-      "Colar en el vaso correspondiente con hielo si es necesario.",
-      "Decorar según el cóctel."
+      "Primero tenemos que bordear la copa con miel y luego con azúcar moreno y reservamos.",
+      "En la coctelera machacamos las dos rodajas de jengibre, añadimos el tequila, la miel, el zumo de lima y las claras de huevo con hielo picado y el resorte del colador, tapamos y agitamos bien para generar una buena espuma.",
+      "Destapamos con cuidado la coctelera, retiramos el resorte y vertemos su contenido en el vaso que habíamos reservado.",
+      "Si fuese necesario agregamos mas hielo.",
+      "Decoramos con las flores de Jamaica."
     ]
   },
   {
@@ -2257,31 +2653,35 @@
     "price": 9.5,
     "ingredients": [
       {
-        "name": "Vodka",
-        "quantity": "5 cl"
+        "name": "vodka",
+        "quantity": "5cl"
       },
       {
-        "name": "Licor de mango",
-        "quantity": "3-4 trozos"
+        "name": "sirope de mango",
+        "quantity": "1,5cl"
       },
       {
-        "name": "Sirope simple",
-        "quantity": "1,5 cl"
+        "name": "zumo de lima",
+        "quantity": "2cl"
       },
       {
-        "name": "Jugo de lima",
-        "quantity": "1/2 unidad"
+        "name": "sirope de azúcar de caña",
+        "quantity": "1,5cl"
       },
       {
-        "name": "Fresas",
-        "quantity": "3-4 trozos"
+        "name": "4 fresas frescas",
+        "quantity": ""
+      },
+      {
+        "name": "Menta fresca para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
-      "Agitar o batir enérgicamente hasta mezclar bien.",
-      "Colar en el vaso correspondiente con hielo si es necesario.",
-      "Decorar según el cóctel."
+      "En el vaso donde vamos a presentar nuestro coctel machacamos 3 fresas y reservamos.",
+      "En la coctelera añadimos el vodka, el sirope de mango, el zumo de lima, el sirope de azúcar con hielo picado tapamos y agitamos bien.",
+      "Destapamos con cuidado la coctelera y vertemos su contenido en el vaso habíamos reservado con cuidado de que no se mezcle con las fresas (hay que intentar que las fresas machacadas se queden en el fondo), si fuese necesario añadimos un poco más de hielo picado.",
+      "Decoramos con la menta y la fresa."
     ]
   },
   {
@@ -2294,67 +2694,95 @@
     "price": 9.5,
     "ingredients": [
       {
-        "name": "Ron",
-        "quantity": "6 cl"
+        "name": "ron oscuro",
+        "quantity": "5cl"
       },
       {
-        "name": "Licor de mandarina",
-        "quantity": "2 cl"
+        "name": "licor de naranja",
+        "quantity": "3cl"
       },
       {
-        "name": "Campari",
-        "quantity": "3 cl"
+        "name": "campari",
+        "quantity": "1,5cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "zumo de lima",
+        "quantity": "2cl"
       },
       {
-        "name": "Zumo de piña",
-        "quantity": "12 cl"
+        "name": "zumo de piña",
+        "quantity": "2cl"
       },
       {
-        "name": "Sirope simple",
-        "quantity": "1,5 cl"
+        "name": "sirope de azúcar de caña",
+        "quantity": "1,5cl"
       },
       {
-        "name": "Bitter de naranja",
-        "quantity": "1 rodaja"
+        "name": "amargo aromático",
+        "quantity": "2 gotas"
+      },
+      {
+        "name": "piña para decorar",
+        "quantity": "Hoja"
+      },
+      {
+        "name": "Menta fresca para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Naranja o pomelo deshidratado para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Añadir todos los ingredientes en una coctelera o batidora con hielo.",
-      "Agitar o batir enérgicamente hasta mezclar bien.",
-      "Colar en el vaso correspondiente con hielo si es necesario.",
-      "Decorar según el cóctel."
+      "En la coctelera añadimos el ron, el licor de naranja, el campari, el zumo de lima, el zumo de piña, el sirope de azúcar, el amargo con el hielo picado tapamos y agitamos bien.",
+      "Destapamos con cuidado la coctelera y vertemos su contenido en el vaso correspondiente.",
+      "Si fuese necesario añadimos un poco más de hielo.",
+      "Decoramos con la hoja de piña, la menta y la naranja o el pomelo."
     ]
   },
   {
     "id": "caipiroska",
     "type": "cocktail",
-    "name": "Caipiroska",
+    "name": "Caipiroska De Frutos Del Bosque",
     "description": "Versión del caipirinha con vodka. Más suave y con un perfil de sabor limpio que deja brillar la lima.",
     "category": "Caipiroska",
     "image": "/images/cocktails/caipiroska.webp",
     "price": 9,
     "ingredients": [
       {
-        "name": "Vodka",
-        "quantity": "5 cl"
+        "name": "vodka",
+        "quantity": "6cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "pure de frutos del bosque",
+        "quantity": "3cl"
       },
       {
-        "name": "Azúcar moreno",
-        "quantity": "2 cda"
+        "name": "Azúcar moreno (1sobre)",
+        "quantity": ""
+      },
+      {
+        "name": "½ lima para machacar",
+        "quantity": ""
+      },
+      {
+        "name": "Lima deshidratada para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Menta fresca para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "mix de frutos del bosque",
+        "quantity": "Un puñado"
       }
     ],
     "steps": [
-      "Machacar el azúcar y la lima en un vaso bajo.",
-      "Añadir hielo picado hasta arriba.",
-      "Verter el vodka y remover suavemente."
+      "En la coctelera añadimos el azúcar moreno, la media lima troceada y la mitad del mix de frutos del bosque y con ayuda del mortero lo machacamos bien, luego añadimos el vodka, el pure de frutos del bosque y el hielo picado tapamos la coctelera y agitamos bien.",
+      "Destapamos con cuidado la coctelera y vertemos su contenido en el vaso correspondiente, si fuese necesario añadimos más hielo picado.",
+      "Decoramos con la menta, la lima y resto del mix de frutos del bosque."
     ]
   },
   {
@@ -2424,73 +2852,97 @@
   {
     "id": "mojigato",
     "type": "cocktail",
-    "name": "Mojigato",
+    "name": "Mojigato Sin Alcohol",
     "description": "Cóctel sin alcohol con menta, piña, vainilla y maracuyá. Tropical, fresco y con una complejidad sorprendente.",
     "category": "Sin Alcohol",
     "image": "/images/cocktails/mojigato.webp",
     "price": 10,
     "ingredients": [
       {
-        "name": "Menta",
-        "quantity": "8-10 hojas"
+        "name": "sirope de vainilla de Madagascar",
+        "quantity": "3cl"
       },
       {
-        "name": "Zumo de lima",
-        "quantity": "3 cl"
+        "name": "zumo de lima",
+        "quantity": "3cl"
       },
       {
-        "name": "Zumo de piña",
-        "quantity": "12 cl"
+        "name": "zumo de piña",
+        "quantity": "8cl"
       },
       {
-        "name": "Sirope de vainilla",
-        "quantity": "1,5 cl"
+        "name": "pure de maracuyá",
+        "quantity": "2cl"
       },
       {
-        "name": "Maracuyá",
-        "quantity": "1 unidad"
+        "name": "Top limón soda",
+        "quantity": ""
+      },
+      {
+        "name": "menta para machacar",
+        "quantity": "8 hojas"
+      },
+      {
+        "name": "Lima deshidratada para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Menta para decorar",
+        "quantity": ""
+      },
+      {
+        "name": "Canela en rama para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Mezclar todos los ingredientes en un vaso alto con hielo.",
-      "Completar con soda o agua tónica.",
-      "Remover suavemente y decorar con fruta fresca."
+      "En la coctelera añadimos las 8 hojas de menta y el sirope de vainilla, con ayuda del mortero lo machacamos bien, luego añadimos el zumo de lima, el zumo de piña, el pure de maracuyá con hielo picado tapamos y agitamos bien.",
+      "Destapamos con cuidado la coctelera y vertemos el contenido en la copa correspondiente, añadimos más hielo picado y llenamos el vaso con la soda de limón.",
+      "Decoramos con la menta, la lima y la canela en rama."
     ]
   },
   {
     "id": "exoticolada",
     "type": "cocktail",
-    "name": "Exoticolada",
+    "name": "Exoticolada Sin Alcohol",
     "description": "Cóctel sin alcohol exótico con vainilla, piña, maracuyá y coco. Cremoso, tropical y deliciosamente dulce.",
     "category": "Sin Alcohol",
     "image": "/images/cocktails/exoticolada.webp",
     "price": 9.5,
     "ingredients": [
       {
-        "name": "Sirope de vainilla",
-        "quantity": "1,5 cl"
+        "name": "sirope de vainilla de Madagascar",
+        "quantity": "1,5cl"
       },
       {
-        "name": "Jugo de piña",
-        "quantity": "12 cl"
+        "name": "zumo de piña",
+        "quantity": "14cl"
       },
       {
-        "name": "Puré de maracuyá",
-        "quantity": "3 cl"
+        "name": "pure de maracuyá",
+        "quantity": "6cl"
       },
       {
-        "name": "Lima",
-        "quantity": "1/2 unidad"
+        "name": "zumo lima",
+        "quantity": "1cl"
       },
       {
-        "name": "Crema de coco",
-        "quantity": "4 cl"
+        "name": "crema de coco",
+        "quantity": "10cl"
+      },
+      {
+        "name": "piña para decorar",
+        "quantity": "Hoja"
+      },
+      {
+        "name": "Piña deshidratada para decorar",
+        "quantity": ""
       }
     ],
     "steps": [
-      "Mezclar todos los ingredientes en un vaso alto con hielo.",
-      "Completar con soda o agua tónica.",
-      "Remover suavemente y decorar con fruta fresca."
+      "En la coctelera añadimos el sirope de vainilla, el zumo de lima, el pure de maracuyá, el zumo de lima y la crema de coco, con hielo picado tapamos la coctelera y agitamos bien.",
+      "Destapamos la coctelera con cuidado y vertemos su contenido en la copa correspondiente.",
+      "Decoramos con la hoja de piña y la piña deshidratada."
     ]
   }
 ]

@@ -15,4 +15,5 @@ export type Recipe = {
   price?: number;
   ingredients?: IngredientItem[];
   steps?: string[];
+  notes?: string;
 };

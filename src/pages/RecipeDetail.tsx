@@ -139,6 +139,18 @@ export default function RecipeDetail() {
           </ol>
         </section>
       )}
+
+      {/* Notes */}
+      {recipe.notes && (
+        <section className="rounded-xl border border-amber-200 bg-amber-50 p-4 dark:border-amber-900/30 dark:bg-amber-950/20">
+          <h3 className="mb-2 text-sm font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400">
+            Nota
+          </h3>
+          <p className="text-sm leading-relaxed text-amber-800 dark:text-amber-300">
+            {recipe.notes}
+          </p>
+        </section>
+      )}
     </article>
   )
 }
