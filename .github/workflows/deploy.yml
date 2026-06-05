@@ -31,6 +31,26 @@ jobs:
           node-version: 20
           cache: 'npm'
 
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Bump version
+        run: |
+          LAST_MSG=$(git log -1 --pretty=%s)
+          if [[ "$LAST_MSG" == chore(release):* ]]; then
+            echo "Skipping version bump"
+            exit 0
+          fi
+          node scripts/bump-version.cjs
+          if [ -n "$(git status --porcelain)" ]; then
+            git add package.json package-lock.json twa-manifest.json src/components/Layout.tsx
+            git commit -m "chore(release): bump version [skip ci]"
+            git push origin HEAD:main
+            git reset --hard origin/main
+          fi
+
       - name: Install dependencies
         run: npm ci
 
@@ -42,24 +62,15 @@ jobs:
         with:
           path: ./dist
 
-      - name: Generate version tag
+      - name: Get semantic version
         id: version
         run: |
-          DATE=$(date +'%Y.%m.%d')
-          EXISTING=$(git tag -l "v${DATE}.*" | sort -V | tail -n 1 | sed 's/.*\.//')
-          if [ -z "$EXISTING" ]; then
-            COUNT=1
-          else
-            COUNT=$((EXISTING + 1))
-          fi
-          TAG="v${DATE}.${COUNT}"
-          echo "tag=${TAG}" >> $GITHUB_OUTPUT
-          echo "Generated tag: ${TAG}"
+          VERSION=$(node -p "require('./package.json').version")
+          echo "tag=v${VERSION}" >> $GITHUB_OUTPUT
+          echo "Version: v${VERSION}"
 
       - name: Create Git tag
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
           git tag ${{ steps.version.outputs.tag }}
           git push origin ${{ steps.version.outputs.tag }}
 
@@ -80,6 +91,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.build.outputs.tag }}
 
       - name: Create Release
         env:
@@ -87,8 +100,7 @@ jobs:
         run: |
           gh release create ${{ needs.build.outputs.tag }} \
             --title "Release ${{ needs.build.outputs.tag }}" \
-            --generate-notes \
-            --target ${{ github.sha }}
+            --generate-notes
 
   apk:
     needs: [build, release]
@@ -96,6 +108,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.build.outputs.tag }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
