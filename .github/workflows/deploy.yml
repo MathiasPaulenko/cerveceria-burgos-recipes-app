@@ -124,7 +124,9 @@ jobs:
       - name: Install Bubblewrap core and Gradle
         run: |
           npm install @bubblewrap/core
-          sudo apt-get update && sudo apt-get install -y gradle
+          wget -q https://services.gradle.org/distributions/gradle-8.6-bin.zip -O gradle.zip
+          unzip -q gradle.zip
+          echo "$PWD/gradle-8.6/bin" >> $GITHUB_PATH
 
       - name: Generate signing key
         run: |
