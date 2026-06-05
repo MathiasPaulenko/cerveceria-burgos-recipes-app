@@ -39,10 +39,12 @@ jobs:
       - name: Bump version
         run: |
           LAST_MSG=$(git log -1 --pretty=%s)
-          if [[ "$LAST_MSG" == chore(release):* ]]; then
-            echo "Skipping version bump"
-            exit 0
-          fi
+          case "$LAST_MSG" in
+            "chore(release):"*)
+              echo "Skipping version bump"
+              exit 0
+              ;;
+          esac
           node scripts/bump-version.cjs
           if [ -n "$(git status --porcelain)" ]; then
             git add package.json package-lock.json twa-manifest.json src/components/Layout.tsx
