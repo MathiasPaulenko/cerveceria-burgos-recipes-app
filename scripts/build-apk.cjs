@@ -48,6 +48,19 @@ async function main() {
     console.log('Signing config injected into build.gradle');
   }
 
+  // Inject immersive mode into AndroidManifest.xml
+  const manifestPath = path.join(projectPath, 'app', 'src', 'main', 'AndroidManifest.xml');
+  if (fs.existsSync(manifestPath)) {
+    let manifest = fs.readFileSync(manifestPath, 'utf8');
+    // Insert immersive_mode meta-data before closing </application>
+    manifest = manifest.replace(
+      /<\/application>/,
+      '    <meta-data android:name="immersive_mode" android:value="true" />\n    </application>'
+    );
+    fs.writeFileSync(manifestPath, manifest);
+    console.log('Immersive mode injected into AndroidManifest.xml');
+  }
+
   console.log('Generating Gradle wrapper...');
   execSync('gradle wrapper', {
     cwd: projectPath,
