@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -17,9 +17,13 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      tag: ${{ steps.version.outputs.tag }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -38,6 +42,27 @@ jobs:
         with:
           path: ./dist
 
+      - name: Generate version tag
+        id: version
+        run: |
+          DATE=$(date +'%Y.%m.%d')
+          EXISTING=$(git tag -l "v${DATE}.*" | sort -V | tail -n 1 | sed 's/.*\.//')
+          if [ -z "$EXISTING" ]; then
+            COUNT=1
+          else
+            COUNT=$((EXISTING + 1))
+          fi
+          TAG="v${DATE}.${COUNT}"
+          echo "tag=${TAG}" >> $GITHUB_OUTPUT
+          echo "Generated tag: ${TAG}"
+
+      - name: Create Git tag
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git tag ${{ steps.version.outputs.tag }}
+          git push origin ${{ steps.version.outputs.tag }}
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -48,3 +73,19 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  release:
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create ${{ needs.build.outputs.tag }} \
+            --title "Release ${{ needs.build.outputs.tag }}" \
+            --generate-notes \
+            --target ${{ github.sha }}
