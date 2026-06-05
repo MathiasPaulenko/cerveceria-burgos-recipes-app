@@ -1,29 +1,37 @@
-const {TwaManifest, TwaGenerator} = require('@bubblewrap/core');
 const fs = require('fs');
 const path = require('path');
-const {execSync} = require('child_process');
+const { execSync } = require('child_process');
 
 async function main() {
-  console.log('Loading TWA manifest...');
-  const manifestJson = JSON.parse(fs.readFileSync('./twa-manifest.json', 'utf8'));
-  const twaManifest = new TwaManifest(manifestJson);
+  const projectPath = '.';
+  const androidPath = path.join(projectPath, 'android');
 
-  console.log('Generating Android project...');
-  const projectPath = './android-app';
-  const generator = new TwaGenerator();
-  await generator.createTwaProject(projectPath, twaManifest);
+  // 1. Build the web app
+  console.log('Building web app...');
+  execSync('npm run build', { cwd: projectPath, stdio: 'inherit' });
 
-  // Copy keystore into app/ directory so signing config finds it
-  const appKeystorePath = path.join(projectPath, 'app', 'android.keystore');
-  if (fs.existsSync('./android.keystore')) {
-    fs.copyFileSync('./android.keystore', appKeystorePath);
-    console.log('Keystore copied to app/');
+  // 2. Add Android platform if not exists
+  if (!fs.existsSync(androidPath)) {
+    console.log('Adding Android platform...');
+    execSync('npx cap add android', { cwd: projectPath, stdio: 'inherit' });
   }
 
-  // Inject signing config into app/build.gradle
-  const buildGradlePath = path.join(projectPath, 'app', 'build.gradle');
+  // 3. Sync Capacitor
+  console.log('Syncing Capacitor...');
+  execSync('npx cap sync android', { cwd: projectPath, stdio: 'inherit' });
+
+  // 4. Copy keystore into android/app/ directory
+  const appKeystorePath = path.join(androidPath, 'app', 'android.keystore');
+  if (fs.existsSync('./android.keystore')) {
+    fs.copyFileSync('./android.keystore', appKeystorePath);
+    console.log('Keystore copied to android/app/');
+  }
+
+  // 5. Inject signing config into android/app/build.gradle
+  const buildGradlePath = path.join(androidPath, 'app', 'build.gradle');
   if (fs.existsSync(buildGradlePath)) {
     let buildGradle = fs.readFileSync(buildGradlePath, 'utf8');
+
     // Add signingConfigs block after android { opening
     const signingBlock = `
     signingConfigs {
@@ -34,12 +42,10 @@ async function main() {
             keyPassword 'android'
         }
     }`;
-    // Insert signingConfigs after android {
     buildGradle = buildGradle.replace(
       /android\s*\{/,
       `android {${signingBlock}`
     );
-    // Update release buildType to use signingConfig
     buildGradle = buildGradle.replace(
       /(buildTypes\s*\{[\s\S]*?release\s*\{)/,
       `$1\n            signingConfig signingConfigs.release`
@@ -48,33 +54,27 @@ async function main() {
     console.log('Signing config injected into build.gradle');
   }
 
-  // Inject TWA fullscreen metadata into AndroidManifest.xml
-  const manifestPath = path.join(projectPath, 'app', 'src', 'main', 'AndroidManifest.xml');
+  // 6. Inject fullscreen into AndroidManifest.xml
+  const manifestPath = path.join(androidPath, 'app', 'src', 'main', 'AndroidManifest.xml');
   if (fs.existsSync(manifestPath)) {
     let manifest = fs.readFileSync(manifestPath, 'utf8');
 
-    // Aggressively replace the LauncherActivity declaration to force fullscreen
+    // Apply fullscreen theme to MainActivity (matches any package name)
     manifest = manifest.replace(
-      /(<activity[^>]*android:name="com\.google\.androidbrowserhelper\.trusted\.LauncherActivity"[^>]*?)(\/?>)/,
-      '$1\n            android:theme="@style/AppTheme.Fullscreen"\n            android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden"\n            android:windowSoftInputMode="adjustResize"\n            android:exported="true"\n        $2'
-    );
-
-    // Insert TWA display mode metadata INSIDE the LauncherActivity, before intent-filter
-    manifest = manifest.replace(
-      /(<activity[^>]*android:name="com\.google\.androidbrowserhelper\.trusted\.LauncherActivity"[\s\S]*?)(<intent-filter>)/,
-      '$1            <meta-data android:name="trusted_web_activity_display_mode" android:value="standalone" />\n            <meta-data android:name="immersive_mode" android:value="true" />\n            $2'
+      /(<activity[^>]*android:name="[^"]*\.MainActivity")/,
+      '$1\n            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"\n            android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden"\n            android:windowSoftInputMode="adjustResize"'
     );
 
     fs.writeFileSync(manifestPath, manifest);
-    console.log('TWA fullscreen metadata injected into AndroidManifest.xml');
+    console.log('Fullscreen theme injected into AndroidManifest.xml');
   }
 
-  // Override styles.xml to create a true fullscreen theme
-  const stylesPath = path.join(projectPath, 'app', 'src', 'main', 'res', 'values', 'styles.xml');
+  // 7. Override styles.xml for true fullscreen
+  const stylesPath = path.join(androidPath, 'app', 'src', 'main', 'res', 'values', 'styles.xml');
   if (fs.existsSync(stylesPath)) {
     const fullscreenTheme = `<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AppTheme.Fullscreen" parent="android:Theme.NoTitleBar.Fullscreen">
+    <style name="AppTheme.NoActionBarLaunch" parent="android:Theme.NoTitleBar.Fullscreen">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>
@@ -88,19 +88,10 @@ async function main() {
     console.log('Fullscreen theme written to styles.xml');
   }
 
-  console.log('Generating Gradle wrapper...');
-  execSync('gradle wrapper', {
-    cwd: projectPath,
-    stdio: 'inherit',
-    env: {
-      ...process.env,
-      ANDROID_HOME: process.env.ANDROID_HOME,
-    }
-  });
-
+  // 8. Build APK
   console.log('Building APK...');
-  execSync('gradle assembleRelease', {
-    cwd: projectPath,
+  execSync('./gradlew assembleRelease', {
+    cwd: androidPath,
     stdio: 'inherit',
     env: {
       ...process.env,
@@ -108,10 +99,10 @@ async function main() {
     }
   });
 
-  const apkDir = path.join(projectPath, 'app', 'build', 'outputs', 'apk', 'release');
+  // 9. Copy APK to root
+  const apkDir = path.join(androidPath, 'app', 'build', 'outputs', 'apk', 'release');
   const files = fs.readdirSync(apkDir);
   console.log('APK files found:', files.join(', '));
-  // Prefer signed APK, avoid unsigned
   let apkFile = files.find(f => f.endsWith('.apk') && !f.includes('unsigned'));
   if (!apkFile) {
     apkFile = files.find(f => f.endsWith('.apk'));

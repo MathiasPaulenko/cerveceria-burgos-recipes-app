@@ -142,15 +142,11 @@ jobs:
           echo "ANDROID_HOME=$ANDROID_HOME" >> $GITHUB_ENV
           echo "PATH=$PATH" >> $GITHUB_ENV
 
-      - name: Install Bubblewrap core and Gradle
-        run: |
-          npm install @bubblewrap/core
-          wget -q https://services.gradle.org/distributions/gradle-8.11.1-bin.zip -O gradle.zip
-          unzip -q gradle.zip
-          echo "$PWD/gradle-8.11.1/bin" >> $GITHUB_PATH
+      - name: Install dependencies
+        run: npm ci
 
-      - name: Build APK
-        run: node scripts/build-apk.cjs
+      - name: Build APK with Capacitor
+        run: node scripts/build-apk-capacitor.cjs
 
       - name: Upload APK to Release
         env:
