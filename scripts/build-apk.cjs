@@ -115,11 +115,13 @@ async function main() {
     apkFile = files.find(f => f.endsWith('.apk'));
   }
   if (apkFile) {
+    const pkg = JSON.parse(fs.readFileSync('./package.json', 'utf8'));
+    const outName = `cerveceria-burgos-recipes-v${pkg.version}.apk`;
     fs.copyFileSync(
       path.join(apkDir, apkFile),
-      './app-release-signed.apk'
+      `./${outName}`
     );
-    console.log('APK built successfully: app-release-signed.apk');
+    console.log('APK built successfully:', outName);
   } else {
     throw new Error('No APK file found after build');
   }

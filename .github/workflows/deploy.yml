@@ -158,6 +158,7 @@ jobs:
         run: |
           set -e
           echo "Uploading APK to release ${{ needs.build.outputs.tag }}"
-          ls -la ./app-release-signed.apk
-          gh release upload ${{ needs.build.outputs.tag }} ./app-release-signed.apk --clobber
-          echo "APK uploaded successfully"
+          APK_FILE=$(ls ./cerveceria-burgos-recipes-*.apk | head -1)
+          ls -la "$APK_FILE"
+          gh release upload ${{ needs.build.outputs.tag }} "$APK_FILE" --clobber
+          echo "APK uploaded successfully: $(basename "$APK_FILE")"
