@@ -48,17 +48,17 @@ async function main() {
     console.log('Signing config injected into build.gradle');
   }
 
-  // Inject immersive mode into AndroidManifest.xml
+  // Inject fullscreen theme into AndroidManifest.xml
   const manifestPath = path.join(projectPath, 'app', 'src', 'main', 'AndroidManifest.xml');
   if (fs.existsSync(manifestPath)) {
     let manifest = fs.readFileSync(manifestPath, 'utf8');
-    // Insert immersive_mode meta-data before closing </application>
+    // Set LauncherActivity theme to fullscreen (hides status and nav bars)
     manifest = manifest.replace(
-      /<\/application>/,
-      '    <meta-data android:name="immersive_mode" android:value="true" />\n    </application>'
+      /(<activity[^>]*android:name="com\.google\.androidbrowserhelper\.trusted\.LauncherActivity")/,
+      '$1\n            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"'
     );
     fs.writeFileSync(manifestPath, manifest);
-    console.log('Immersive mode injected into AndroidManifest.xml');
+    console.log('Fullscreen theme injected into AndroidManifest.xml');
   }
 
   console.log('Generating Gradle wrapper...');
