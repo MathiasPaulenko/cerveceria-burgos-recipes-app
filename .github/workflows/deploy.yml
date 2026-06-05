@@ -121,8 +121,8 @@ jobs:
           echo "ANDROID_HOME=$ANDROID_HOME" >> $GITHUB_ENV
           echo "PATH=$PATH" >> $GITHUB_ENV
 
-      - name: Install Bubblewrap
-        run: npm install -g @bubblewrap/cli
+      - name: Install Bubblewrap core
+        run: npm install @bubblewrap/core
 
       - name: Generate signing key
         run: |
@@ -134,7 +134,7 @@ jobs:
             -dname "CN=Recetas Burgos,O=Cerveceria Burgos,C=ES"
 
       - name: Build APK
-        run: printf "n\n%s\n" "$JAVA_HOME" | bubblewrap build
+        run: node scripts/build-apk.cjs
 
       - name: Upload APK to Release
         env:
