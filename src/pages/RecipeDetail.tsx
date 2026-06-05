@@ -42,12 +42,15 @@ export default function RecipeDetail() {
       {/* Top row: image left, category + name right */}
       <div className="flex items-center gap-5">
         {recipe.image ? (
-          <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-2xl shadow-sm">
+          <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-2xl bg-neutral-200 shadow-sm dark:bg-neutral-800">
             <img
               src={`${import.meta.env.BASE_URL}${recipe.image.replace(/^\//, '')}`}
               alt={recipe.name}
-              className="h-full w-full object-cover"
+              className="relative z-10 h-full w-full object-cover"
               loading="lazy"
+              decoding="async"
+              onLoad={(e) => { e.currentTarget.style.opacity = '1' }}
+              style={{ opacity: 0, transition: 'opacity 0.3s ease' }}
             />
           </div>
         ) : (

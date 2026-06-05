@@ -22,14 +22,17 @@ export default function RecipeCard({ recipe, style, className = '' }: RecipeCard
       style={style}
     >
       {/* Left: full-height image or icon fallback */}
-      <div className="relative w-28 shrink-0">
+      <div className="relative w-28 shrink-0 bg-neutral-200 dark:bg-neutral-800">
         {recipe.image ? (
           <img
-            src={`${import.meta.env.BASE_URL}${recipe.image.replace(/^\//, '')}`}
+            src={`${import.meta.env.BASE_URL}${recipe.image.replace(/^\//, '').replace('/cocktails/', '/cocktails/thumbs/')}`}
             alt={recipe.name}
-            className="h-full w-full object-cover"
+            className="relative z-10 h-full w-full object-cover"
             loading="lazy"
+            decoding="async"
+            onLoad={(e) => { e.currentTarget.style.opacity = '1' }}
             onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none' }}
+            style={{ opacity: 0, transition: 'opacity 0.3s ease' }}
           />
         ) : (
           <div className={`flex h-full items-center justify-center bg-[#FBF5DD] dark:bg-neutral-800/60 ${iconColor}`}>
