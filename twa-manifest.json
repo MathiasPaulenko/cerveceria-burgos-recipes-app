@@ -1,0 +1,26 @@
+{
+  "packageId": "io.github.mathiaspaulenko.cerveceriarecipes",
+  "host": "mathiaspaulenko.github.io",
+  "name": "Cervecería Burgos — Recetas",
+  "launcherName": "Recetas Burgos",
+  "display": "standalone",
+  "themeColor": "#1A1A1A",
+  "navigationColor": "#1A1A1A",
+  "navigationColorDark": "#1A1A1A",
+  "navigationDividerColor": "#1A1A1A",
+  "navigationDividerColorDark": "#1A1A1A",
+  "backgroundColor": "#1A1A1A",
+  "enableNotifications": false,
+  "startUrl": "/cerveceria-burgos-recipes-app/",
+  "iconUrl": "https://mathiaspaulenko.github.io/cerveceria-burgos-recipes-app/icons/icon-512x512.png",
+  "maskableIconUrl": "https://mathiaspaulenko.github.io/cerveceria-burgos-recipes-app/icons/icon-512x512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap"
+}
