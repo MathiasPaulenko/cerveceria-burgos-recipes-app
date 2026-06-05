@@ -48,17 +48,22 @@ async function main() {
     console.log('Signing config injected into build.gradle');
   }
 
-  // Inject fullscreen theme into AndroidManifest.xml
+  // Inject TWA fullscreen metadata into AndroidManifest.xml
   const manifestPath = path.join(projectPath, 'app', 'src', 'main', 'AndroidManifest.xml');
   if (fs.existsSync(manifestPath)) {
     let manifest = fs.readFileSync(manifestPath, 'utf8');
-    // Set LauncherActivity theme to fullscreen (hides status and nav bars)
+    // Set fullscreen theme on LauncherActivity (hides Android system bars)
     manifest = manifest.replace(
       /(<activity[^>]*android:name="com\.google\.androidbrowserhelper\.trusted\.LauncherActivity")/,
       '$1\n            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"'
     );
+    // Insert TWA metadata before closing </application>
+    const metaData = `
+    <meta-data android:name="trusted_web_activity_display_mode" android:value="fullscreen" />
+    <meta-data android:name="android.support.customtabs.trusted.STATUS_BAR_BACKGROUND_COLOR" android:resource="@color/colorPrimary" />`;
+    manifest = manifest.replace(/<\/application>/, metaData + '\n    </application>');
     fs.writeFileSync(manifestPath, manifest);
-    console.log('Fullscreen theme injected into AndroidManifest.xml');
+    console.log('TWA fullscreen metadata injected into AndroidManifest.xml');
   }
 
   console.log('Generating Gradle wrapper...');
