@@ -1,4 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
   <rect width="192" height="192" rx="24" fill="#99120f"/>
-  <text x="96" y="120" font-size="96" text-anchor="middle">🍸</text>
+  <g fill="none" stroke="#FBF5DD" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Copa de cóctel -->
+    <path d="M56 52 L96 100 L136 52 Z"/>
+    <line x1="96" y1="100" x2="96" y2="144"/>
+    <line x1="76" y1="144" x2="116" y2="144"/>
+    <!-- Brillo -->
+    <circle cx="72" cy="68" r="4" fill="#FBF5DD" stroke="none"/>
+  </g>
 </svg>
