@@ -54,27 +54,12 @@ async function main() {
     console.log('Signing config injected into build.gradle');
   }
 
-  // 6. Inject fullscreen into AndroidManifest.xml
-  const manifestPath = path.join(androidPath, 'app', 'src', 'main', 'AndroidManifest.xml');
-  if (fs.existsSync(manifestPath)) {
-    let manifest = fs.readFileSync(manifestPath, 'utf8');
-
-    // Apply fullscreen theme to MainActivity (matches any package name)
-    manifest = manifest.replace(
-      /(<activity[^>]*android:name="[^"]*\.MainActivity")/,
-      '$1\n            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"\n            android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden"\n            android:windowSoftInputMode="adjustResize"'
-    );
-
-    fs.writeFileSync(manifestPath, manifest);
-    console.log('Fullscreen theme injected into AndroidManifest.xml');
-  }
-
-  // 7. Override styles.xml for true fullscreen
+  // 6. Override styles.xml for true fullscreen (modifies AppTheme used by Capacitor's MainActivity)
   const stylesPath = path.join(androidPath, 'app', 'src', 'main', 'res', 'values', 'styles.xml');
   if (fs.existsSync(stylesPath)) {
     const fullscreenTheme = `<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AppTheme.NoActionBarLaunch" parent="android:Theme.NoTitleBar.Fullscreen">
+    <style name="AppTheme" parent="android:Theme.NoTitleBar.Fullscreen">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>
@@ -83,6 +68,7 @@ async function main() {
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
+    <style name="AppTheme.NoActionBarLaunch" parent="AppTheme" />
 </resources>`;
     fs.writeFileSync(stylesPath, fullscreenTheme);
     console.log('Fullscreen theme written to styles.xml');
