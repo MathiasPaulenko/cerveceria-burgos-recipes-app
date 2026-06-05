@@ -13,10 +13,11 @@ async function main() {
   const generator = new TwaGenerator();
   await generator.createTwaProject(projectPath, twaManifest);
 
-  // Copy keystore into project so signing config finds it
+  // Copy keystore into app/ directory so signing config finds it
+  const appKeystorePath = path.join(projectPath, 'app', 'android.keystore');
   if (fs.existsSync('./android.keystore')) {
-    fs.copyFileSync('./android.keystore', path.join(projectPath, 'android.keystore'));
-    console.log('Keystore copied to project');
+    fs.copyFileSync('./android.keystore', appKeystorePath);
+    console.log('Keystore copied to app/');
   }
 
   // Inject signing config into app/build.gradle
