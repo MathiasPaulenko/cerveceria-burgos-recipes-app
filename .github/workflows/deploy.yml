@@ -94,15 +94,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           ref: ${{ needs.build.outputs.tag }}
 
       - name: Create Release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          set -e
+          echo "Creating release for tag ${{ needs.build.outputs.tag }}"
           gh release create ${{ needs.build.outputs.tag }} \
             --title "Release ${{ needs.build.outputs.tag }}" \
-            --generate-notes
+            --generate-notes \
+            --verify-tag || echo "Release may already exist"
 
   apk:
     needs: [build, release]
@@ -111,6 +115,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          fetch-depth: 0
           ref: ${{ needs.build.outputs.tag }}
 
       - name: Setup Node
@@ -151,4 +156,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          set -e
+          echo "Uploading APK to release ${{ needs.build.outputs.tag }}"
+          ls -la ./app-release-signed.apk
           gh release upload ${{ needs.build.outputs.tag }} ./app-release-signed.apk --clobber
+          echo "APK uploaded successfully"
