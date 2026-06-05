@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: '/cerveceria-burgos-recipes-app/',
+  base: process.env.CAPACITOR_BUILD ? './' : '/cerveceria-burgos-recipes-app/',
   plugins: [
     react(),
     VitePWA({

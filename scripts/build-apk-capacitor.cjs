@@ -8,7 +8,14 @@ async function main() {
 
   // 1. Build the web app
   console.log('Building web app...');
-  execSync('npm run build', { cwd: projectPath, stdio: 'inherit' });
+  execSync('npm run build', {
+    cwd: projectPath,
+    stdio: 'inherit',
+    env: {
+      ...process.env,
+      CAPACITOR_BUILD: 'true',
+    },
+  });
 
   // 2. Add Android platform if not exists
   if (!fs.existsSync(androidPath)) {
