@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.mathiaspaulenko.cerveceriarecipes",
+      "sha256_cert_fingerprints": [
+        "e3:95:1d:98:e8:1f:e2:81:42:6a:d0:f9:cf:28:74:0d:64:6c:c0:a8:6b:f0:51:92:8c:fc:d9:a5:7c:7c:4e:95"
+      ]
+    }
+  }
+]

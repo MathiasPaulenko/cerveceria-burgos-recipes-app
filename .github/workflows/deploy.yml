@@ -128,15 +128,6 @@ jobs:
           unzip -q gradle.zip
           echo "$PWD/gradle-8.11.1/bin" >> $GITHUB_PATH
 
-      - name: Generate signing key
-        run: |
-          keytool -genkey -v \
-            -keystore android.keystore \
-            -alias android \
-            -keyalg RSA -keysize 2048 -validity 10000 \
-            -storepass android -keypass android \
-            -dname "CN=Recetas Burgos,O=Cerveceria Burgos,C=ES"
-
       - name: Build APK
         run: node scripts/build-apk.cjs
 
