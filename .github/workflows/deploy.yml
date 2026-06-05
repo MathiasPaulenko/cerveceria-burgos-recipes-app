@@ -134,9 +134,7 @@ jobs:
             -dname "CN=Recetas Burgos,O=Cerveceria Burgos,C=ES"
 
       - name: Build APK
-        env:
-          JAVA_HOME: ${{ steps.setup-java.outputs.path }}
-        run: echo "n" | bubblewrap build
+        run: printf "n\n%s\n" "$JAVA_HOME" | bubblewrap build
 
       - name: Upload APK to Release
         env:
