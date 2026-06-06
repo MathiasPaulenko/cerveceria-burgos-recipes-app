@@ -19,8 +19,8 @@
     "path": "android.keystore",
     "alias": "android"
   },
-  "appVersionName": "1.4.2",
-  "appVersionCode": 25,
+  "appVersionName": "1.4.3",
+  "appVersionCode": 26,
   "shortcuts": [],
   "generatorApp": "bubblewrap"
 }
