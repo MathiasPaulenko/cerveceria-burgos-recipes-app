@@ -110,6 +110,14 @@ async function main() {
   // Create splash drawable with centered icon
   const drawablePath = path.join(resPath, 'drawable');
   if (!fs.existsSync(drawablePath)) fs.mkdirSync(drawablePath, { recursive: true });
+
+  // Remove Capacitor's generated splash.png to avoid duplicate resource name conflict
+  const splashPngPath = path.join(drawablePath, 'splash.png');
+  if (fs.existsSync(splashPngPath)) {
+    fs.unlinkSync(splashPngPath);
+    console.log('Removed existing drawable/splash.png');
+  }
+
   const splashXml = `<?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@color/splash_background" />
