@@ -87,11 +87,50 @@ async function main() {
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
-    <style name="AppTheme.NoActionBarLaunch" parent="AppTheme" />
+    <style name="AppTheme.NoActionBarLaunch" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
 </resources>`;
     fs.writeFileSync(stylesPath, fullscreenTheme);
     console.log('Fullscreen theme written to styles.xml');
   }
+
+  // 6b. Create splash drawable and colors
+  const resPath = path.join(androidPath, 'app', 'src', 'main', 'res');
+
+  // Create colors.xml with splash background
+  const colorsPath = path.join(resPath, 'values', 'colors.xml');
+  const colorsXml = `<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_background">#99120f</color>
+</resources>`;
+  fs.writeFileSync(colorsPath, colorsXml);
+  console.log('Created colors.xml');
+
+  // Create splash drawable with centered icon
+  const drawablePath = path.join(resPath, 'drawable');
+  if (!fs.existsSync(drawablePath)) fs.mkdirSync(drawablePath, { recursive: true });
+  const splashXml = `<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/splash_background" />
+    <item android:gravity="center">
+        <bitmap android:src="@mipmap/ic_launcher" android:gravity="center" />
+    </item>
+</layer-list>`;
+  fs.writeFileSync(path.join(drawablePath, 'splash.xml'), splashXml);
+  console.log('Created drawable/splash.xml');
+
+  // Copy icon to all mipmap densities (Android will scale as needed)
+  const iconSrc = path.join(projectPath, 'public', 'icons', 'icon-512x512.png');
+  const mipmapDirs = ['mipmap-mdpi', 'mipmap-hdpi', 'mipmap-xhdpi', 'mipmap-xxhdpi', 'mipmap-xxxhdpi'];
+  for (const dir of mipmapDirs) {
+    const mipmapPath = path.join(resPath, dir);
+    if (!fs.existsSync(mipmapPath)) fs.mkdirSync(mipmapPath, { recursive: true });
+    fs.copyFileSync(iconSrc, path.join(mipmapPath, 'ic_launcher.png'));
+    fs.copyFileSync(iconSrc, path.join(mipmapPath, 'ic_launcher_foreground.png'));
+    fs.copyFileSync(iconSrc, path.join(mipmapPath, 'ic_launcher_round.png'));
+  }
+  console.log('Copied icon to all mipmap directories');
 
   // 8. Build APK
   console.log('Building APK...');
