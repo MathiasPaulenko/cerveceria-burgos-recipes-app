@@ -16,6 +16,26 @@
   </head>
   <body class="antialiased">
     <div id="root"></div>
+    <div id="debug-errors" style="display:none; padding:16px; font-family:monospace; font-size:14px; color:#fff; background:#99120f; white-space:pre-wrap; word-break:break-word;"></div>
+    <script>
+      (function() {
+        var debug = document.getElementById('debug-errors');
+        var errors = [];
+        function show(msg) { errors.push(msg); if(debug){debug.style.display='block';debug.textContent=errors.join('\n');} }
+        window.onerror = function(msg, url, line, col, err) { show('ERROR: ' + msg + ' @ ' + (url||'') + ':' + line + ':' + col); };
+        window.addEventListener('error', function(e) { show('EVENT ERROR: ' + e.message); });
+        window.addEventListener('unhandledrejection', function(e) { show('PROMISE REJECTION: ' + (e.reason && e.reason.stack ? e.reason.stack : String(e.reason))); });
+        setTimeout(function() {
+          var root = document.getElementById('root');
+          if (!root || root.children.length === 0) {
+            show('TIMEOUT: App did not render after 3s');
+            show('URL: ' + location.href);
+            show('Protocol: ' + location.protocol);
+            show('UA: ' + navigator.userAgent);
+          }
+        }, 3000);
+      })();
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
