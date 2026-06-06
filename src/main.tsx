@@ -4,7 +4,7 @@ import { BrowserRouter, HashRouter } from 'react-router-dom'
 import App from './App'
 import './index.css'
 
-const isCapacitor = typeof window !== 'undefined' && window.location.protocol === 'file:'
+const isCapacitor = typeof window !== 'undefined' && ((window as any).__CAPACITOR__ || window.location.protocol === 'file:')
 const Router = isCapacitor ? HashRouter : BrowserRouter
 
 createRoot(document.getElementById('root')!).render(

@@ -17,6 +17,18 @@ async function main() {
     },
   });
 
+  // 1b. Inject Capacitor runtime flag into built HTML so main.tsx detects it
+  const distIndexPath = path.join(projectPath, 'dist', 'index.html');
+  if (fs.existsSync(distIndexPath)) {
+    let html = fs.readFileSync(distIndexPath, 'utf8');
+    html = html.replace(
+      '</head>',
+      '  <script>window.__CAPACITOR__=true</script>\n  </head>'
+    );
+    fs.writeFileSync(distIndexPath, html);
+    console.log('Injected __CAPACITOR__ flag into dist/index.html');
+  }
+
   // 2. Add Android platform if not exists
   if (!fs.existsSync(androidPath)) {
     console.log('Adding Android platform...');
