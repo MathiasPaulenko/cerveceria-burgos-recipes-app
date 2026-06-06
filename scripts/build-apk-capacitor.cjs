@@ -128,6 +128,15 @@ async function main() {
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@color/splash_background" />
     <item
+        android:width="180dp"
+        android:height="180dp"
+        android:gravity="center">
+        <shape android:shape="oval">
+            <solid android:color="#FBF5DD" />
+            <stroke android:width="4dp" android:color="#99120f" />
+        </shape>
+    </item>
+    <item
         android:width="120dp"
         android:height="120dp"
         android:gravity="center">
@@ -136,6 +145,36 @@ async function main() {
 </layer-list>`;
   fs.writeFileSync(path.join(drawablePath, 'splash.xml'), splashXml);
   console.log('Created drawable/splash.xml');
+
+  // 6c. Remove ALL Capacitor-generated splash PNGs/xml to prevent duplicate resources
+  const resDir = path.join(androidPath, 'app', 'src', 'main', 'res');
+  const entries = fs.readdirSync(resDir);
+  for (const entry of entries) {
+    if (entry.startsWith('drawable')) {
+      for (const file of ['splash.png', 'splash.xml', 'ic_launcher_background.png', 'ic_launcher_foreground.png']) {
+        const fpath = path.join(resDir, entry, file);
+        if (fs.existsSync(fpath)) {
+          fs.unlinkSync(fpath);
+          console.log('Removed', path.join(entry, file));
+        }
+      }
+    }
+  }
+
+  // 6d. Disable Capacitor's native SplashScreen in AndroidManifest.xml
+  const manifestPath = path.join(androidPath, 'app', 'src', 'main', 'AndroidManifest.xml');
+  if (fs.existsSync(manifestPath)) {
+    let manifest = fs.readFileSync(manifestPath, 'utf8');
+    // Ensure MainActivity uses our NoActionBarLaunch theme (not Capacitor's default)
+    if (!manifest.includes('AppTheme.NoActionBarLaunch')) {
+      manifest = manifest.replace(
+        /android:theme="@style\/AppTheme"/,
+        'android:theme="@style/AppTheme.NoActionBarLaunch"'
+      );
+    }
+    fs.writeFileSync(manifestPath, manifest);
+    console.log('Ensured AppTheme.NoActionBarLaunch in AndroidManifest.xml');
+  }
 
   // Copy icon to all mipmap densities (Android will scale as needed)
   const mipmapDirs = ['mipmap-mdpi', 'mipmap-hdpi', 'mipmap-xhdpi', 'mipmap-xxhdpi', 'mipmap-xxxhdpi'];

@@ -8,15 +8,9 @@ const config: CapacitorConfig = {
     androidScheme: 'https',
   },
   android: {
-    backgroundColor: '#99120f',
     allowMixedContent: false,
     captureInput: true,
     useLegacyBridge: false,
-  },
-  plugins: {
-    SplashScreen: {
-      backgroundColor: '#99120f',
-    },
   },
 };
 
