@@ -107,18 +107,26 @@ async function main() {
   fs.writeFileSync(colorsPath, colorsXml);
   console.log('Created colors.xml');
 
-  // Create splash drawable with centered icon
-  const drawablePath = path.join(resPath, 'drawable');
-  if (!fs.existsSync(drawablePath)) fs.mkdirSync(drawablePath, { recursive: true });
+  const iconSrc = path.join(projectPath, 'public', 'icons', 'icon-512x512.png');
 
-  // Remove Capacitor's generated splash.png to avoid duplicate resource name conflict
-  const splashPngPath = path.join(drawablePath, 'splash.png');
-  if (fs.existsSync(splashPngPath)) {
-    fs.unlinkSync(splashPngPath);
-    console.log('Removed existing drawable/splash.png');
+  // 6b. Remove ALL Capacitor-generated splash PNGs before creating our own resources
+  const resDir = path.join(androidPath, 'app', 'src', 'main', 'res');
+  const entries = fs.readdirSync(resDir);
+  for (const entry of entries) {
+    if (entry.startsWith('drawable')) {
+      for (const file of ['splash.png', 'ic_launcher_background.png', 'ic_launcher_foreground.png']) {
+        const fpath = path.join(resDir, entry, file);
+        if (fs.existsSync(fpath)) {
+          fs.unlinkSync(fpath);
+          console.log('Removed', path.join(entry, file));
+        }
+      }
+    }
   }
 
-  const iconSrc = path.join(projectPath, 'public', 'icons', 'icon-512x512.png');
+  // 6c. Create splash drawable with centered icon
+  const drawablePath = path.join(resPath, 'drawable');
+  if (!fs.existsSync(drawablePath)) fs.mkdirSync(drawablePath, { recursive: true });
 
   // Copy icon to drawable so splash can reference it reliably
   fs.copyFileSync(iconSrc, path.join(drawablePath, 'ic_launcher_icon.png'));
@@ -145,21 +153,6 @@ async function main() {
 </layer-list>`;
   fs.writeFileSync(path.join(drawablePath, 'splash.xml'), splashXml);
   console.log('Created drawable/splash.xml');
-
-  // 6c. Remove ALL Capacitor-generated splash PNGs/xml to prevent duplicate resources
-  const resDir = path.join(androidPath, 'app', 'src', 'main', 'res');
-  const entries = fs.readdirSync(resDir);
-  for (const entry of entries) {
-    if (entry.startsWith('drawable')) {
-      for (const file of ['splash.png', 'splash.xml', 'ic_launcher_background.png', 'ic_launcher_foreground.png']) {
-        const fpath = path.join(resDir, entry, file);
-        if (fs.existsSync(fpath)) {
-          fs.unlinkSync(fpath);
-          console.log('Removed', path.join(entry, file));
-        }
-      }
-    }
-  }
 
   // 6d. Disable Capacitor's native SplashScreen in AndroidManifest.xml
   const manifestPath = path.join(androidPath, 'app', 'src', 'main', 'AndroidManifest.xml');
