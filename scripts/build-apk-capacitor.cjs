@@ -118,18 +118,26 @@ async function main() {
     console.log('Removed existing drawable/splash.png');
   }
 
+  const iconSrc = path.join(projectPath, 'public', 'icons', 'icon-512x512.png');
+
+  // Copy icon to drawable so splash can reference it reliably
+  fs.copyFileSync(iconSrc, path.join(drawablePath, 'ic_launcher_icon.png'));
+  console.log('Copied icon to drawable/ic_launcher_icon.png');
+
   const splashXml = `<?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@color/splash_background" />
-    <item android:gravity="center">
-        <bitmap android:src="@mipmap/ic_launcher" android:gravity="center" />
+    <item
+        android:width="120dp"
+        android:height="120dp"
+        android:gravity="center">
+        <bitmap android:src="@drawable/ic_launcher_icon" android:gravity="center" />
     </item>
 </layer-list>`;
   fs.writeFileSync(path.join(drawablePath, 'splash.xml'), splashXml);
   console.log('Created drawable/splash.xml');
 
   // Copy icon to all mipmap densities (Android will scale as needed)
-  const iconSrc = path.join(projectPath, 'public', 'icons', 'icon-512x512.png');
   const mipmapDirs = ['mipmap-mdpi', 'mipmap-hdpi', 'mipmap-xhdpi', 'mipmap-xxhdpi', 'mipmap-xxxhdpi'];
   for (const dir of mipmapDirs) {
     const mipmapPath = path.join(resPath, dir);
